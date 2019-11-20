@@ -1,0 +1,9 @@
+#!/bin/bash
+
+for f in aux/*.dot; do
+#  xargs dot2tex --prog=neato -tmath -ftikz $f > ${f%.*}.tex \
+#  && pdflatex -jobname=${f%.*} \
+#  < ${f%.*}.tex \
+  dot -Tpdf $f -o ${f%.*}.pdf \
+  && pdfcrop ${f%.*}.pdf ${f%.*}.pdf
+done

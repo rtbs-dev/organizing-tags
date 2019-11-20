@@ -1,0 +1,10 @@
+pedal,crank arm,{'weight': 1}
+crank arm,chain rings,{'weight': 1}
+chain,chain rings,{'weight': 1}
+chain,cogset,{'weight': 1}
+chain rings,rear derailleur,{'weight': 1}
+cogset,rear hub,{'weight': 1}
+rear derailleur,rear hub,{'weight': 1}
+rear spokes,rear hub,{'weight': 1}
+rear spokes,rear rim,{'weight': 1}
+rear rim,rear tire,{'weight': 1}

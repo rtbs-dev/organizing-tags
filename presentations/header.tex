@@ -1,0 +1,31 @@
+\usepackage[most]{tcolorbox}
+\usepackage{booktabs}
+\newcommand{\norm}[1]{\left\lVert#1\right\rVert}
+\newcommand{\ts}{\textsuperscript}
+\DeclareMathOperator*{\argmin}{arg\,min}
+\let\vec\mathbf
+\newcommand{\Like}{\mathcal{L}}
+
+\titlegraphic{
+  \tikz[overlay,remember picture]
+      \node[yshift=.9cm,xshift=.9cm,
+            at=(current page.south west),
+            anchor=south west] {
+          \includegraphics[height=1.5cm]{aux/nistident_fleft_vec.eps}
+  };
+}
+
+\definecolor{block-gray}{gray}{0.95}
+
+\providecommand{\subtitle}[1]{%
+  \usepackage{titling}
+  \posttitle{%
+    \par\large#1\end{center}}
+}
+
+\usepackage{dot2texi}
+\usepackage{amsmath}
+\usepackage{centernot}
+% \usetikzlibrary{graphdrawing}
+% \usetikzlibrary{graphs}
+% \usetikzlibrary{arrows,shapes,snakes,automata,backgrounds,petri}

@@ -1,0 +1,32 @@
+# run: conda env create --file environment.yml
+name: eng-net
+channels:
+  - default
+  - conda-forge
+dependencies:
+  - python=3.7
+  - anaconda
+  - scikit-learn
+  - pandas
+  - seaborn
+  - scipy
+  - numpy
+  - matplotlib
+  - pip
+  - jupyter
+  - pyarrow
+  - tectonic
+  - pip:
+    - sacred
+    - autograd
+    - statsmodels
+    - kneed
+    - torch
+    - python-ternary
+    - git+https://github.com/networkx/networkx.git
+    - pomegranate==0.11.*
+    - num2tex
+    - tqdm
+    - nist-nestor
+    - adjustText
+    - pandoc-beamer-block

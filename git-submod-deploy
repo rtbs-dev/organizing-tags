@@ -1,0 +1,30 @@
+#!/bin/bash
+echo "Pulling-->Pushing all submodules while checking out from MASTER branch."
+# read -r -p 'Overleaf username: ' usr  # prompt user for commit message
+# read -r -p 'Overleaf password: ' pwd  # prompt user for commit message
+
+# # Alternatively, just require 1/hr
+# git config --global credential.helper cache
+# git config --global credential.helper 'cache --timeout=3600'
+# # Set the cache to timeout after 1 hour (setting is in seconds)
+
+
+
+read -r -p 'Commit message: ' desc  # prompt user for commit message
+git submodule foreach \
+  "git add . &&
+   git add -u &&
+   git commit -m $desc "   # commit with message
+
+read -p "Checkout master and pull/push (y/n)?" choice
+case "$choice" in
+  y|Y ) echo "yes";;
+  n|N ) echo "no"; return;;
+  * ) echo "invalid";;
+esac
+
+git submodule update
+git submodule foreach \
+  "git checkout master &&
+   git pull origin master &&
+   git push origin master "

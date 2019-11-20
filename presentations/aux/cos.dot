@@ -1,0 +1,13 @@
+graph g {
+  mindist = 2.0
+  overlap=false;
+  splines=true;
+  bgcolor="transparent";
+  node [fillcolor="white"];
+  operator;
+
+  hydraulic -- saw;
+  hydraulic -- cutoff_unit
+  cutoff_unit -- fitting
+  fitting -- hydraulic;
+}

@@ -1,0 +1,692 @@
+
+% Default to the notebook output style
+
+    
+
+
+% Inherit from the specified cell style.
+
+
+
+
+    
+\documentclass[11pt]{article}
+
+    
+    
+    \usepackage[T1]{fontenc}
+    % Nicer default font (+ math font) than Computer Modern for most use cases
+    \usepackage{mathpazo}
+
+    % Basic figure setup, for now with no caption control since it's done
+    % automatically by Pandoc (which extracts ![](path) syntax from Markdown).
+    \usepackage{graphicx}
+    % We will generate all images so they have a width \maxwidth. This means
+    % that they will get their normal width if they fit onto the page, but
+    % are scaled down if they would overflow the margins.
+    \makeatletter
+    \def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth
+    \else\Gin@nat@width\fi}
+    \makeatother
+    \let\Oldincludegraphics\includegraphics
+    % Set max figure width to be 80% of text width, for now hardcoded.
+    \renewcommand{\includegraphics}[1]{\Oldincludegraphics[width=.8\maxwidth]{#1}}
+    % Ensure that by default, figures have no caption (until we provide a
+    % proper Figure object with a Caption API and a way to capture that
+    % in the conversion process - todo).
+    \usepackage{caption}
+    \DeclareCaptionLabelFormat{nolabel}{}
+    \captionsetup{labelformat=nolabel}
+
+    \usepackage{adjustbox} % Used to constrain images to a maximum size 
+    \usepackage{xcolor} % Allow colors to be defined
+    \usepackage{enumerate} % Needed for markdown enumerations to work
+    \usepackage{geometry} % Used to adjust the document margins
+    \usepackage{amsmath} % Equations
+    \usepackage{amssymb} % Equations
+    \usepackage{textcomp} % defines textquotesingle
+    % Hack from http://tex.stackexchange.com/a/47451/13684:
+    \AtBeginDocument{%
+        \def\PYZsq{\textquotesingle}% Upright quotes in Pygmentized code
+    }
+    \usepackage{upquote} % Upright quotes for verbatim code
+    \usepackage{eurosym} % defines \euro
+    \usepackage[mathletters]{ucs} % Extended unicode (utf-8) support
+    \usepackage[utf8x]{inputenc} % Allow utf-8 characters in the tex document
+    \usepackage{fancyvrb} % verbatim replacement that allows latex
+    \usepackage{grffile} % extends the file name processing of package graphics 
+                         % to support a larger range 
+    % The hyperref package gives us a pdf with properly built
+    % internal navigation ('pdf bookmarks' for the table of contents,
+    % internal cross-reference links, web links for URLs, etc.)
+    \usepackage{hyperref}
+    \usepackage{longtable} % longtable support required by pandoc >1.10
+    \usepackage{booktabs}  % table support for pandoc > 1.12.2
+    \usepackage[inline]{enumitem} % IRkernel/repr support (it uses the enumerate* environment)
+    \usepackage[normalem]{ulem} % ulem is needed to support strikethroughs (\sout)
+                                % normalem makes italics be italics, not underlines
+    
+
+    
+    
+    % Colors for the hyperref package
+    \definecolor{urlcolor}{rgb}{0,.145,.698}
+    \definecolor{linkcolor}{rgb}{.71,0.21,0.01}
+    \definecolor{citecolor}{rgb}{.12,.54,.11}
+
+    % ANSI colors
+    \definecolor{ansi-black}{HTML}{3E424D}
+    \definecolor{ansi-black-intense}{HTML}{282C36}
+    \definecolor{ansi-red}{HTML}{E75C58}
+    \definecolor{ansi-red-intense}{HTML}{B22B31}
+    \definecolor{ansi-green}{HTML}{00A250}
+    \definecolor{ansi-green-intense}{HTML}{007427}
+    \definecolor{ansi-yellow}{HTML}{DDB62B}
+    \definecolor{ansi-yellow-intense}{HTML}{B27D12}
+    \definecolor{ansi-blue}{HTML}{208FFB}
+    \definecolor{ansi-blue-intense}{HTML}{0065CA}
+    \definecolor{ansi-magenta}{HTML}{D160C4}
+    \definecolor{ansi-magenta-intense}{HTML}{A03196}
+    \definecolor{ansi-cyan}{HTML}{60C6C8}
+    \definecolor{ansi-cyan-intense}{HTML}{258F8F}
+    \definecolor{ansi-white}{HTML}{C5C1B4}
+    \definecolor{ansi-white-intense}{HTML}{A1A6B2}
+
+    % commands and environments needed by pandoc snippets
+    % extracted from the output of `pandoc -s`
+    \providecommand{\tightlist}{%
+      \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+    \DefineVerbatimEnvironment{Highlighting}{Verbatim}{commandchars=\\\{\}}
+    % Add ',fontsize=\small' for more characters per line
+    \newenvironment{Shaded}{}{}
+    \newcommand{\KeywordTok}[1]{\textcolor[rgb]{0.00,0.44,0.13}{\textbf{{#1}}}}
+    \newcommand{\DataTypeTok}[1]{\textcolor[rgb]{0.56,0.13,0.00}{{#1}}}
+    \newcommand{\DecValTok}[1]{\textcolor[rgb]{0.25,0.63,0.44}{{#1}}}
+    \newcommand{\BaseNTok}[1]{\textcolor[rgb]{0.25,0.63,0.44}{{#1}}}
+    \newcommand{\FloatTok}[1]{\textcolor[rgb]{0.25,0.63,0.44}{{#1}}}
+    \newcommand{\CharTok}[1]{\textcolor[rgb]{0.25,0.44,0.63}{{#1}}}
+    \newcommand{\StringTok}[1]{\textcolor[rgb]{0.25,0.44,0.63}{{#1}}}
+    \newcommand{\CommentTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textit{{#1}}}}
+    \newcommand{\OtherTok}[1]{\textcolor[rgb]{0.00,0.44,0.13}{{#1}}}
+    \newcommand{\AlertTok}[1]{\textcolor[rgb]{1.00,0.00,0.00}{\textbf{{#1}}}}
+    \newcommand{\FunctionTok}[1]{\textcolor[rgb]{0.02,0.16,0.49}{{#1}}}
+    \newcommand{\RegionMarkerTok}[1]{{#1}}
+    \newcommand{\ErrorTok}[1]{\textcolor[rgb]{1.00,0.00,0.00}{\textbf{{#1}}}}
+    \newcommand{\NormalTok}[1]{{#1}}
+    
+    % Additional commands for more recent versions of Pandoc
+    \newcommand{\ConstantTok}[1]{\textcolor[rgb]{0.53,0.00,0.00}{{#1}}}
+    \newcommand{\SpecialCharTok}[1]{\textcolor[rgb]{0.25,0.44,0.63}{{#1}}}
+    \newcommand{\VerbatimStringTok}[1]{\textcolor[rgb]{0.25,0.44,0.63}{{#1}}}
+    \newcommand{\SpecialStringTok}[1]{\textcolor[rgb]{0.73,0.40,0.53}{{#1}}}
+    \newcommand{\ImportTok}[1]{{#1}}
+    \newcommand{\DocumentationTok}[1]{\textcolor[rgb]{0.73,0.13,0.13}{\textit{{#1}}}}
+    \newcommand{\AnnotationTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textbf{\textit{{#1}}}}}
+    \newcommand{\CommentVarTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textbf{\textit{{#1}}}}}
+    \newcommand{\VariableTok}[1]{\textcolor[rgb]{0.10,0.09,0.49}{{#1}}}
+    \newcommand{\ControlFlowTok}[1]{\textcolor[rgb]{0.00,0.44,0.13}{\textbf{{#1}}}}
+    \newcommand{\OperatorTok}[1]{\textcolor[rgb]{0.40,0.40,0.40}{{#1}}}
+    \newcommand{\BuiltInTok}[1]{{#1}}
+    \newcommand{\ExtensionTok}[1]{{#1}}
+    \newcommand{\PreprocessorTok}[1]{\textcolor[rgb]{0.74,0.48,0.00}{{#1}}}
+    \newcommand{\AttributeTok}[1]{\textcolor[rgb]{0.49,0.56,0.16}{{#1}}}
+    \newcommand{\InformationTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textbf{\textit{{#1}}}}}
+    \newcommand{\WarningTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textbf{\textit{{#1}}}}}
+    
+    
+    % Define a nice break command that doesn't care if a line doesn't already
+    % exist.
+    \def\br{\hspace*{\fill} \\* }
+    % Math Jax compatability definitions
+    \def\gt{>}
+    \def\lt{<}
+    % Document parameters
+    \title{Vizualizing Structure nets}
+    
+    
+    
+
+    % Pygments definitions
+    
+\makeatletter
+\def\PY@reset{\let\PY@it=\relax \let\PY@bf=\relax%
+    \let\PY@ul=\relax \let\PY@tc=\relax%
+    \let\PY@bc=\relax \let\PY@ff=\relax}
+\def\PY@tok#1{\csname PY@tok@#1\endcsname}
+\def\PY@toks#1+{\ifx\relax#1\empty\else%
+    \PY@tok{#1}\expandafter\PY@toks\fi}
+\def\PY@do#1{\PY@bc{\PY@tc{\PY@ul{%
+    \PY@it{\PY@bf{\PY@ff{#1}}}}}}}
+\def\PY#1#2{\PY@reset\PY@toks#1+\relax+\PY@do{#2}}
+
+\expandafter\def\csname PY@tok@w\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.73,0.73}{##1}}}
+\expandafter\def\csname PY@tok@c\endcsname{\let\PY@it=\textit\def\PY@tc##1{\textcolor[rgb]{0.25,0.50,0.50}{##1}}}
+\expandafter\def\csname PY@tok@cp\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.74,0.48,0.00}{##1}}}
+\expandafter\def\csname PY@tok@k\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@kp\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@kt\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.69,0.00,0.25}{##1}}}
+\expandafter\def\csname PY@tok@o\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\expandafter\def\csname PY@tok@ow\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.67,0.13,1.00}{##1}}}
+\expandafter\def\csname PY@tok@nb\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@nf\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.00,0.00,1.00}{##1}}}
+\expandafter\def\csname PY@tok@nc\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.00,1.00}{##1}}}
+\expandafter\def\csname PY@tok@nn\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.00,1.00}{##1}}}
+\expandafter\def\csname PY@tok@ne\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.82,0.25,0.23}{##1}}}
+\expandafter\def\csname PY@tok@nv\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.10,0.09,0.49}{##1}}}
+\expandafter\def\csname PY@tok@no\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.53,0.00,0.00}{##1}}}
+\expandafter\def\csname PY@tok@nl\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.63,0.63,0.00}{##1}}}
+\expandafter\def\csname PY@tok@ni\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.60,0.60,0.60}{##1}}}
+\expandafter\def\csname PY@tok@na\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.49,0.56,0.16}{##1}}}
+\expandafter\def\csname PY@tok@nt\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@nd\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.67,0.13,1.00}{##1}}}
+\expandafter\def\csname PY@tok@s\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\expandafter\def\csname PY@tok@sd\endcsname{\let\PY@it=\textit\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\expandafter\def\csname PY@tok@si\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.73,0.40,0.53}{##1}}}
+\expandafter\def\csname PY@tok@se\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.73,0.40,0.13}{##1}}}
+\expandafter\def\csname PY@tok@sr\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.40,0.53}{##1}}}
+\expandafter\def\csname PY@tok@ss\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.10,0.09,0.49}{##1}}}
+\expandafter\def\csname PY@tok@sx\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@m\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\expandafter\def\csname PY@tok@gh\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.00,0.50}{##1}}}
+\expandafter\def\csname PY@tok@gu\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.50,0.00,0.50}{##1}}}
+\expandafter\def\csname PY@tok@gd\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.63,0.00,0.00}{##1}}}
+\expandafter\def\csname PY@tok@gi\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.00,0.63,0.00}{##1}}}
+\expandafter\def\csname PY@tok@gr\endcsname{\def\PY@tc##1{\textcolor[rgb]{1.00,0.00,0.00}{##1}}}
+\expandafter\def\csname PY@tok@ge\endcsname{\let\PY@it=\textit}
+\expandafter\def\csname PY@tok@gs\endcsname{\let\PY@bf=\textbf}
+\expandafter\def\csname PY@tok@gp\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.00,0.50}{##1}}}
+\expandafter\def\csname PY@tok@go\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.53,0.53,0.53}{##1}}}
+\expandafter\def\csname PY@tok@gt\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.00,0.27,0.87}{##1}}}
+\expandafter\def\csname PY@tok@err\endcsname{\def\PY@bc##1{\setlength{\fboxsep}{0pt}\fcolorbox[rgb]{1.00,0.00,0.00}{1,1,1}{\strut ##1}}}
+\expandafter\def\csname PY@tok@kc\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@kd\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@kn\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@kr\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@bp\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@fm\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.00,0.00,1.00}{##1}}}
+\expandafter\def\csname PY@tok@vc\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.10,0.09,0.49}{##1}}}
+\expandafter\def\csname PY@tok@vg\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.10,0.09,0.49}{##1}}}
+\expandafter\def\csname PY@tok@vi\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.10,0.09,0.49}{##1}}}
+\expandafter\def\csname PY@tok@vm\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.10,0.09,0.49}{##1}}}
+\expandafter\def\csname PY@tok@sa\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\expandafter\def\csname PY@tok@sb\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\expandafter\def\csname PY@tok@sc\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\expandafter\def\csname PY@tok@dl\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\expandafter\def\csname PY@tok@s2\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\expandafter\def\csname PY@tok@sh\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\expandafter\def\csname PY@tok@s1\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\expandafter\def\csname PY@tok@mb\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\expandafter\def\csname PY@tok@mf\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\expandafter\def\csname PY@tok@mh\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\expandafter\def\csname PY@tok@mi\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\expandafter\def\csname PY@tok@il\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\expandafter\def\csname PY@tok@mo\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\expandafter\def\csname PY@tok@ch\endcsname{\let\PY@it=\textit\def\PY@tc##1{\textcolor[rgb]{0.25,0.50,0.50}{##1}}}
+\expandafter\def\csname PY@tok@cm\endcsname{\let\PY@it=\textit\def\PY@tc##1{\textcolor[rgb]{0.25,0.50,0.50}{##1}}}
+\expandafter\def\csname PY@tok@cpf\endcsname{\let\PY@it=\textit\def\PY@tc##1{\textcolor[rgb]{0.25,0.50,0.50}{##1}}}
+\expandafter\def\csname PY@tok@c1\endcsname{\let\PY@it=\textit\def\PY@tc##1{\textcolor[rgb]{0.25,0.50,0.50}{##1}}}
+\expandafter\def\csname PY@tok@cs\endcsname{\let\PY@it=\textit\def\PY@tc##1{\textcolor[rgb]{0.25,0.50,0.50}{##1}}}
+
+\def\PYZbs{\char`\\}
+\def\PYZus{\char`\_}
+\def\PYZob{\char`\{}
+\def\PYZcb{\char`\}}
+\def\PYZca{\char`\^}
+\def\PYZam{\char`\&}
+\def\PYZlt{\char`\<}
+\def\PYZgt{\char`\>}
+\def\PYZsh{\char`\#}
+\def\PYZpc{\char`\%}
+\def\PYZdl{\char`\$}
+\def\PYZhy{\char`\-}
+\def\PYZsq{\char`\'}
+\def\PYZdq{\char`\"}
+\def\PYZti{\char`\~}
+% for compatibility with earlier versions
+\def\PYZat{@}
+\def\PYZlb{[}
+\def\PYZrb{]}
+\makeatother
+
+
+    % Exact colors from NB
+    \definecolor{incolor}{rgb}{0.0, 0.0, 0.5}
+    \definecolor{outcolor}{rgb}{0.545, 0.0, 0.0}
+
+
+
+    
+    % Prevent overflowing lines due to hard-to-break entities
+    \sloppy 
+    % Setup hyperref package
+    \hypersetup{
+      breaklinks=true,  % so long urls are correctly broken across lines
+      colorlinks=true,
+      urlcolor=urlcolor,
+      linkcolor=linkcolor,
+      citecolor=citecolor,
+      }
+    % Slightly bigger margins than the latex defaults
+    
+    \geometry{verbose,tmargin=1in,bmargin=1in,lmargin=1in,rmargin=1in}
+    
+    
+
+    \begin{document}
+    
+    
+    \maketitle
+    
+    
+
+    
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}1}]:} \PY{k+kn}{from} \PY{n+nn}{pathlib} \PY{k}{import} \PY{n}{Path}
+        \PY{k+kn}{import} \PY{n+nn}{numpy} \PY{k}{as} \PY{n+nn}{np}
+        \PY{k+kn}{import} \PY{n+nn}{pandas} \PY{k}{as} \PY{n+nn}{pd}
+        \PY{k+kn}{import} \PY{n+nn}{seaborn} \PY{k}{as} \PY{n+nn}{sns}
+        \PY{k+kn}{import} \PY{n+nn}{matplotlib}\PY{n+nn}{.}\PY{n+nn}{pyplot} \PY{k}{as} \PY{n+nn}{plt}
+        \PY{k+kn}{import} \PY{n+nn}{networkx} \PY{k}{as} \PY{n+nn}{nx}
+        \PY{o}{\PYZpc{}}\PY{k}{matplotlib} inline
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+/home/tbsexton/anaconda3/envs/eng-net/lib/python3.6/importlib/\_bootstrap.py:219: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  return f(*args, **kwds)
+/home/tbsexton/anaconda3/envs/eng-net/lib/python3.6/importlib/\_bootstrap.py:219: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  return f(*args, **kwds)
+/home/tbsexton/anaconda3/envs/eng-net/lib/python3.6/importlib/\_bootstrap.py:219: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  return f(*args, **kwds)
+
+    \end{Verbatim}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}2}]:} \PY{k+kn}{import} \PY{n+nn}{holoviews} \PY{k}{as} \PY{n+nn}{hv}
+        \PY{n}{hv}\PY{o}{.}\PY{n}{extension}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{bokeh}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+        \PY{o}{\PYZpc{}}\PY{k}{opts} Graph [width=400 height=400]
+\end{Verbatim}
+
+
+    
+    
+    
+    
+    
+    
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}4}]:} \PY{n}{net\PYZus{}path} \PY{o}{=} \PY{n}{Path}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{..}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}\PY{o}{/}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{data}\PY{l+s+s1}{\PYZsq{}}\PY{o}{/}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{network\PYZus{}models\PYZus{}shared}\PY{l+s+s1}{\PYZsq{}}
+        
+        \PY{k}{def} \PY{n+nf}{isadj}\PY{p}{(}\PY{n}{val}\PY{p}{)}\PY{p}{:}
+            \PY{n}{color}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{red}\PY{l+s+s1}{\PYZsq{}} \PY{k}{if} \PY{n}{val} \PY{o}{\PYZgt{}} \PY{l+m+mi}{0} \PY{k}{else} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{black}\PY{l+s+s1}{\PYZsq{}}
+            \PY{k}{return} \PY{n}{f}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{color: }\PY{l+s+si}{\PYZob{}color\PYZcb{}}\PY{l+s+s1}{\PYZsq{}}
+\end{Verbatim}
+
+
+    \hypertarget{bicycle-example}{%
+\subsection{Bicycle Example}\label{bicycle-example}}
+
+\hypertarget{data-structure}{%
+\subsubsection{Data Structure}\label{data-structure}}
+
+We start with components, which are connected physically in our system:
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}157}]:} \PY{n}{struct} \PY{o}{=} \PY{n}{pd}\PY{o}{.}\PY{n}{read\PYZus{}excel}\PY{p}{(}\PY{n}{net\PYZus{}path}\PY{o}{/}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{bicycle\PYZus{}component\PYZus{}model.xlsx}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+          \PY{n}{struct}\PY{o}{.}\PY{n}{style}\PY{o}{.}\PY{n}{applymap}\PY{p}{(}\PY{n}{isadj}\PY{p}{)}
+\end{Verbatim}
+
+
+\begin{Verbatim}[commandchars=\\\{\}]
+{\color{outcolor}Out[{\color{outcolor}157}]:} <pandas.io.formats.style.Styler at 0x7f63cca8cb38>
+\end{Verbatim}
+            
+    This can be interpreted as an adjacency matrix defining a graph:
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}213}]:} \PY{n}{G} \PY{o}{=} \PY{n}{nx}\PY{o}{.}\PY{n}{from\PYZus{}pandas\PYZus{}adjacency}\PY{p}{(}\PY{n}{struct}\PY{p}{)}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}214}]:} \PY{o}{\PYZpc{}}\PY{k}{opts} Graph [width=600 height=500]
+          
+          
+          \PY{n}{padding} \PY{o}{=} \PY{n+nb}{dict}\PY{p}{(}\PY{n}{x}\PY{o}{=}\PY{p}{(}\PY{o}{\PYZhy{}}\PY{l+m+mf}{1.2}\PY{p}{,} \PY{l+m+mf}{1.2}\PY{p}{)}\PY{p}{,} \PY{n}{y}\PY{o}{=}\PY{p}{(}\PY{o}{\PYZhy{}}\PY{l+m+mf}{1.2}\PY{p}{,} \PY{l+m+mf}{1.2}\PY{p}{)}\PY{p}{)}
+          \PY{n}{Gfig} \PY{o}{=} \PY{n}{hv}\PY{o}{.}\PY{n}{Graph}\PY{o}{.}\PY{n}{from\PYZus{}networkx}\PY{p}{(}\PY{n}{G}\PY{p}{,} \PY{n}{nx}\PY{o}{.}\PY{n}{fruchterman\PYZus{}reingold\PYZus{}layout}\PY{p}{)}
+          \PY{n}{Gfig}\PY{o}{.}\PY{n}{redim}\PY{o}{.}\PY{n}{range}\PY{p}{(}\PY{o}{*}\PY{o}{*}\PY{n}{padding}\PY{p}{)}
+          
+          \PY{c+c1}{\PYZsh{} cent = nx.pagerank(G)}
+          \PY{c+c1}{\PYZsh{} nx.set\PYZus{}node\PYZus{}attributes(G, cent, \PYZsq{}centrality\PYZsq{})}
+          
+          
+          \PY{c+c1}{\PYZsh{} fig.opts(plot=dict(color\PYZus{}index=\PYZsq{}centrality\PYZsq{}), }
+          \PY{c+c1}{\PYZsh{}          style=dict(node\PYZus{}size=10, edge\PYZus{}alpha=.5, }
+          \PY{c+c1}{\PYZsh{}                     cmap=\PYZsq{}Magma\PYZus{}r\PYZsq{}))}
+\end{Verbatim}
+
+
+\begin{Verbatim}[commandchars=\\\{\}]
+{\color{outcolor}Out[{\color{outcolor}214}]:} :Graph   [start,end]   (weight)
+\end{Verbatim}
+            
+    The components are linked through functions, as so:
+
+\(F1: \qquad F_{ck} = \frac{F_{ap}R_{ck}}{R_{cr}}\)
+
+\(F2: \qquad F_{cg} = F_{ck}\)
+
+\(F3: \qquad F_{pr} = \frac{F_{cg}R_{cg}}{R_{rw}}\)
+
+Where we define: - Forces - \(F_{ck}\): force from crank arm -
+\(F_{ap}\): force applied to pedal - \(F_{cg}\): force from cogset -
+\(F_{pr}\): force propelling bicycle forward - Lengths - \(R_{ck}\):
+length of the crank arm - \(R_{cr}\): radius of chain ring - \(R_{cg}\):
+radius of the cogset - \(R_{rw}\): radius of rear wheel
+
+In our data-structure, however, these parameters have each been related
+to individual components, which in turn means we can relate each
+component to a function.
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}215}]:} \PY{n}{param}  \PY{o}{=} \PY{n}{pd}\PY{o}{.}\PY{n}{read\PYZus{}excel}\PY{p}{(}\PY{n}{net\PYZus{}path}\PY{o}{/}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{bicycle\PYZus{}component\PYZus{}parameter\PYZus{}model.xlsx}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+          
+          \PY{n}{param}\PY{o}{.}\PYZbs{}
+              \PY{n}{style}\PY{o}{.}\PYZbs{}
+              \PY{n}{applymap}\PY{p}{(}\PY{n}{isadj}\PY{p}{)}
+\end{Verbatim}
+
+
+\begin{Verbatim}[commandchars=\\\{\}]
+{\color{outcolor}Out[{\color{outcolor}215}]:} <pandas.io.formats.style.Styler at 0x7f63ceb19898>
+\end{Verbatim}
+            
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}216}]:} \PY{n}{func} \PY{o}{=} \PY{n}{pd}\PY{o}{.}\PY{n}{read\PYZus{}excel}\PY{p}{(}\PY{n}{net\PYZus{}path}\PY{o}{/}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{bicycle\PYZus{}component\PYZus{}function\PYZus{}model.xlsx}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+          \PY{n}{func}\PY{o}{.}\PYZbs{}
+              \PY{n}{style}\PY{o}{.}\PYZbs{}
+              \PY{n}{applymap}\PY{p}{(}\PY{n}{isadj}\PY{p}{)}
+\end{Verbatim}
+
+
+\begin{Verbatim}[commandchars=\\\{\}]
+{\color{outcolor}Out[{\color{outcolor}216}]:} <pandas.io.formats.style.Styler at 0x7f63cead7208>
+\end{Verbatim}
+            
+    Implied is a matrix representation of the equations themselves, which
+relates functions and their constituent parameters. Interestingly
+through the ``magic'' of linear algebra, we get a ``weight'' on each of
+the function--parameter pairs, which corresponds to the number of
+components implicated in the pairing.
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}217}]:} \PY{n}{cm} \PY{o}{=} \PY{n}{sns}\PY{o}{.}\PY{n}{light\PYZus{}palette}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{green}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,} \PY{n}{as\PYZus{}cmap}\PY{o}{=}\PY{k+kc}{True}\PY{p}{)}
+          
+          \PY{n}{param}\PY{o}{.}\PY{n}{T}\PY{o}{.}\PY{n}{dot}\PY{p}{(}\PY{n}{func}\PY{p}{)}\PY{o}{.}\PY{n}{T}\PY{o}{.}\PYZbs{}
+              \PY{n}{style}\PY{o}{.}\PYZbs{}
+              \PY{n}{background\PYZus{}gradient}\PY{p}{(}\PY{n}{cmap}\PY{o}{=}\PY{n}{cm}\PY{p}{,} \PY{n}{axis}\PY{o}{=}\PY{l+m+mi}{1}\PY{p}{)}
+\end{Verbatim}
+
+
+\begin{Verbatim}[commandchars=\\\{\}]
+{\color{outcolor}Out[{\color{outcolor}217}]:} <pandas.io.formats.style.Styler at 0x7f63ce2e2048>
+\end{Verbatim}
+            
+    \hypertarget{implied-component-relations}{%
+\subsubsection{Implied Component
+Relations}\label{implied-component-relations}}
+
+Given our matrix A, where the rows are components and the columns are
+contexts in which we might observe those components, we would like to
+generate an adjacency matrix B that describes the co-occurrence of
+components, by context, i.e., component \(x\) and \(y\) both are
+connected to the parameter \(j\), so the parameter adjacency matrix
+shows \(x\) and \(y\) are related. This is relatively simple to compute:
+
+\(B = A\cdot A^{T}\)
+
+\emph{NB: this is reverse of the traditional \(A^{T}\cdot A\), since our
+column/row definitions are flipped.}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}218}]:} \PY{n}{H} \PY{o}{=} \PY{n}{nx}\PY{o}{.}\PY{n}{from\PYZus{}pandas\PYZus{}adjacency}\PY{p}{(}\PY{n}{func}\PY{o}{.}\PY{n}{dot}\PY{p}{(}\PY{n}{func}\PY{o}{.}\PY{n}{T}\PY{p}{)}\PY{p}{)}
+          \PY{n}{I} \PY{o}{=} \PY{n}{nx}\PY{o}{.}\PY{n}{from\PYZus{}pandas\PYZus{}adjacency}\PY{p}{(}\PY{n}{param}\PY{o}{.}\PY{n}{dot}\PY{p}{(}\PY{n}{param}\PY{o}{.}\PY{n}{T}\PY{p}{)}\PY{p}{)}
+          
+          
+          \PY{n}{Hfig} \PY{o}{=} \PY{n}{hv}\PY{o}{.}\PY{n}{Graph}\PY{o}{.}\PY{n}{from\PYZus{}networkx}\PY{p}{(}\PY{n}{H}\PY{p}{,} \PY{n}{nx}\PY{o}{.}\PY{n}{fruchterman\PYZus{}reingold\PYZus{}layout}\PY{p}{)}
+          \PY{n}{Ifig} \PY{o}{=} \PY{n}{hv}\PY{o}{.}\PY{n}{Graph}\PY{o}{.}\PY{n}{from\PYZus{}networkx}\PY{p}{(}\PY{n}{I}\PY{p}{,} \PY{n}{nx}\PY{o}{.}\PY{n}{fruchterman\PYZus{}reingold\PYZus{}layout}\PY{p}{)}
+\end{Verbatim}
+
+
+    Through both of these, we can directly relate parameters of interest to
+the relevant components in our system.
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}219}]:} \PY{o}{\PYZpc{}}\PY{k}{opts} Graph [width=300 height=300]
+          \PY{n}{fig} \PY{o}{=} \PY{n}{Gfig}\PY{o}{.}\PY{n}{relabel}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Components}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}\PY{o}{+}\PYZbs{}
+                \PY{n}{Hfig}\PY{o}{.}\PY{n}{relabel}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Functions}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}\PY{o}{+}\PYZbs{}
+                \PY{n}{Ifig}\PY{o}{.}\PY{n}{relabel}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Parameters}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+          \PY{n}{fig}\PY{o}{.}\PY{n}{redim}\PY{o}{.}\PY{n}{range}\PY{p}{(}\PY{o}{*}\PY{o}{*}\PY{n}{padding}\PY{p}{)}
+\end{Verbatim}
+
+
+\begin{Verbatim}[commandchars=\\\{\}]
+{\color{outcolor}Out[{\color{outcolor}219}]:} :Layout
+             .Graph.Components :Graph   [start,end]   (weight)
+             .Graph.Functions  :Graph   [start,end]   (weight)
+             .Graph.Parameters :Graph   [start,end]   (weight)
+\end{Verbatim}
+            
+    \hypertarget{composed-multigraph}{%
+\subsubsection{Composed Multigraph}\label{composed-multigraph}}
+
+Let's put all of the graphs together, differentiating edges by type.
+
+Unfortunately, networkx/holoviews/pyplot do not particularly like
+multigraphs, so let's use the (recently updated) library, pygraphviz and
+it's networkx plugin.
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}317}]:} \PY{n}{N} \PY{o}{=} \PY{n}{nx}\PY{o}{.}\PY{n}{MultiGraph}\PY{p}{(}\PY{p}{)}
+          \PY{n}{N}\PY{o}{.}\PY{n}{add\PYZus{}nodes\PYZus{}from}\PY{p}{(}\PY{n}{G}\PY{o}{.}\PY{n}{nodes}\PY{p}{(}\PY{p}{)}\PY{p}{)}
+          
+          \PY{k}{def} \PY{n+nf}{add\PYZus{}to\PYZus{}mgraph}\PY{p}{(}\PY{n}{m}\PY{p}{,} \PY{n}{g}\PY{p}{,} \PY{n}{key}\PY{p}{,} \PY{n}{att\PYZus{}old}\PY{p}{,} \PY{n}{att\PYZus{}new}\PY{o}{=}\PY{k+kc}{None}\PY{p}{,} \PY{n}{func}\PY{o}{=}\PY{k+kc}{None}\PY{p}{,} \PY{o}{*}\PY{o}{*}\PY{n}{att\PYZus{}other}\PY{p}{)}\PY{p}{:}
+              \PY{k}{if} \PY{n}{att\PYZus{}new} \PY{o+ow}{is} \PY{k+kc}{None}\PY{p}{:} 
+                  \PY{n}{att\PYZus{}new} \PY{o}{=} \PY{n}{att\PYZus{}old}
+              \PY{k}{if} \PY{n}{func} \PY{o+ow}{is} \PY{k+kc}{None}\PY{p}{:}
+                  \PY{n}{func} \PY{o}{=} \PY{k}{lambda} \PY{n}{x}\PY{p}{:} \PY{n}{x}
+              \PY{k}{for} \PY{n}{u}\PY{p}{,}\PY{n}{v}\PY{p}{,}\PY{n}{val} \PY{o+ow}{in} \PY{n}{g}\PY{o}{.}\PY{n}{edges}\PY{p}{(}\PY{n}{data}\PY{o}{=}\PY{n}{att\PYZus{}old}\PY{p}{)}\PY{p}{:}
+                  \PY{n}{m}\PY{o}{.}\PY{n}{add\PYZus{}edge}\PY{p}{(}\PY{n}{u}\PY{p}{,}\PY{n}{v}\PY{p}{,} 
+                             \PY{n}{key}\PY{o}{=}\PY{n}{key}\PY{p}{,} 
+                             \PY{o}{*}\PY{o}{*}\PY{p}{\PYZob{}}\PY{o}{*}\PY{o}{*}\PY{p}{\PYZob{}}\PY{n}{att\PYZus{}new}\PY{p}{:}\PY{n}{func}\PY{p}{(}\PY{n}{val}\PY{p}{)}\PY{p}{\PYZcb{}}\PY{p}{,} 
+                                \PY{o}{*}\PY{o}{*}\PY{n}{att\PYZus{}other}\PY{p}{\PYZcb{}}\PY{p}{)}
+          
+          \PY{k}{def} \PY{n+nf}{edge\PYZus{}scale}\PY{p}{(}\PY{n}{x}\PY{p}{)}\PY{p}{:}
+              \PY{n+nb}{print}\PY{p}{(}\PY{n}{x}\PY{p}{)}
+              \PY{k}{return} \PY{n}{x}\PY{o}{*}\PY{n}{x}
+                  
+          \PY{n}{add\PYZus{}to\PYZus{}mgraph}\PY{p}{(}\PY{n}{N}\PY{p}{,} \PY{n}{G}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{component}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{weight}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} 
+                        \PY{n}{att\PYZus{}new}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{penwidth}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{n}{func}\PY{o}{=}\PY{k}{lambda} \PY{n}{x}\PY{p}{:} \PY{n}{x}\PY{o}{+}\PY{l+m+mi}{2}\PY{p}{,} \PY{n}{color}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{red}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}        
+          
+          \PY{n}{add\PYZus{}to\PYZus{}mgraph}\PY{p}{(}\PY{n}{N}\PY{p}{,} \PY{n}{H}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{function}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{weight}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} 
+                        \PY{n}{att\PYZus{}new}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{penwidth}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{n}{color}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{black}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)} 
+          
+          \PY{n}{add\PYZus{}to\PYZus{}mgraph}\PY{p}{(}\PY{n}{N}\PY{p}{,} \PY{n}{I}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{parameter}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{weight}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} 
+                        \PY{n}{att\PYZus{}new}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{penwidth}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{n}{func}\PY{o}{=}\PY{k}{lambda} \PY{n}{x}\PY{p}{:}\PY{n}{x}\PY{o}{+}\PY{l+m+mi}{2}\PY{p}{,} \PY{n}{color}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{blue}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)} 
+          
+          \PY{n}{N}\PY{o}{.}\PY{n}{remove\PYZus{}edges\PYZus{}from}\PY{p}{(}\PY{n+nb}{list}\PY{p}{(}\PY{n}{N}\PY{o}{.}\PY{n}{selfloop\PYZus{}edges}\PY{p}{(}\PY{p}{)}\PY{p}{)}\PY{p}{)}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}318}]:} \PY{c+c1}{\PYZsh{} N.edge\PYZus{}subgraph([e for e in N.edges() if ])}
+          \PY{n}{N}\PY{o}{.}\PY{n}{edges}\PY{p}{(}\PY{n}{keys}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{component}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{n}{data}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{penwidth}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+\end{Verbatim}
+
+
+\begin{Verbatim}[commandchars=\\\{\}]
+{\color{outcolor}Out[{\color{outcolor}318}]:} MultiEdgeDataView([('pedal', 'crank arm', 3), ('pedal', 'crank arm', 2), ('pedal', 'crank arm', 3), ('pedal', 'chain', 2), ('pedal', 'chain rings', 2), ('crank arm', 'chain rings', 3), ('crank arm', 'chain rings', 2), ('crank arm', 'chain rings', 3), ('crank arm', 'chain', 2), ('crank arm', 'chain', 3), ('chain', 'chain rings', 3), ('chain', 'chain rings', 3), ('chain', 'chain rings', 3), ('chain', 'cogset', 3), ('chain', 'cogset', 1), ('chain', 'cogset', 3), ('chain', 'rear derailleur', 1), ('chain', 'rear derailleur', 3), ('chain', 'rear spokes', 1), ('chain', 'rear hub', 1), ('chain', 'rear rim', 1), ('chain', 'rear tire', 1), ('chain rings', 'rear derailleur', 3), ('chain rings', 'rear derailleur', 1), ('chain rings', 'cogset', 1), ('chain rings', 'rear spokes', 1), ('chain rings', 'rear hub', 1), ('chain rings', 'rear rim', 1), ('chain rings', 'rear tire', 1), ('cogset', 'rear hub', 3), ('cogset', 'rear hub', 1), ('cogset', 'rear derailleur', 1), ('cogset', 'rear derailleur', 3), ('cogset', 'rear spokes', 1), ('cogset', 'rear spokes', 3), ('cogset', 'rear rim', 1), ('cogset', 'rear rim', 3), ('cogset', 'rear tire', 1), ('cogset', 'rear tire', 3), ('rear derailleur', 'rear hub', 3), ('rear derailleur', 'rear hub', 1), ('rear derailleur', 'rear spokes', 1), ('rear derailleur', 'rear rim', 1), ('rear derailleur', 'rear tire', 1), ('rear spokes', 'rear hub', 3), ('rear spokes', 'rear hub', 1), ('rear spokes', 'rear rim', 3), ('rear spokes', 'rear rim', 1), ('rear spokes', 'rear rim', 3), ('rear spokes', 'rear tire', 1), ('rear spokes', 'rear tire', 3), ('rear hub', 'rear rim', 1), ('rear hub', 'rear rim', 3), ('rear hub', 'rear tire', 1), ('rear hub', 'rear tire', 3), ('rear rim', 'rear tire', 3), ('rear rim', 'rear tire', 1), ('rear rim', 'rear tire', 4)])
+\end{Verbatim}
+            
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}319}]:} \PY{k+kn}{from} \PY{n+nn}{networkx}\PY{n+nn}{.}\PY{n+nn}{drawing}\PY{n+nn}{.}\PY{n+nn}{nx\PYZus{}agraph} \PY{k}{import} \PY{n}{to\PYZus{}agraph} 
+          \PY{k+kn}{from} \PY{n+nn}{IPython}\PY{n+nn}{.}\PY{n+nn}{display} \PY{k}{import} \PY{n}{Image}
+          
+          \PY{n}{N}\PY{o}{.}\PY{n}{graph}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{edge}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]} \PY{o}{=} \PY{n+nb}{dict}\PY{p}{(}\PY{n}{splines}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{curved}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+          \PY{n}{N}\PY{o}{.}\PY{n}{graph}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{graph}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]} \PY{o}{=} \PY{n+nb}{dict}\PY{p}{(}\PY{n}{scale}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{3}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+          \PY{n}{A} \PY{o}{=} \PY{n}{to\PYZus{}agraph}\PY{p}{(}\PY{n}{N}\PY{p}{)}
+          \PY{n}{A}\PY{o}{.}\PY{n}{layout}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{dot}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+          
+          \PY{n}{Image}\PY{p}{(}\PY{n}{A}\PY{o}{.}\PY{n}{draw}\PY{p}{(}\PY{n+nb}{format}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{png}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}\PY{p}{,} \PY{n}{width}\PY{o}{=}\PY{l+m+mi}{400}\PY{p}{)}
+\end{Verbatim}
+
+\texttt{\color{outcolor}Out[{\color{outcolor}319}]:}
+    
+    \begin{center}
+    \adjustimage{max size={0.9\linewidth}{0.9\paperheight}}{output_20_0.png}
+    \end{center}
+    { \hspace*{\fill} \\}
+    
+
+    Let's first take a naive approach and say that the overall relatedness
+of a node to another node is just the sum of weights of all edge types
+between them. We can use this assumption to collapse the multigraph into
+a single undirected graph.
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}327}]:} \PY{n}{nx}\PY{o}{.}\PY{n}{to\PYZus{}pandas\PYZus{}adjacency}\PY{p}{(}\PY{n}{N}\PY{p}{,} \PY{n}{multigraph\PYZus{}weight}\PY{o}{=}\PY{n+nb}{sum}\PY{p}{,} \PY{n}{weight}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{penwidth}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+\end{Verbatim}
+
+
+\begin{Verbatim}[commandchars=\\\{\}]
+{\color{outcolor}Out[{\color{outcolor}327}]:}                  pedal  crank arm  chain  chain rings  cogset  \textbackslash{}
+          pedal              0.0        8.0    2.0          2.0     0.0   
+          crank arm          8.0        0.0    5.0          8.0     0.0   
+          chain              2.0        5.0    0.0          9.0     7.0   
+          chain rings        2.0        8.0    9.0          0.0     1.0   
+          cogset             0.0        0.0    7.0          1.0     0.0   
+          rear derailleur    0.0        0.0    4.0          4.0     4.0   
+          rear spokes        0.0        0.0    1.0          1.0     4.0   
+          rear hub           0.0        0.0    1.0          1.0     4.0   
+          rear rim           0.0        0.0    1.0          1.0     4.0   
+          rear tire          0.0        0.0    1.0          1.0     4.0   
+          
+                           rear derailleur  rear spokes  rear hub  rear rim  rear tire  
+          pedal                        0.0          0.0       0.0       0.0        0.0  
+          crank arm                    0.0          0.0       0.0       0.0        0.0  
+          chain                        4.0          1.0       1.0       1.0        1.0  
+          chain rings                  4.0          1.0       1.0       1.0        1.0  
+          cogset                       4.0          4.0       4.0       4.0        4.0  
+          rear derailleur              0.0          1.0       4.0       1.0        1.0  
+          rear spokes                  1.0          0.0       4.0       7.0        4.0  
+          rear hub                     4.0          4.0       0.0       4.0        4.0  
+          rear rim                     1.0          7.0       4.0       0.0        8.0  
+          rear tire                    1.0          4.0       4.0       8.0        0.0  
+\end{Verbatim}
+            
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}325}]:} \PY{c+c1}{\PYZsh{} create weighted graph from M}
+          
+          \PY{n}{Λ} \PY{o}{=} \PY{n}{nx}\PY{o}{.}\PY{n}{from\PYZus{}pandas\PYZus{}adjacency}\PY{p}{(}
+              \PY{n}{nx}\PY{o}{.}\PY{n}{to\PYZus{}pandas\PYZus{}adjacency}\PY{p}{(}\PY{n}{N}\PY{p}{,} \PY{n}{multigraph\PYZus{}weight}\PY{o}{=}\PY{n+nb}{sum}\PY{p}{,} \PY{n}{weight}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{penwidth}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+          \PY{p}{)}
+          
+          \PY{c+c1}{\PYZsh{} rename \PYZsq{}weight\PYZsq{} to \PYZsq{}penwidth\PYZsq{} for graphviz .\PYZus{}.}
+          \PY{n}{nx}\PY{o}{.}\PY{n}{set\PYZus{}edge\PYZus{}attributes}\PY{p}{(}\PY{n}{Λ}\PY{p}{,} 
+              \PY{p}{\PYZob{}}\PY{n}{e}\PY{p}{:}\PY{n}{Λ}\PY{o}{.}\PY{n}{get\PYZus{}edge\PYZus{}data}\PY{p}{(}\PY{n}{e}\PY{p}{[}\PY{l+m+mi}{0}\PY{p}{]}\PY{p}{,}\PY{n}{e}\PY{p}{[}\PY{l+m+mi}{1}\PY{p}{]}\PY{p}{)}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{weight}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]} \PY{k}{for} \PY{n}{e} \PY{o+ow}{in} \PY{n}{Λ}\PY{o}{.}\PY{n}{edges}\PY{p}{(}\PY{p}{)}\PY{p}{\PYZcb{}}\PY{p}{,}
+              \PY{n}{name}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{penwidth}\PY{l+s+s1}{\PYZsq{}}
+          \PY{p}{)}
+          
+          \PY{n}{A} \PY{o}{=} \PY{n}{to\PYZus{}agraph}\PY{p}{(}\PY{n}{Λ}\PY{p}{)}
+          \PY{n}{A}\PY{o}{.}\PY{n}{layout}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{dot}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+          
+          \PY{n}{Image}\PY{p}{(}\PY{n}{A}\PY{o}{.}\PY{n}{draw}\PY{p}{(}\PY{n+nb}{format}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{png}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}\PY{p}{,} \PY{n}{width}\PY{o}{=}\PY{l+m+mi}{400}\PY{p}{)}
+\end{Verbatim}
+
+\texttt{\color{outcolor}Out[{\color{outcolor}325}]:}
+    
+    \begin{center}
+    \adjustimage{max size={0.9\linewidth}{0.9\paperheight}}{output_23_0.png}
+    \end{center}
+    { \hspace*{\fill} \\}
+    
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}326}]:} \PY{n}{nx}\PY{o}{.}\PY{n}{current\PYZus{}flow\PYZus{}betweenness\PYZus{}centrality}\PY{p}{(}\PY{n}{Λ}\PY{p}{,} \PY{n}{weight}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{penwidth}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+\end{Verbatim}
+
+
+\begin{Verbatim}[commandchars=\\\{\}]
+{\color{outcolor}Out[{\color{outcolor}326}]:} \{'pedal': 0.051097586899794746,
+           'crank arm': 0.15890764151567857,
+           'chain': 0.3347613156462528,
+           'chain rings': 0.291323956929315,
+           'cogset': 0.23719954773579507,
+           'rear derailleur': 0.16800379760736106,
+           'rear spokes': 0.12980618206761393,
+           'rear hub': 0.15518389964303728,
+           'rear rim': 0.15382597412573715,
+           'rear tire': 0.13381470016857827\}
+\end{Verbatim}
+            
+    \hypertarget{sandbox}{%
+\subsection{Sandbox}\label{sandbox}}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor} }]:} \PY{n}{aircraft} \PY{o}{=} \PY{n}{pd}\PY{o}{.}\PY{n}{read\PYZus{}excel}\PY{p}{(}\PY{n}{net\PYZus{}path}\PY{o}{/}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{aircraft\PYZus{}component\PYZus{}model.xlsx}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+        \PY{n}{bike} \PY{o}{=} \PY{n}{pd}\PY{o}{.}\PY{n}{read\PYZus{}excel}\PY{p}{(}\PY{n}{net\PYZus{}path}\PY{o}{/}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{bicycle\PYZus{}component\PYZus{}model.xlsx}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+        \PY{n}{drive} \PY{o}{=} \PY{n}{pd}\PY{o}{.}\PY{n}{read\PYZus{}excel}\PY{p}{(}\PY{n}{net\PYZus{}path}\PY{o}{/}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{drivetrain\PYZus{}component\PYZus{}model.xlsx}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}328}]:} \PY{c+c1}{\PYZsh{} sns.clustermap(aircraft)}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}329}]:} \PY{c+c1}{\PYZsh{} sns.clustermap(bike)}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}12}]:} \PY{n}{Gbik} \PY{o}{=} \PY{n}{nx}\PY{o}{.}\PY{n}{from\PYZus{}pandas\PYZus{}adjacency}\PY{p}{(}\PY{n}{bike}\PY{p}{)}
+         \PY{n}{Gair} \PY{o}{=} \PY{n}{nx}\PY{o}{.}\PY{n}{from\PYZus{}pandas\PYZus{}adjacency}\PY{p}{(}\PY{n}{aircraft}\PY{p}{)}
+         \PY{n}{Gdri} \PY{o}{=} \PY{n}{nx}\PY{o}{.}\PY{n}{from\PYZus{}pandas\PYZus{}adjacency}\PY{p}{(}\PY{n}{drive}\PY{p}{)}
+         
+         \PY{k}{for} \PY{n}{net}\PY{p}{,} \PY{n}{nam} \PY{o+ow}{in} \PY{n+nb}{zip}\PY{p}{(}\PY{p}{[}\PY{n}{Gbik}\PY{p}{,} \PY{n}{Gair}\PY{p}{,} \PY{n}{Gdri}\PY{p}{]}\PY{p}{,}
+                             \PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{bike}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{aircraft}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{driveshaft}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{p}{)}\PY{p}{:}
+             \PY{n}{nx}\PY{o}{.}\PY{n}{write\PYZus{}edgelist}\PY{p}{(}\PY{n}{net}\PY{p}{,} \PY{n}{nam}\PY{o}{+}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{\PYZhy{}edgelist.csv}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{n}{delimiter}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{,}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+         
+         \PY{n}{nx}\PY{o}{.}\PY{n}{draw}\PY{p}{(}\PY{n}{Gair}\PY{p}{,} \PY{n}{pos}\PY{o}{=}\PY{n}{nx}\PY{o}{.}\PY{n}{fruchterman\PYZus{}reingold\PYZus{}layout}\PY{p}{(}\PY{n}{Gair}\PY{p}{)}\PY{p}{)}
+\end{Verbatim}
+
+
+    \begin{center}
+    \adjustimage{max size={0.9\linewidth}{0.9\paperheight}}{output_29_0.png}
+    \end{center}
+    { \hspace*{\fill} \\}
+    
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}9}]:} \PY{o}{\PYZpc{}}\PY{k}{opts} Graph [width=600 height=500]
+        
+        \PY{n}{cent} \PY{o}{=} \PY{n}{nx}\PY{o}{.}\PY{n}{pagerank}\PY{p}{(}\PY{n}{Gair}\PY{p}{)}
+        \PY{n}{nx}\PY{o}{.}\PY{n}{set\PYZus{}node\PYZus{}attributes}\PY{p}{(}\PY{n}{Gair}\PY{p}{,} \PY{n}{cent}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{centrality}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+        
+        \PY{n}{fig} \PY{o}{=} \PY{n}{hv}\PY{o}{.}\PY{n}{Graph}\PY{o}{.}\PY{n}{from\PYZus{}networkx}\PY{p}{(}\PY{n}{Gair}\PY{p}{,} \PY{n}{nx}\PY{o}{.}\PY{n}{fruchterman\PYZus{}reingold\PYZus{}layout}\PY{p}{)}
+        \PY{n}{fig}\PY{o}{.}\PY{n}{opts}\PY{p}{(}\PY{n}{plot}\PY{o}{=}\PY{n+nb}{dict}\PY{p}{(}\PY{n}{color\PYZus{}index}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{centrality}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}\PY{p}{,} 
+                 \PY{n}{style}\PY{o}{=}\PY{n+nb}{dict}\PY{p}{(}\PY{n}{node\PYZus{}size}\PY{o}{=}\PY{l+m+mi}{10}\PY{p}{,} \PY{n}{edge\PYZus{}alpha}\PY{o}{=}\PY{o}{.}\PY{l+m+mi}{5}\PY{p}{,} 
+                            \PY{n}{cmap}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Magma\PYZus{}r}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}\PY{p}{)}
+\end{Verbatim}
+
+
+\begin{Verbatim}[commandchars=\\\{\}]
+{\color{outcolor}Out[{\color{outcolor}9}]:} :Graph   [start,end]   (weight)
+\end{Verbatim}
+            
+
+    % Add a bibliography block to the postdoc
+    
+    
+    
+    \end{document}

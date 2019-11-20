@@ -1,0 +1,41 @@
+
+\definecolor{dtsfsf}{rgb}{0.8274509803921568,0.1843137254901961,0.1843137254901961}
+\definecolor{sexdts}{rgb}{0.1803921568627451,0.49019607843137253,0.19607843137254902}
+\definecolor{rvwvcq}{rgb}{0.08235294117647059,0.396078431372549,0.7529411764705882}
+\definecolor{wrwrwr}{rgb}{0.3803921568627451,0.3803921568627451,0.3803921568627451}
+\begin{tikzpicture}[line cap=round,line join=round,>=triangle 45,x=1cm,y=1cm]
+\begin{axis}[
+x=1cm,y=1cm,
+axis lines=middle,
+xmin=-0.7075015705016064,
+xmax=2.2049970201342197,
+ymin=-0.14244946709750653,
+ymax=2.7026017877551745,
+xtick={-0.6000000000000001,-0.4000000000000001,...,2.2},
+ytick={0,0.2,...,2.6},]
+\clip(-0.7075015705016064,-0.14244946709750653) rectangle (2.2049970201342197,2.7026017877551745);
+\draw [shift={(0,0)},line width=1.2pt] (0,0) -- (70.19724133434609:0.30657879901429747) arc (70.19724133434609:83.77777981362546:0.30657879901429747) -- cycle;
+\draw [shift={(0,0)},line width=1.2pt] (0,0) -- (0:0.19927621935929335) arc (0:51.76229251142409:0.19927621935929335) -- cycle;
+\draw [->,line width=2pt] (0,0) -- (0.2786881181231517,2.5561344949507223);
+\draw [->,line width=2pt] (0,0) -- (0.43077314636569763,1.1963377100412402);
+\draw [->,line width=2pt] (0,0) -- (1.5,0.5);
+\draw [line width=2pt,dotted,color=sexdts] (0.43077314636569763,1.1963377100412402)-- (0.7465971447415,0.24886571491383325);
+\draw [line width=2pt,dotted,color=sexdts] (0.43077314636569763,1.1963377100412402)-- (0.13396149630321086,1.2286982451994408);
+\draw [->,line width=3.2pt,color=sexdts] (0,0) -- (0.13396149630321086,1.2286982451994408);
+\draw [line width=2pt,dash pattern=on 1pt off 1pt on 1pt off 4pt,color=dtsfsf] (0.43077314636569763,1.1963377100412402)-- (1.5,0.5);
+\draw [line width=2pt,dash pattern=on 1pt off 1pt on 1pt off 4pt,color=dtsfsf] (0.43077314636569763,1.1963377100412402)-- (0.2786881181231517,2.5561344949507223);
+\begin{scriptsize}
+\draw [fill=wrwrwr] (0,0) circle (2.5pt);
+\draw [fill=rvwvcq] (0.2786881181231517,2.5561344949507223) circle (2.5pt);
+\draw[color=rvwvcq] (0.3134058302160042,2.6305557699868145) node {$u_1$};
+\draw [fill=rvwvcq] (0.43077314636569763,1.1963377100412402) circle (2.5pt);
+\draw[color=rvwvcq] (0.46362944173300996,1.2724116903534766) node {$u_2$};
+\draw [fill=rvwvcq] (1.5,0.5) circle (2.5pt);
+\draw[color=rvwvcq] (1.5335894502929082,0.5764778165910212) node {$u_3$};
+\draw[color=black] (0.2015045685757857,0.2668332295865807) node {$$\theta$_{2,1}$};
+\draw[color=black] (0.15858353671378403,0.13193855802028978) node {$\theta_{2,3}$};
+\end{scriptsize}
+\end{axis}
+\end{tikzpicture}
+
+\end{tikzpicture}

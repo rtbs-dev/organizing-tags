@@ -1,0 +1,101 @@
+,m,cat
+0,"('fuel', 'filter', 'hose', 'hyd')",cos
+1,"('grease', 'line', 'pump', 'leak', 'stick')",sim
+2,"('grease', 'oil', 'pump', 'leak', 'replace')",real
+3,"('pressure', 'low', 'coolant', 'clamp')",cos
+4,"('coolant', 'leak', 'seal', 'stick')",cos
+5,"('hyd', 'oil', 'valve', 'leak', 'stick')",sim
+6,"('slew', 'leak', 'stick', 'replace', 'valve')",sim
+7,"('bolts', 'fuel', 'left', 'tank', 'replace')",real
+8,"('shd', 'tooth', 'missing', 'track', 'stick')",sim
+9,"('drive', 'final', 'low', 'coolant')",cos
+10,"('bucket', 'leak', 'pipe', 'repair')",cos
+11,"('grease', 'line', 'pump', 'servo', 'leak')",sim
+12,"('fan', 'motor', 'slew', 'right', 'leak')",sim
+13,"('filter', 'hose', 'hyd', 'replace', 'block')",real
+14,"('lube', 'pto', 'pump', 'servo', 'changeout')",real
+15,"('engine', 'shd', 'lube', 'pto', 'pump')",sim
+16,"('line', 'grease', 'pump', 'pto', 'leak')",sim
+17,"('box', 'low', 'engine', 'filter')",cos
+18,"('bucket', 'tooth', 'missing', 'track')",sim
+19,"('shd', 'slew', 'hyd', 'replace')",cos
+20,"('bucket', 'tooth', 'lost', 'warranty')",cos
+21,"('brake', 'replace', 'filter', 'switch')",cos
+22,"('bucket', 'grease', 'hand', 'left', 'line')",real
+23,"('drive', 'pressure', 'pump', 'alarm', 'low')",real
+24,"('lube', 'oil', 'pto', 'pump', 'leak')",real
+25,"('bucket', 'drive', 'oil', 'tooth', 'leak')",real
+26,"('engine', 'coolant', 'hose', 'hyd', 'oil')",sim
+27,"('pump', 'ring', 'shd', 'blown', 'main')",real
+28,"('boom', 'hyd', 'oil', 'pipe', 'shd')",real
+29,"('bucket', 'fitting', 'coolant', 'oil')",cos
+30,"('bucket', 'line', 'lube', 'damage', 'replace')",real
+31,"('bolts', 'cylinder', 'pin', 'text', 'stick')",real
+32,"('engine', 'oil', 'pressure', 'alarm', 'low')",real
+33,"('motor', 'oil', 'slew', 'leak', 'block')",real
+34,"('hose', 'replace', 'bucket', 'grease')",cos
+35,"('bucket', 'cylinder', 'hose', 'hyd', 'leak')",real
+36,"('pin', 'track', 'missing', 'tooth', 'stick')",sim
+37,"('grease', 'line', 'pressure', 'shd', 'low')",real
+38,"('bucket', 'grease', 'hose', 'pin', 'replace')",real
+39,"('hose', 'boom', 'hyd', 'blown')",cos
+40,"('bucket', 'replace', 'hose', 'tank')",cos
+41,"('bucket', 'grease', 'line', 'pin', 'replace')",real
+42,"('drive', 'fan', 'hyd', 'oil', 'leak')",real
+43,"('control', 'valve', 'leak', 'stick', 'replace')",sim
+44,"('hyd', 'shd', 'switch', 'alarm', 'replace')",real
+45,"('jump', 'shd', 'lube', 'tooth', 'missing')",sim
+46,"('boom', 'clamp', 'text', 'leak', 'stick')",sim
+47,"('hyd', 'lube', 'pump', 'travel', 'leak')",real
+48,"('lube', 'pto', 'box', 'servo')",cos
+49,"('brake', 'shd', 'lube', 'line', 'grease')",sim
+50,"('box', 'drive', 'pressure', 'pump', 'fault')",real
+51,"('boom', 'hose', 'hyd', 'light')",cos
+52,"('boom', 'hose', 'hyd', 'ring', 'replace')",real
+53,"('pin', 'track', 'missing', 'tooth')",sim
+54,"('boom', 'line', 'lube', 'blown', 'replace')",real
+55,"('boom', 'clamp', 'control', 'pipe', 'valve')",real
+56,"('engine', 'fan', 'valve', 'leak', 'check')",real
+57,"('grease', 'bucket', 'shd', 'coolant')",cos
+58,"('oil', 'leak', 'coolant', 'hose')",cos
+59,"('boom', 'hyd', 'pipe', 'cracked', 'repair')",real
+60,"('engine', 'stick', 'hose', 'blown')",cos
+61,"('fan', 'motor', 'seal', 'right', 'slew')",sim
+62,"('boom', 'clamp', 'oil', 'pipe', 'valve')",real
+63,"('lube', 'fault', 'low', 'pressure')",cos
+64,"('bucket', 'cylinder', 'missing', 'boom')",cos
+65,"('adaptor', 'tooth', 'missing', 'track', 'stick')",sim
+66,"('access', 'step', 'repair', 'fault', 'leak')",sim
+67,"('hose', 'hyd', 'shd', 'valve', 'changeout')",real
+68,"('brake', 'drive', 'final', 'oil', 'leak')",real
+69,"('hose', 'motor', 'slew', 'leak', 'main')",real
+70,"('clamp', 'loose', 'control', 'valve')",cos
+71,"('hose', 'hyd', 'oil', 'slew', 'leak')",sim
+72,"('roller', 'track', 'missing', 'tooth', 'leak')",sim
+73,"('bucket', 'loose', 'text', 'clamp')",cos
+74,"('ring', 'blown', 'replace', 'stick', 'leak')",sim
+75,"('hose', 'blown', 'shd', 'filter')",cos
+76,"('bucket', 'fitting', 'grease', 'broken', 'repair')",real
+77,"('cylinder', 'fuel', 'engine', 'right')",cos
+78,"('motor', 'oil', 'slew', 'leak', 'repair')",real
+79,"('fan', 'motor', 'seal', 'slew', 'leak')",sim
+80,"('clamp', 'cylinder', 'boom', 'control')",cos
+81,"('grease', 'line', 'lube', 'pto', 'pump')",sim
+82,"('roller', 'track', 'bolts', 'cylinder')",cos
+83,"('fan', 'motor', 'right', 'slew', 'leak')",sim
+84,"('hose', 'hyd', 'oil', 'text', 'valve')",sim
+85,"('grease', 'pump', 'seal', 'warranty', 'leak')",real
+86,"('grease', 'line')",sim
+87,"('pump', 'pto', 'lube', 'leak', 'stick')",sim
+88,"('boom', 'cylinder', 'seal', 'blown', 'replace')",real
+89,"('hose', 'blown', 'turbo', 'changeout')",cos
+90,"('lip', 'shroud')",sim
+91,"('hose', 'shd', 'slew', 'blown', 'replace')",real
+92,"('fuel', 'pump', 'box', 'fan')",cos
+93,"('bolts', 'main', 'pump', 'leak')",cos
+94,"('hyd', 'oil', 'leak', 'stick', 'block')",real
+95,"('boom', 'hose', 'hyd', 'blown', 'stick')",real
+96,"('bucket', 'replace', 'lost', 'lube')",cos
+97,"('hose', 'blown', 'replace', 'stick', 'leak')",sim
+98,"('engine', 'light', 'shd', 'switch', 'repair')",real
+99,"('coolant', 'line', 'shd', 'leak', 'changeout')",real

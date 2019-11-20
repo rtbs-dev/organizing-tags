@@ -1,0 +1,26 @@
+digraph g {
+  mindist = 2.0
+  overlap=false;
+  splines=true;
+  bgcolor="transparent";
+  node [fillcolor="white"];
+  hydraulic -> saw [label="0.2", color="orange"];
+  hydraulic -> cutoff_unit [label="0.8", color="green"];
+  cutoff_unit -> fitting [label="0.9", color="green"];
+  fitting -> cutoff_unit [label="0.5"];
+  fitting -> spindle [label="0.5"];
+  cutoff_unit -> spindle [label="0.1"];
+  spindle -> wire [label="0.2"];
+  spindle -> hydraulic [label="0.2"];
+  spindle -> operator [label="0.5"];
+  operator -> operator [label="1.0"];
+  saw -> operator [label="1.0"];
+//  t_2 -> t_6 [label="0.2"];
+//  t_3 -> t_1 [label="0.6", color="orange"];
+//  t_3 -> t_6 [label="0.4"];
+//  t_4 -> t_2 [label="0.3"];
+//  t_4 -> t_1 [label="0.4"];
+//  t_4 -> t_5 [label="0.3"];
+//  t_5 -> t_3 [label="1.0"];
+//  t_6 -> t_2 [label="1.0"];
+}

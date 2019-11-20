@@ -1,0 +1,5 @@
+{
+  "commands": [
+    "*.md: pandoc --filter pandoc-beamer-block -H header.tex default.yaml -t beamer --pdf-engine=xelatex {filename} -o {name}.pdf"
+  ]
+}

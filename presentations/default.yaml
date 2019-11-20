@@ -1,0 +1,25 @@
+---
+theme: 'metropolis'
+themeoptions:
+  - block=fill
+  - progressbar=frametitle
+pdf-engine: 'xelatex'
+pandoc-beamer-block:
+  - classes: [info]
+  - classes: [example]
+    type: example
+  - classes: [alert]
+    type: alert
+resource-path:
+  ../latex/jmd19/img
+  ./aux
+bibliography: ../latex/jmd19/biblio.bib
+csl: aux/asme.csl
+# notes
+# Requires matze/mtheme to be installed (`make sty`) and the Fira fonts)
+#
+# - for reveal: `pandoc -t revealjs -s -o idetc19.html idetc19.md -V theme=serif`
+#   - extra if no local reveal: `-V revealjs-url=https://revealjs.com`)
+# - for beamer/latex: `pandoc --filter pandoc-beamer-block -H header.tex default.yaml -t beamer --pdf-engine=xelatex idetc19.md -o idetc19.pdf`
+
+---

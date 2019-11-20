@@ -1,0 +1,1768 @@
+left wing rib 1,left wing spar 1,{'weight': 1}
+left wing rib 1,left wing spar 2,{'weight': 1}
+left wing rib 1,left wing stringer 1,{'weight': 1}
+left wing rib 1,left wing stringer 2,{'weight': 1}
+left wing rib 1,left wing stringer 3,{'weight': 1}
+left wing rib 1,left wing stringer 4,{'weight': 1}
+left wing rib 1,left wing stringer 5,{'weight': 1}
+left wing rib 1,left wing stringer 6,{'weight': 1}
+left wing rib 1,left wing stringer 7,{'weight': 1}
+left wing rib 1,left wing stringer 8,{'weight': 1}
+left wing rib 1,left wing stringer 9,{'weight': 1}
+left wing rib 1,left wing stringer 10,{'weight': 1}
+left wing rib 1,left wing stringer 11,{'weight': 1}
+left wing rib 1,left wing stringer 12,{'weight': 1}
+left wing rib 1,fuselage station 30,{'weight': 1}
+left wing rib 1,fuselage station 31,{'weight': 1}
+left wing rib 1,fuselage skin,{'weight': 1}
+left wing rib 2,left wing spar 1,{'weight': 1}
+left wing rib 2,left wing spar 2,{'weight': 1}
+left wing rib 2,left wing stringer 1,{'weight': 1}
+left wing rib 2,left wing stringer 2,{'weight': 1}
+left wing rib 2,left wing stringer 3,{'weight': 1}
+left wing rib 2,left wing stringer 4,{'weight': 1}
+left wing rib 2,left wing stringer 5,{'weight': 1}
+left wing rib 2,left wing stringer 6,{'weight': 1}
+left wing rib 2,left wing stringer 7,{'weight': 1}
+left wing rib 2,left wing stringer 8,{'weight': 1}
+left wing rib 2,left wing stringer 9,{'weight': 1}
+left wing rib 2,left wing stringer 10,{'weight': 1}
+left wing rib 2,left wing stringer 11,{'weight': 1}
+left wing rib 2,left wing stringer 12,{'weight': 1}
+left wing rib 2,left fuel tank,{'weight': 1}
+left wing rib 3,left wing spar 1,{'weight': 1}
+left wing rib 3,left wing spar 2,{'weight': 1}
+left wing rib 3,left wing stringer 1,{'weight': 1}
+left wing rib 3,left wing stringer 2,{'weight': 1}
+left wing rib 3,left wing stringer 3,{'weight': 1}
+left wing rib 3,left wing stringer 4,{'weight': 1}
+left wing rib 3,left wing stringer 5,{'weight': 1}
+left wing rib 3,left wing stringer 6,{'weight': 1}
+left wing rib 3,left wing stringer 7,{'weight': 1}
+left wing rib 3,left wing stringer 8,{'weight': 1}
+left wing rib 3,left wing stringer 9,{'weight': 1}
+left wing rib 3,left wing stringer 10,{'weight': 1}
+left wing rib 3,left wing stringer 11,{'weight': 1}
+left wing rib 3,left wing stringer 12,{'weight': 1}
+left wing rib 3,left fuel tank,{'weight': 1}
+left wing rib 4,left wing spar 1,{'weight': 1}
+left wing rib 4,left wing spar 2,{'weight': 1}
+left wing rib 4,left wing stringer 1,{'weight': 1}
+left wing rib 4,left wing stringer 2,{'weight': 1}
+left wing rib 4,left wing stringer 3,{'weight': 1}
+left wing rib 4,left wing stringer 4,{'weight': 1}
+left wing rib 4,left wing stringer 5,{'weight': 1}
+left wing rib 4,left wing stringer 6,{'weight': 1}
+left wing rib 4,left wing stringer 7,{'weight': 1}
+left wing rib 4,left wing stringer 8,{'weight': 1}
+left wing rib 4,left wing stringer 9,{'weight': 1}
+left wing rib 4,left wing stringer 10,{'weight': 1}
+left wing rib 4,left wing stringer 11,{'weight': 1}
+left wing rib 4,left wing stringer 12,{'weight': 1}
+left wing rib 4,left fuel tank,{'weight': 1}
+left wing rib 5,left wing spar 1,{'weight': 1}
+left wing rib 5,left wing spar 2,{'weight': 1}
+left wing rib 5,left wing stringer 1,{'weight': 1}
+left wing rib 5,left wing stringer 2,{'weight': 1}
+left wing rib 5,left wing stringer 3,{'weight': 1}
+left wing rib 5,left wing stringer 4,{'weight': 1}
+left wing rib 5,left wing stringer 5,{'weight': 1}
+left wing rib 5,left wing stringer 6,{'weight': 1}
+left wing rib 5,left wing stringer 7,{'weight': 1}
+left wing rib 5,left wing stringer 8,{'weight': 1}
+left wing rib 5,left wing stringer 9,{'weight': 1}
+left wing rib 5,left wing stringer 10,{'weight': 1}
+left wing rib 5,left wing stringer 11,{'weight': 1}
+left wing rib 5,left wing stringer 12,{'weight': 1}
+left wing rib 5,left slat 1,{'weight': 1}
+left wing rib 5,left fuel tank,{'weight': 1}
+left wing rib 6,left wing spar 1,{'weight': 1}
+left wing rib 6,left wing spar 2,{'weight': 1}
+left wing rib 6,left wing stringer 1,{'weight': 1}
+left wing rib 6,left wing stringer 2,{'weight': 1}
+left wing rib 6,left wing stringer 3,{'weight': 1}
+left wing rib 6,left wing stringer 4,{'weight': 1}
+left wing rib 6,left wing stringer 5,{'weight': 1}
+left wing rib 6,left wing stringer 6,{'weight': 1}
+left wing rib 6,left wing stringer 7,{'weight': 1}
+left wing rib 6,left wing stringer 8,{'weight': 1}
+left wing rib 6,left wing stringer 9,{'weight': 1}
+left wing rib 6,left wing stringer 10,{'weight': 1}
+left wing rib 6,left wing stringer 11,{'weight': 1}
+left wing rib 6,left wing stringer 12,{'weight': 1}
+left wing rib 6,left slat 1,{'weight': 1}
+left wing rib 7,left wing spar 1,{'weight': 1}
+left wing rib 7,left wing spar 2,{'weight': 1}
+left wing rib 7,left wing stringer 1,{'weight': 1}
+left wing rib 7,left wing stringer 2,{'weight': 1}
+left wing rib 7,left wing stringer 3,{'weight': 1}
+left wing rib 7,left wing stringer 4,{'weight': 1}
+left wing rib 7,left wing stringer 5,{'weight': 1}
+left wing rib 7,left wing stringer 6,{'weight': 1}
+left wing rib 7,left wing stringer 7,{'weight': 1}
+left wing rib 7,left wing stringer 8,{'weight': 1}
+left wing rib 7,left wing stringer 9,{'weight': 1}
+left wing rib 7,left wing stringer 10,{'weight': 1}
+left wing rib 7,left wing stringer 11,{'weight': 1}
+left wing rib 7,left wing stringer 12,{'weight': 1}
+left wing rib 7,left slat 1,{'weight': 1}
+left wing rib 8,left wing spar 1,{'weight': 1}
+left wing rib 8,left wing spar 2,{'weight': 1}
+left wing rib 8,left wing stringer 1,{'weight': 1}
+left wing rib 8,left wing stringer 2,{'weight': 1}
+left wing rib 8,left wing stringer 3,{'weight': 1}
+left wing rib 8,left wing stringer 4,{'weight': 1}
+left wing rib 8,left wing stringer 5,{'weight': 1}
+left wing rib 8,left wing stringer 6,{'weight': 1}
+left wing rib 8,left wing stringer 7,{'weight': 1}
+left wing rib 8,left wing stringer 8,{'weight': 1}
+left wing rib 8,left wing stringer 9,{'weight': 1}
+left wing rib 8,left wing stringer 10,{'weight': 1}
+left wing rib 8,left wing stringer 11,{'weight': 1}
+left wing rib 8,left wing stringer 12,{'weight': 1}
+left wing rib 8,left slat 1,{'weight': 1}
+left wing rib 9,left wing spar 1,{'weight': 1}
+left wing rib 9,left wing spar 2,{'weight': 1}
+left wing rib 9,left wing stringer 1,{'weight': 1}
+left wing rib 9,left wing stringer 2,{'weight': 1}
+left wing rib 9,left wing stringer 3,{'weight': 1}
+left wing rib 9,left wing stringer 4,{'weight': 1}
+left wing rib 9,left wing stringer 5,{'weight': 1}
+left wing rib 9,left wing stringer 6,{'weight': 1}
+left wing rib 9,left wing stringer 7,{'weight': 1}
+left wing rib 9,left wing stringer 8,{'weight': 1}
+left wing rib 9,left wing stringer 9,{'weight': 1}
+left wing rib 9,left wing stringer 10,{'weight': 1}
+left wing rib 9,left wing stringer 11,{'weight': 1}
+left wing rib 9,left wing stringer 12,{'weight': 1}
+left wing rib 9,left ground spoiler,{'weight': 1}
+left wing rib 9,left slat 1,{'weight': 1}
+left wing rib 10,left wing spar 1,{'weight': 1}
+left wing rib 10,left wing spar 2,{'weight': 1}
+left wing rib 10,left wing stringer 1,{'weight': 1}
+left wing rib 10,left wing stringer 2,{'weight': 1}
+left wing rib 10,left wing stringer 3,{'weight': 1}
+left wing rib 10,left wing stringer 4,{'weight': 1}
+left wing rib 10,left wing stringer 5,{'weight': 1}
+left wing rib 10,left wing stringer 6,{'weight': 1}
+left wing rib 10,left wing stringer 7,{'weight': 1}
+left wing rib 10,left wing stringer 8,{'weight': 1}
+left wing rib 10,left wing stringer 9,{'weight': 1}
+left wing rib 10,left wing stringer 10,{'weight': 1}
+left wing rib 10,left wing stringer 11,{'weight': 1}
+left wing rib 10,left wing stringer 12,{'weight': 1}
+left wing rib 10,left ground spoiler,{'weight': 1}
+left wing rib 10,left slat 1,{'weight': 1}
+left wing rib 10,left main gear beam hanger,{'weight': 1}
+left wing rib 11,left wing spar 1,{'weight': 1}
+left wing rib 11,left wing spar 2,{'weight': 1}
+left wing rib 11,left wing stringer 1,{'weight': 1}
+left wing rib 11,left wing stringer 2,{'weight': 1}
+left wing rib 11,left wing stringer 3,{'weight': 1}
+left wing rib 11,left wing stringer 4,{'weight': 1}
+left wing rib 11,left wing stringer 5,{'weight': 1}
+left wing rib 11,left wing stringer 6,{'weight': 1}
+left wing rib 11,left wing stringer 7,{'weight': 1}
+left wing rib 11,left wing stringer 8,{'weight': 1}
+left wing rib 11,left wing stringer 9,{'weight': 1}
+left wing rib 11,left wing stringer 10,{'weight': 1}
+left wing rib 11,left wing stringer 11,{'weight': 1}
+left wing rib 11,left wing stringer 12,{'weight': 1}
+left wing rib 11,left ground spoiler,{'weight': 1}
+left wing rib 11,left slat 2,{'weight': 1}
+left wing rib 11,left main gear beam hanger,{'weight': 1}
+left wing rib 12,left wing spar 1,{'weight': 1}
+left wing rib 12,left wing spar 2,{'weight': 1}
+left wing rib 12,left wing stringer 1,{'weight': 1}
+left wing rib 12,left wing stringer 2,{'weight': 1}
+left wing rib 12,left wing stringer 3,{'weight': 1}
+left wing rib 12,left wing stringer 4,{'weight': 1}
+left wing rib 12,left wing stringer 5,{'weight': 1}
+left wing rib 12,left wing stringer 6,{'weight': 1}
+left wing rib 12,left wing stringer 7,{'weight': 1}
+left wing rib 12,left wing stringer 8,{'weight': 1}
+left wing rib 12,left wing stringer 9,{'weight': 1}
+left wing rib 12,left wing stringer 10,{'weight': 1}
+left wing rib 12,left wing stringer 11,{'weight': 1}
+left wing rib 12,left wing stringer 12,{'weight': 1}
+left wing rib 12,left flap,{'weight': 1}
+left wing rib 12,left ground spoiler,{'weight': 1}
+left wing rib 12,left slat 2,{'weight': 1}
+left wing rib 13,left wing spar 1,{'weight': 1}
+left wing rib 13,left wing spar 2,{'weight': 1}
+left wing rib 13,left wing stringer 1,{'weight': 1}
+left wing rib 13,left wing stringer 2,{'weight': 1}
+left wing rib 13,left wing stringer 3,{'weight': 1}
+left wing rib 13,left wing stringer 4,{'weight': 1}
+left wing rib 13,left wing stringer 5,{'weight': 1}
+left wing rib 13,left wing stringer 6,{'weight': 1}
+left wing rib 13,left wing stringer 7,{'weight': 1}
+left wing rib 13,left wing stringer 8,{'weight': 1}
+left wing rib 13,left wing stringer 9,{'weight': 1}
+left wing rib 13,left wing stringer 10,{'weight': 1}
+left wing rib 13,left wing stringer 11,{'weight': 1}
+left wing rib 13,left wing stringer 12,{'weight': 1}
+left wing rib 13,left flap,{'weight': 1}
+left wing rib 13,left roll spoiler,{'weight': 1}
+left wing rib 13,left slat 2,{'weight': 1}
+left wing rib 14,left wing spar 1,{'weight': 1}
+left wing rib 14,left wing spar 2,{'weight': 1}
+left wing rib 14,left wing stringer 1,{'weight': 1}
+left wing rib 14,left wing stringer 2,{'weight': 1}
+left wing rib 14,left wing stringer 3,{'weight': 1}
+left wing rib 14,left wing stringer 4,{'weight': 1}
+left wing rib 14,left wing stringer 5,{'weight': 1}
+left wing rib 14,left wing stringer 6,{'weight': 1}
+left wing rib 14,left wing stringer 7,{'weight': 1}
+left wing rib 14,left wing stringer 8,{'weight': 1}
+left wing rib 14,left wing stringer 9,{'weight': 1}
+left wing rib 14,left wing stringer 10,{'weight': 1}
+left wing rib 14,left wing stringer 11,{'weight': 1}
+left wing rib 14,left wing stringer 12,{'weight': 1}
+left wing rib 14,left flap,{'weight': 1}
+left wing rib 14,left roll spoiler,{'weight': 1}
+left wing rib 14,left slat 3,{'weight': 1}
+left wing rib 14,left inlet,{'weight': 1}
+left wing rib 14,left nacelle,{'weight': 1}
+left wing rib 15,left wing spar 1,{'weight': 1}
+left wing rib 15,left wing spar 2,{'weight': 1}
+left wing rib 15,left wing stringer 1,{'weight': 1}
+left wing rib 15,left wing stringer 2,{'weight': 1}
+left wing rib 15,left wing stringer 3,{'weight': 1}
+left wing rib 15,left wing stringer 4,{'weight': 1}
+left wing rib 15,left wing stringer 5,{'weight': 1}
+left wing rib 15,left wing stringer 6,{'weight': 1}
+left wing rib 15,left wing stringer 7,{'weight': 1}
+left wing rib 15,left wing stringer 8,{'weight': 1}
+left wing rib 15,left wing stringer 9,{'weight': 1}
+left wing rib 15,left wing stringer 10,{'weight': 1}
+left wing rib 15,left wing stringer 11,{'weight': 1}
+left wing rib 15,left wing stringer 12,{'weight': 1}
+left wing rib 15,left flap,{'weight': 1}
+left wing rib 15,left roll spoiler,{'weight': 1}
+left wing rib 15,left slat 3,{'weight': 1}
+left wing rib 15,left inlet,{'weight': 1}
+left wing rib 15,left nacelle,{'weight': 1}
+left wing rib 16,left wing spar 1,{'weight': 1}
+left wing rib 16,left wing spar 2,{'weight': 1}
+left wing rib 16,left wing stringer 1,{'weight': 1}
+left wing rib 16,left wing stringer 2,{'weight': 1}
+left wing rib 16,left wing stringer 3,{'weight': 1}
+left wing rib 16,left wing stringer 4,{'weight': 1}
+left wing rib 16,left wing stringer 5,{'weight': 1}
+left wing rib 16,left wing stringer 6,{'weight': 1}
+left wing rib 16,left wing stringer 7,{'weight': 1}
+left wing rib 16,left wing stringer 8,{'weight': 1}
+left wing rib 16,left wing stringer 9,{'weight': 1}
+left wing rib 16,left wing stringer 10,{'weight': 1}
+left wing rib 16,left wing stringer 11,{'weight': 1}
+left wing rib 16,left wing stringer 12,{'weight': 1}
+left wing rib 16,left flap,{'weight': 1}
+left wing rib 16,left roll spoiler,{'weight': 1}
+left wing rib 16,left slat 3,{'weight': 1}
+left wing rib 17,left wing spar 1,{'weight': 1}
+left wing rib 17,left wing spar 2,{'weight': 1}
+left wing rib 17,left wing stringer 1,{'weight': 1}
+left wing rib 17,left wing stringer 2,{'weight': 1}
+left wing rib 17,left wing stringer 3,{'weight': 1}
+left wing rib 17,left wing stringer 4,{'weight': 1}
+left wing rib 17,left wing stringer 5,{'weight': 1}
+left wing rib 17,left wing stringer 6,{'weight': 1}
+left wing rib 17,left wing stringer 7,{'weight': 1}
+left wing rib 17,left wing stringer 8,{'weight': 1}
+left wing rib 17,left wing stringer 9,{'weight': 1}
+left wing rib 17,left wing stringer 10,{'weight': 1}
+left wing rib 17,left wing stringer 11,{'weight': 1}
+left wing rib 17,left wing stringer 12,{'weight': 1}
+left wing rib 17,left aileron,{'weight': 1}
+left wing rib 17,left slat 3,{'weight': 1}
+left wing rib 18,left wing spar 1,{'weight': 1}
+left wing rib 18,left wing spar 2,{'weight': 1}
+left wing rib 18,left wing stringer 1,{'weight': 1}
+left wing rib 18,left wing stringer 2,{'weight': 1}
+left wing rib 18,left wing stringer 3,{'weight': 1}
+left wing rib 18,left wing stringer 4,{'weight': 1}
+left wing rib 18,left wing stringer 5,{'weight': 1}
+left wing rib 18,left wing stringer 6,{'weight': 1}
+left wing rib 18,left wing stringer 7,{'weight': 1}
+left wing rib 18,left wing stringer 8,{'weight': 1}
+left wing rib 18,left wing stringer 9,{'weight': 1}
+left wing rib 18,left wing stringer 10,{'weight': 1}
+left wing rib 18,left wing stringer 11,{'weight': 1}
+left wing rib 18,left wing stringer 12,{'weight': 1}
+left wing rib 18,left aileron,{'weight': 1}
+left wing rib 18,left slat 4,{'weight': 1}
+left wing rib 19,left wing spar 1,{'weight': 1}
+left wing rib 19,left wing spar 2,{'weight': 1}
+left wing rib 19,left wing stringer 1,{'weight': 1}
+left wing rib 19,left wing stringer 2,{'weight': 1}
+left wing rib 19,left wing stringer 3,{'weight': 1}
+left wing rib 19,left wing stringer 4,{'weight': 1}
+left wing rib 19,left wing stringer 5,{'weight': 1}
+left wing rib 19,left wing stringer 6,{'weight': 1}
+left wing rib 19,left wing stringer 7,{'weight': 1}
+left wing rib 19,left wing stringer 8,{'weight': 1}
+left wing rib 19,left wing stringer 9,{'weight': 1}
+left wing rib 19,left wing stringer 10,{'weight': 1}
+left wing rib 19,left wing stringer 11,{'weight': 1}
+left wing rib 19,left wing stringer 12,{'weight': 1}
+left wing rib 19,left aileron,{'weight': 1}
+left wing rib 19,left slat 4,{'weight': 1}
+left wing rib 20,left wing spar 1,{'weight': 1}
+left wing rib 20,left wing spar 2,{'weight': 1}
+left wing rib 20,left wing stringer 1,{'weight': 1}
+left wing rib 20,left wing stringer 2,{'weight': 1}
+left wing rib 20,left wing stringer 3,{'weight': 1}
+left wing rib 20,left wing stringer 4,{'weight': 1}
+left wing rib 20,left wing stringer 5,{'weight': 1}
+left wing rib 20,left wing stringer 6,{'weight': 1}
+left wing rib 20,left wing stringer 7,{'weight': 1}
+left wing rib 20,left wing stringer 8,{'weight': 1}
+left wing rib 20,left wing stringer 9,{'weight': 1}
+left wing rib 20,left wing stringer 10,{'weight': 1}
+left wing rib 20,left wing stringer 11,{'weight': 1}
+left wing rib 20,left wing stringer 12,{'weight': 1}
+left wing rib 20,left aileron,{'weight': 1}
+left wing rib 20,left slat 4,{'weight': 1}
+left wing rib 21,left wing spar 1,{'weight': 1}
+left wing rib 21,left wing spar 2,{'weight': 1}
+left wing rib 21,left wing stringer 1,{'weight': 1}
+left wing rib 21,left wing stringer 2,{'weight': 1}
+left wing rib 21,left wing stringer 3,{'weight': 1}
+left wing rib 21,left wing stringer 4,{'weight': 1}
+left wing rib 21,left wing stringer 5,{'weight': 1}
+left wing rib 21,left wing stringer 6,{'weight': 1}
+left wing rib 21,left wing stringer 7,{'weight': 1}
+left wing rib 21,left wing stringer 8,{'weight': 1}
+left wing rib 21,left wing stringer 9,{'weight': 1}
+left wing rib 21,left wing stringer 10,{'weight': 1}
+left wing rib 21,left wing stringer 11,{'weight': 1}
+left wing rib 21,left wing stringer 12,{'weight': 1}
+left wing rib 21,left aileron,{'weight': 1}
+left wing rib 21,left slat 4,{'weight': 1}
+left wing rib 22,left wing spar 1,{'weight': 1}
+left wing rib 22,left wing spar 2,{'weight': 1}
+left wing rib 22,left wing stringer 1,{'weight': 1}
+left wing rib 22,left wing stringer 2,{'weight': 1}
+left wing rib 22,left wing stringer 3,{'weight': 1}
+left wing rib 22,left wing stringer 4,{'weight': 1}
+left wing rib 22,left wing stringer 5,{'weight': 1}
+left wing rib 22,left wing stringer 6,{'weight': 1}
+left wing rib 22,left wing stringer 7,{'weight': 1}
+left wing rib 22,left wing stringer 8,{'weight': 1}
+left wing rib 22,left wing stringer 9,{'weight': 1}
+left wing rib 22,left wing stringer 10,{'weight': 1}
+left wing rib 22,left wing stringer 11,{'weight': 1}
+left wing rib 22,left wing stringer 12,{'weight': 1}
+left wing rib 22,left slat 5,{'weight': 1}
+left wing rib 23,left wing spar 1,{'weight': 1}
+left wing rib 23,left wing spar 2,{'weight': 1}
+left wing rib 23,left wing stringer 1,{'weight': 1}
+left wing rib 23,left wing stringer 2,{'weight': 1}
+left wing rib 23,left wing stringer 3,{'weight': 1}
+left wing rib 23,left wing stringer 4,{'weight': 1}
+left wing rib 23,left wing stringer 5,{'weight': 1}
+left wing rib 23,left wing stringer 6,{'weight': 1}
+left wing rib 23,left wing stringer 7,{'weight': 1}
+left wing rib 23,left wing stringer 8,{'weight': 1}
+left wing rib 23,left wing stringer 9,{'weight': 1}
+left wing rib 23,left wing stringer 10,{'weight': 1}
+left wing rib 23,left wing stringer 11,{'weight': 1}
+left wing rib 23,left wing stringer 12,{'weight': 1}
+left wing rib 23,left slat 5,{'weight': 1}
+left wing rib 24,left wing spar 1,{'weight': 1}
+left wing rib 24,left wing spar 2,{'weight': 1}
+left wing rib 24,left wing stringer 1,{'weight': 1}
+left wing rib 24,left wing stringer 2,{'weight': 1}
+left wing rib 24,left wing stringer 3,{'weight': 1}
+left wing rib 24,left wing stringer 4,{'weight': 1}
+left wing rib 24,left wing stringer 5,{'weight': 1}
+left wing rib 24,left wing stringer 6,{'weight': 1}
+left wing rib 24,left wing stringer 7,{'weight': 1}
+left wing rib 24,left wing stringer 8,{'weight': 1}
+left wing rib 24,left wing stringer 9,{'weight': 1}
+left wing rib 24,left wing stringer 10,{'weight': 1}
+left wing rib 24,left wing stringer 11,{'weight': 1}
+left wing rib 24,left wing stringer 12,{'weight': 1}
+left wing rib 24,left slat 5,{'weight': 1}
+left wing rib 25,left wing spar 1,{'weight': 1}
+left wing rib 25,left wing spar 2,{'weight': 1}
+left wing rib 25,left wing stringer 1,{'weight': 1}
+left wing rib 25,left wing stringer 2,{'weight': 1}
+left wing rib 25,left wing stringer 3,{'weight': 1}
+left wing rib 25,left wing stringer 4,{'weight': 1}
+left wing rib 25,left wing stringer 5,{'weight': 1}
+left wing rib 25,left wing stringer 6,{'weight': 1}
+left wing rib 25,left wing stringer 7,{'weight': 1}
+left wing rib 25,left wing stringer 8,{'weight': 1}
+left wing rib 25,left wing stringer 9,{'weight': 1}
+left wing rib 25,left wing stringer 10,{'weight': 1}
+left wing rib 25,left wing stringer 11,{'weight': 1}
+left wing rib 25,left wing stringer 12,{'weight': 1}
+left wing rib 25,left winglet,{'weight': 1}
+right wing rib 1,right wing spar 1,{'weight': 1}
+right wing rib 1,right wing spar 2,{'weight': 1}
+right wing rib 1,right wing stringer 1,{'weight': 1}
+right wing rib 1,right wing stringer 2,{'weight': 1}
+right wing rib 1,right wing stringer 3,{'weight': 1}
+right wing rib 1,right wing stringer 4,{'weight': 1}
+right wing rib 1,right wing stringer 5,{'weight': 1}
+right wing rib 1,right wing stringer 6,{'weight': 1}
+right wing rib 1,right wing stringer 7,{'weight': 1}
+right wing rib 1,right wing stringer 8,{'weight': 1}
+right wing rib 1,right wing stringer 9,{'weight': 1}
+right wing rib 1,right wing stringer 10,{'weight': 1}
+right wing rib 1,right wing stringer 11,{'weight': 1}
+right wing rib 1,right wing stringer 12,{'weight': 1}
+right wing rib 1,fuselage station 30,{'weight': 1}
+right wing rib 1,fuselage station 31,{'weight': 1}
+right wing rib 1,fuselage skin,{'weight': 1}
+right wing rib 2,right wing spar 1,{'weight': 1}
+right wing rib 2,right wing spar 2,{'weight': 1}
+right wing rib 2,right wing stringer 1,{'weight': 1}
+right wing rib 2,right wing stringer 2,{'weight': 1}
+right wing rib 2,right wing stringer 3,{'weight': 1}
+right wing rib 2,right wing stringer 4,{'weight': 1}
+right wing rib 2,right wing stringer 5,{'weight': 1}
+right wing rib 2,right wing stringer 6,{'weight': 1}
+right wing rib 2,right wing stringer 7,{'weight': 1}
+right wing rib 2,right wing stringer 8,{'weight': 1}
+right wing rib 2,right wing stringer 9,{'weight': 1}
+right wing rib 2,right wing stringer 10,{'weight': 1}
+right wing rib 2,right wing stringer 11,{'weight': 1}
+right wing rib 2,right wing stringer 12,{'weight': 1}
+right wing rib 2,right fuel tank,{'weight': 1}
+right wing rib 3,right wing spar 1,{'weight': 1}
+right wing rib 3,right wing spar 2,{'weight': 1}
+right wing rib 3,right wing stringer 1,{'weight': 1}
+right wing rib 3,right wing stringer 2,{'weight': 1}
+right wing rib 3,right wing stringer 3,{'weight': 1}
+right wing rib 3,right wing stringer 4,{'weight': 1}
+right wing rib 3,right wing stringer 5,{'weight': 1}
+right wing rib 3,right wing stringer 6,{'weight': 1}
+right wing rib 3,right wing stringer 7,{'weight': 1}
+right wing rib 3,right wing stringer 8,{'weight': 1}
+right wing rib 3,right wing stringer 9,{'weight': 1}
+right wing rib 3,right wing stringer 10,{'weight': 1}
+right wing rib 3,right wing stringer 11,{'weight': 1}
+right wing rib 3,right wing stringer 12,{'weight': 1}
+right wing rib 3,right fuel tank,{'weight': 1}
+right wing rib 4,right wing spar 1,{'weight': 1}
+right wing rib 4,right wing spar 2,{'weight': 1}
+right wing rib 4,right wing stringer 1,{'weight': 1}
+right wing rib 4,right wing stringer 2,{'weight': 1}
+right wing rib 4,right wing stringer 3,{'weight': 1}
+right wing rib 4,right wing stringer 4,{'weight': 1}
+right wing rib 4,right wing stringer 5,{'weight': 1}
+right wing rib 4,right wing stringer 6,{'weight': 1}
+right wing rib 4,right wing stringer 7,{'weight': 1}
+right wing rib 4,right wing stringer 8,{'weight': 1}
+right wing rib 4,right wing stringer 9,{'weight': 1}
+right wing rib 4,right wing stringer 10,{'weight': 1}
+right wing rib 4,right wing stringer 11,{'weight': 1}
+right wing rib 4,right wing stringer 12,{'weight': 1}
+right wing rib 4,right fuel tank,{'weight': 1}
+right wing rib 5,right wing spar 1,{'weight': 1}
+right wing rib 5,right wing spar 2,{'weight': 1}
+right wing rib 5,right wing stringer 1,{'weight': 1}
+right wing rib 5,right wing stringer 2,{'weight': 1}
+right wing rib 5,right wing stringer 3,{'weight': 1}
+right wing rib 5,right wing stringer 4,{'weight': 1}
+right wing rib 5,right wing stringer 5,{'weight': 1}
+right wing rib 5,right wing stringer 6,{'weight': 1}
+right wing rib 5,right wing stringer 7,{'weight': 1}
+right wing rib 5,right wing stringer 8,{'weight': 1}
+right wing rib 5,right wing stringer 9,{'weight': 1}
+right wing rib 5,right wing stringer 10,{'weight': 1}
+right wing rib 5,right wing stringer 11,{'weight': 1}
+right wing rib 5,right wing stringer 12,{'weight': 1}
+right wing rib 5,right slat 1,{'weight': 1}
+right wing rib 5,right fuel tank,{'weight': 1}
+right wing rib 6,right wing spar 1,{'weight': 1}
+right wing rib 6,right wing spar 2,{'weight': 1}
+right wing rib 6,right wing stringer 1,{'weight': 1}
+right wing rib 6,right wing stringer 2,{'weight': 1}
+right wing rib 6,right wing stringer 3,{'weight': 1}
+right wing rib 6,right wing stringer 4,{'weight': 1}
+right wing rib 6,right wing stringer 5,{'weight': 1}
+right wing rib 6,right wing stringer 6,{'weight': 1}
+right wing rib 6,right wing stringer 7,{'weight': 1}
+right wing rib 6,right wing stringer 8,{'weight': 1}
+right wing rib 6,right wing stringer 9,{'weight': 1}
+right wing rib 6,right wing stringer 10,{'weight': 1}
+right wing rib 6,right wing stringer 11,{'weight': 1}
+right wing rib 6,right wing stringer 12,{'weight': 1}
+right wing rib 6,right slat 1,{'weight': 1}
+right wing rib 7,right wing spar 1,{'weight': 1}
+right wing rib 7,right wing spar 2,{'weight': 1}
+right wing rib 7,right wing stringer 1,{'weight': 1}
+right wing rib 7,right wing stringer 2,{'weight': 1}
+right wing rib 7,right wing stringer 3,{'weight': 1}
+right wing rib 7,right wing stringer 4,{'weight': 1}
+right wing rib 7,right wing stringer 5,{'weight': 1}
+right wing rib 7,right wing stringer 6,{'weight': 1}
+right wing rib 7,right wing stringer 7,{'weight': 1}
+right wing rib 7,right wing stringer 8,{'weight': 1}
+right wing rib 7,right wing stringer 9,{'weight': 1}
+right wing rib 7,right wing stringer 10,{'weight': 1}
+right wing rib 7,right wing stringer 11,{'weight': 1}
+right wing rib 7,right wing stringer 12,{'weight': 1}
+right wing rib 7,right slat 1,{'weight': 1}
+right wing rib 8,right wing spar 1,{'weight': 1}
+right wing rib 8,right wing spar 2,{'weight': 1}
+right wing rib 8,right wing stringer 1,{'weight': 1}
+right wing rib 8,right wing stringer 2,{'weight': 1}
+right wing rib 8,right wing stringer 3,{'weight': 1}
+right wing rib 8,right wing stringer 4,{'weight': 1}
+right wing rib 8,right wing stringer 5,{'weight': 1}
+right wing rib 8,right wing stringer 6,{'weight': 1}
+right wing rib 8,right wing stringer 7,{'weight': 1}
+right wing rib 8,right wing stringer 8,{'weight': 1}
+right wing rib 8,right wing stringer 9,{'weight': 1}
+right wing rib 8,right wing stringer 10,{'weight': 1}
+right wing rib 8,right wing stringer 11,{'weight': 1}
+right wing rib 8,right wing stringer 12,{'weight': 1}
+right wing rib 8,right slat 1,{'weight': 1}
+right wing rib 9,right wing spar 1,{'weight': 1}
+right wing rib 9,right wing spar 2,{'weight': 1}
+right wing rib 9,right wing stringer 1,{'weight': 1}
+right wing rib 9,right wing stringer 2,{'weight': 1}
+right wing rib 9,right wing stringer 3,{'weight': 1}
+right wing rib 9,right wing stringer 4,{'weight': 1}
+right wing rib 9,right wing stringer 5,{'weight': 1}
+right wing rib 9,right wing stringer 6,{'weight': 1}
+right wing rib 9,right wing stringer 7,{'weight': 1}
+right wing rib 9,right wing stringer 8,{'weight': 1}
+right wing rib 9,right wing stringer 9,{'weight': 1}
+right wing rib 9,right wing stringer 10,{'weight': 1}
+right wing rib 9,right wing stringer 11,{'weight': 1}
+right wing rib 9,right wing stringer 12,{'weight': 1}
+right wing rib 9,right ground spoiler,{'weight': 1}
+right wing rib 9,right slat 1,{'weight': 1}
+right wing rib 10,right wing spar 1,{'weight': 1}
+right wing rib 10,right wing spar 2,{'weight': 1}
+right wing rib 10,right wing stringer 1,{'weight': 1}
+right wing rib 10,right wing stringer 2,{'weight': 1}
+right wing rib 10,right wing stringer 3,{'weight': 1}
+right wing rib 10,right wing stringer 4,{'weight': 1}
+right wing rib 10,right wing stringer 5,{'weight': 1}
+right wing rib 10,right wing stringer 6,{'weight': 1}
+right wing rib 10,right wing stringer 7,{'weight': 1}
+right wing rib 10,right wing stringer 8,{'weight': 1}
+right wing rib 10,right wing stringer 9,{'weight': 1}
+right wing rib 10,right wing stringer 10,{'weight': 1}
+right wing rib 10,right wing stringer 11,{'weight': 1}
+right wing rib 10,right wing stringer 12,{'weight': 1}
+right wing rib 10,right ground spoiler,{'weight': 1}
+right wing rib 10,right slat 1,{'weight': 1}
+right wing rib 10,right main gear beam hanger,{'weight': 1}
+right wing rib 11,right wing spar 1,{'weight': 1}
+right wing rib 11,right wing spar 2,{'weight': 1}
+right wing rib 11,right wing stringer 1,{'weight': 1}
+right wing rib 11,right wing stringer 2,{'weight': 1}
+right wing rib 11,right wing stringer 3,{'weight': 1}
+right wing rib 11,right wing stringer 4,{'weight': 1}
+right wing rib 11,right wing stringer 5,{'weight': 1}
+right wing rib 11,right wing stringer 6,{'weight': 1}
+right wing rib 11,right wing stringer 7,{'weight': 1}
+right wing rib 11,right wing stringer 8,{'weight': 1}
+right wing rib 11,right wing stringer 9,{'weight': 1}
+right wing rib 11,right wing stringer 10,{'weight': 1}
+right wing rib 11,right wing stringer 11,{'weight': 1}
+right wing rib 11,right wing stringer 12,{'weight': 1}
+right wing rib 11,right ground spoiler,{'weight': 1}
+right wing rib 11,right slat 2,{'weight': 1}
+right wing rib 11,right main gear beam hanger,{'weight': 1}
+right wing rib 12,right wing spar 1,{'weight': 1}
+right wing rib 12,right wing spar 2,{'weight': 1}
+right wing rib 12,right wing stringer 1,{'weight': 1}
+right wing rib 12,right wing stringer 2,{'weight': 1}
+right wing rib 12,right wing stringer 3,{'weight': 1}
+right wing rib 12,right wing stringer 4,{'weight': 1}
+right wing rib 12,right wing stringer 5,{'weight': 1}
+right wing rib 12,right wing stringer 6,{'weight': 1}
+right wing rib 12,right wing stringer 7,{'weight': 1}
+right wing rib 12,right wing stringer 8,{'weight': 1}
+right wing rib 12,right wing stringer 9,{'weight': 1}
+right wing rib 12,right wing stringer 10,{'weight': 1}
+right wing rib 12,right wing stringer 11,{'weight': 1}
+right wing rib 12,right wing stringer 12,{'weight': 1}
+right wing rib 12,right flap,{'weight': 1}
+right wing rib 12,right ground spoiler,{'weight': 1}
+right wing rib 12,right slat 2,{'weight': 1}
+right wing rib 13,right wing spar 1,{'weight': 1}
+right wing rib 13,right wing spar 2,{'weight': 1}
+right wing rib 13,right wing stringer 1,{'weight': 1}
+right wing rib 13,right wing stringer 2,{'weight': 1}
+right wing rib 13,right wing stringer 3,{'weight': 1}
+right wing rib 13,right wing stringer 4,{'weight': 1}
+right wing rib 13,right wing stringer 5,{'weight': 1}
+right wing rib 13,right wing stringer 6,{'weight': 1}
+right wing rib 13,right wing stringer 7,{'weight': 1}
+right wing rib 13,right wing stringer 8,{'weight': 1}
+right wing rib 13,right wing stringer 9,{'weight': 1}
+right wing rib 13,right wing stringer 10,{'weight': 1}
+right wing rib 13,right wing stringer 11,{'weight': 1}
+right wing rib 13,right wing stringer 12,{'weight': 1}
+right wing rib 13,right flap,{'weight': 1}
+right wing rib 13,right roll spoiler,{'weight': 1}
+right wing rib 13,right slat 2,{'weight': 1}
+right wing rib 14,right wing spar 1,{'weight': 1}
+right wing rib 14,right wing spar 2,{'weight': 1}
+right wing rib 14,right wing stringer 1,{'weight': 1}
+right wing rib 14,right wing stringer 2,{'weight': 1}
+right wing rib 14,right wing stringer 3,{'weight': 1}
+right wing rib 14,right wing stringer 4,{'weight': 1}
+right wing rib 14,right wing stringer 5,{'weight': 1}
+right wing rib 14,right wing stringer 6,{'weight': 1}
+right wing rib 14,right wing stringer 7,{'weight': 1}
+right wing rib 14,right wing stringer 8,{'weight': 1}
+right wing rib 14,right wing stringer 9,{'weight': 1}
+right wing rib 14,right wing stringer 10,{'weight': 1}
+right wing rib 14,right wing stringer 11,{'weight': 1}
+right wing rib 14,right wing stringer 12,{'weight': 1}
+right wing rib 14,right flap,{'weight': 1}
+right wing rib 14,right roll spoiler,{'weight': 1}
+right wing rib 14,right slat 3,{'weight': 1}
+right wing rib 14,right inlet,{'weight': 1}
+right wing rib 14,right nacelle,{'weight': 1}
+right wing rib 15,right wing spar 1,{'weight': 1}
+right wing rib 15,right wing spar 2,{'weight': 1}
+right wing rib 15,right wing stringer 1,{'weight': 1}
+right wing rib 15,right wing stringer 2,{'weight': 1}
+right wing rib 15,right wing stringer 3,{'weight': 1}
+right wing rib 15,right wing stringer 4,{'weight': 1}
+right wing rib 15,right wing stringer 5,{'weight': 1}
+right wing rib 15,right wing stringer 6,{'weight': 1}
+right wing rib 15,right wing stringer 7,{'weight': 1}
+right wing rib 15,right wing stringer 8,{'weight': 1}
+right wing rib 15,right wing stringer 9,{'weight': 1}
+right wing rib 15,right wing stringer 10,{'weight': 1}
+right wing rib 15,right wing stringer 11,{'weight': 1}
+right wing rib 15,right wing stringer 12,{'weight': 1}
+right wing rib 15,right flap,{'weight': 1}
+right wing rib 15,right roll spoiler,{'weight': 1}
+right wing rib 15,right slat 3,{'weight': 1}
+right wing rib 15,right inlet,{'weight': 1}
+right wing rib 15,right nacelle,{'weight': 1}
+right wing rib 16,right wing spar 1,{'weight': 1}
+right wing rib 16,right wing spar 2,{'weight': 1}
+right wing rib 16,right wing stringer 1,{'weight': 1}
+right wing rib 16,right wing stringer 2,{'weight': 1}
+right wing rib 16,right wing stringer 3,{'weight': 1}
+right wing rib 16,right wing stringer 4,{'weight': 1}
+right wing rib 16,right wing stringer 5,{'weight': 1}
+right wing rib 16,right wing stringer 6,{'weight': 1}
+right wing rib 16,right wing stringer 7,{'weight': 1}
+right wing rib 16,right wing stringer 8,{'weight': 1}
+right wing rib 16,right wing stringer 9,{'weight': 1}
+right wing rib 16,right wing stringer 10,{'weight': 1}
+right wing rib 16,right wing stringer 11,{'weight': 1}
+right wing rib 16,right wing stringer 12,{'weight': 1}
+right wing rib 16,right flap,{'weight': 1}
+right wing rib 16,right roll spoiler,{'weight': 1}
+right wing rib 16,right slat 3,{'weight': 1}
+right wing rib 17,right wing spar 1,{'weight': 1}
+right wing rib 17,right wing spar 2,{'weight': 1}
+right wing rib 17,right wing stringer 1,{'weight': 1}
+right wing rib 17,right wing stringer 2,{'weight': 1}
+right wing rib 17,right wing stringer 3,{'weight': 1}
+right wing rib 17,right wing stringer 4,{'weight': 1}
+right wing rib 17,right wing stringer 5,{'weight': 1}
+right wing rib 17,right wing stringer 6,{'weight': 1}
+right wing rib 17,right wing stringer 7,{'weight': 1}
+right wing rib 17,right wing stringer 8,{'weight': 1}
+right wing rib 17,right wing stringer 9,{'weight': 1}
+right wing rib 17,right wing stringer 10,{'weight': 1}
+right wing rib 17,right wing stringer 11,{'weight': 1}
+right wing rib 17,right wing stringer 12,{'weight': 1}
+right wing rib 17,right aileron,{'weight': 1}
+right wing rib 17,right slat 3,{'weight': 1}
+right wing rib 18,right wing spar 1,{'weight': 1}
+right wing rib 18,right wing spar 2,{'weight': 1}
+right wing rib 18,right wing stringer 1,{'weight': 1}
+right wing rib 18,right wing stringer 2,{'weight': 1}
+right wing rib 18,right wing stringer 3,{'weight': 1}
+right wing rib 18,right wing stringer 4,{'weight': 1}
+right wing rib 18,right wing stringer 5,{'weight': 1}
+right wing rib 18,right wing stringer 6,{'weight': 1}
+right wing rib 18,right wing stringer 7,{'weight': 1}
+right wing rib 18,right wing stringer 8,{'weight': 1}
+right wing rib 18,right wing stringer 9,{'weight': 1}
+right wing rib 18,right wing stringer 10,{'weight': 1}
+right wing rib 18,right wing stringer 11,{'weight': 1}
+right wing rib 18,right wing stringer 12,{'weight': 1}
+right wing rib 18,right aileron,{'weight': 1}
+right wing rib 18,right slat 4,{'weight': 1}
+right wing rib 19,right wing spar 1,{'weight': 1}
+right wing rib 19,right wing spar 2,{'weight': 1}
+right wing rib 19,right wing stringer 1,{'weight': 1}
+right wing rib 19,right wing stringer 2,{'weight': 1}
+right wing rib 19,right wing stringer 3,{'weight': 1}
+right wing rib 19,right wing stringer 4,{'weight': 1}
+right wing rib 19,right wing stringer 5,{'weight': 1}
+right wing rib 19,right wing stringer 6,{'weight': 1}
+right wing rib 19,right wing stringer 7,{'weight': 1}
+right wing rib 19,right wing stringer 8,{'weight': 1}
+right wing rib 19,right wing stringer 9,{'weight': 1}
+right wing rib 19,right wing stringer 10,{'weight': 1}
+right wing rib 19,right wing stringer 11,{'weight': 1}
+right wing rib 19,right wing stringer 12,{'weight': 1}
+right wing rib 19,right aileron,{'weight': 1}
+right wing rib 19,right slat 4,{'weight': 1}
+right wing rib 20,right wing spar 1,{'weight': 1}
+right wing rib 20,right wing spar 2,{'weight': 1}
+right wing rib 20,right wing stringer 1,{'weight': 1}
+right wing rib 20,right wing stringer 2,{'weight': 1}
+right wing rib 20,right wing stringer 3,{'weight': 1}
+right wing rib 20,right wing stringer 4,{'weight': 1}
+right wing rib 20,right wing stringer 5,{'weight': 1}
+right wing rib 20,right wing stringer 6,{'weight': 1}
+right wing rib 20,right wing stringer 7,{'weight': 1}
+right wing rib 20,right wing stringer 8,{'weight': 1}
+right wing rib 20,right wing stringer 9,{'weight': 1}
+right wing rib 20,right wing stringer 10,{'weight': 1}
+right wing rib 20,right wing stringer 11,{'weight': 1}
+right wing rib 20,right wing stringer 12,{'weight': 1}
+right wing rib 20,right aileron,{'weight': 1}
+right wing rib 20,right slat 4,{'weight': 1}
+right wing rib 21,right wing spar 1,{'weight': 1}
+right wing rib 21,right wing spar 2,{'weight': 1}
+right wing rib 21,right wing stringer 1,{'weight': 1}
+right wing rib 21,right wing stringer 2,{'weight': 1}
+right wing rib 21,right wing stringer 3,{'weight': 1}
+right wing rib 21,right wing stringer 4,{'weight': 1}
+right wing rib 21,right wing stringer 5,{'weight': 1}
+right wing rib 21,right wing stringer 6,{'weight': 1}
+right wing rib 21,right wing stringer 7,{'weight': 1}
+right wing rib 21,right wing stringer 8,{'weight': 1}
+right wing rib 21,right wing stringer 9,{'weight': 1}
+right wing rib 21,right wing stringer 10,{'weight': 1}
+right wing rib 21,right wing stringer 11,{'weight': 1}
+right wing rib 21,right wing stringer 12,{'weight': 1}
+right wing rib 21,right aileron,{'weight': 1}
+right wing rib 21,right slat 4,{'weight': 1}
+right wing rib 22,right wing spar 1,{'weight': 1}
+right wing rib 22,right wing spar 2,{'weight': 1}
+right wing rib 22,right wing stringer 1,{'weight': 1}
+right wing rib 22,right wing stringer 2,{'weight': 1}
+right wing rib 22,right wing stringer 3,{'weight': 1}
+right wing rib 22,right wing stringer 4,{'weight': 1}
+right wing rib 22,right wing stringer 5,{'weight': 1}
+right wing rib 22,right wing stringer 6,{'weight': 1}
+right wing rib 22,right wing stringer 7,{'weight': 1}
+right wing rib 22,right wing stringer 8,{'weight': 1}
+right wing rib 22,right wing stringer 9,{'weight': 1}
+right wing rib 22,right wing stringer 10,{'weight': 1}
+right wing rib 22,right wing stringer 11,{'weight': 1}
+right wing rib 22,right wing stringer 12,{'weight': 1}
+right wing rib 22,right slat 5,{'weight': 1}
+right wing rib 23,right wing spar 1,{'weight': 1}
+right wing rib 23,right wing spar 2,{'weight': 1}
+right wing rib 23,right wing stringer 1,{'weight': 1}
+right wing rib 23,right wing stringer 2,{'weight': 1}
+right wing rib 23,right wing stringer 3,{'weight': 1}
+right wing rib 23,right wing stringer 4,{'weight': 1}
+right wing rib 23,right wing stringer 5,{'weight': 1}
+right wing rib 23,right wing stringer 6,{'weight': 1}
+right wing rib 23,right wing stringer 7,{'weight': 1}
+right wing rib 23,right wing stringer 8,{'weight': 1}
+right wing rib 23,right wing stringer 9,{'weight': 1}
+right wing rib 23,right wing stringer 10,{'weight': 1}
+right wing rib 23,right wing stringer 11,{'weight': 1}
+right wing rib 23,right wing stringer 12,{'weight': 1}
+right wing rib 23,right slat 5,{'weight': 1}
+right wing rib 24,right wing spar 1,{'weight': 1}
+right wing rib 24,right wing spar 2,{'weight': 1}
+right wing rib 24,right wing stringer 1,{'weight': 1}
+right wing rib 24,right wing stringer 2,{'weight': 1}
+right wing rib 24,right wing stringer 3,{'weight': 1}
+right wing rib 24,right wing stringer 4,{'weight': 1}
+right wing rib 24,right wing stringer 5,{'weight': 1}
+right wing rib 24,right wing stringer 6,{'weight': 1}
+right wing rib 24,right wing stringer 7,{'weight': 1}
+right wing rib 24,right wing stringer 8,{'weight': 1}
+right wing rib 24,right wing stringer 9,{'weight': 1}
+right wing rib 24,right wing stringer 10,{'weight': 1}
+right wing rib 24,right wing stringer 11,{'weight': 1}
+right wing rib 24,right wing stringer 12,{'weight': 1}
+right wing rib 24,right slat 5,{'weight': 1}
+right wing rib 25,right wing spar 1,{'weight': 1}
+right wing rib 25,right wing spar 2,{'weight': 1}
+right wing rib 25,right wing stringer 1,{'weight': 1}
+right wing rib 25,right wing stringer 2,{'weight': 1}
+right wing rib 25,right wing stringer 3,{'weight': 1}
+right wing rib 25,right wing stringer 4,{'weight': 1}
+right wing rib 25,right wing stringer 5,{'weight': 1}
+right wing rib 25,right wing stringer 6,{'weight': 1}
+right wing rib 25,right wing stringer 7,{'weight': 1}
+right wing rib 25,right wing stringer 8,{'weight': 1}
+right wing rib 25,right wing stringer 9,{'weight': 1}
+right wing rib 25,right wing stringer 10,{'weight': 1}
+right wing rib 25,right wing stringer 11,{'weight': 1}
+right wing rib 25,right wing stringer 12,{'weight': 1}
+right wing rib 25,right winglet,{'weight': 1}
+left wing stringer 1,left wing top skin,{'weight': 1}
+left wing stringer 2,left wing top skin,{'weight': 1}
+left wing stringer 3,left wing top skin,{'weight': 1}
+left wing stringer 4,left wing top skin,{'weight': 1}
+left wing stringer 5,left wing top skin,{'weight': 1}
+left wing stringer 6,left wing top skin,{'weight': 1}
+left wing stringer 7,left wing bottom skin,{'weight': 1}
+left wing stringer 8,left wing bottom skin,{'weight': 1}
+left wing stringer 9,left wing bottom skin,{'weight': 1}
+left wing stringer 10,left wing bottom skin,{'weight': 1}
+left wing stringer 11,left wing bottom skin,{'weight': 1}
+left wing stringer 12,left wing bottom skin,{'weight': 1}
+right wing stringer 1,right wing top skin,{'weight': 1}
+right wing stringer 2,right wing top skin,{'weight': 1}
+right wing stringer 3,right wing top skin,{'weight': 1}
+right wing stringer 4,right wing top skin,{'weight': 1}
+right wing stringer 5,right wing top skin,{'weight': 1}
+right wing stringer 6,right wing top skin,{'weight': 1}
+right wing stringer 7,right wing bottom skin,{'weight': 1}
+right wing stringer 8,right wing bottom skin,{'weight': 1}
+right wing stringer 9,right wing bottom skin,{'weight': 1}
+right wing stringer 10,right wing bottom skin,{'weight': 1}
+right wing stringer 11,right wing bottom skin,{'weight': 1}
+right wing stringer 12,right wing bottom skin,{'weight': 1}
+left winglet,left wing top skin,{'weight': 1}
+left winglet,left wing bottom skin,{'weight': 1}
+right winglet,right wing top skin,{'weight': 1}
+right winglet,right wing bottom skin,{'weight': 1}
+left fuel tank,left wing fuel pump,{'weight': 1}
+left fuel tank,left wing fuel,{'weight': 1}
+right fuel tank,right wing fuel pump,{'weight': 1}
+right fuel tank,right wing fuel,{'weight': 1}
+left wing fuel pump,left wing fuel,{'weight': 1}
+left wing fuel pump,left fuel line,{'weight': 1}
+right wing fuel pump,right wing fuel,{'weight': 1}
+right wing fuel pump,right fuel line,{'weight': 1}
+left wing fuel sensor,left wing fuel,{'weight': 1}
+right wing fuel sensor,right wing fuel,{'weight': 1}
+rudder,dorsal fin rib 1,{'weight': 1}
+rudder,dorsal fin rib 2,{'weight': 1}
+rudder,dorsal fin rib 3,{'weight': 1}
+rudder,dorsal fin rib 4,{'weight': 1}
+rudder,dorsal fin rib 5,{'weight': 1}
+rudder,dorsal fin rib 6,{'weight': 1}
+rudder,dorsal fin rib 7,{'weight': 1}
+rudder,dorsal fin rib 8,{'weight': 1}
+rudder,dorsal fin rib 9,{'weight': 1}
+rudder,dorsal fin rib 10,{'weight': 1}
+rudder,dorsal fin rib 11,{'weight': 1}
+rudder,dorsal fin rib 12,{'weight': 1}
+rudder,dorsal fin rib 13,{'weight': 1}
+rudder,dorsal fin rib 14,{'weight': 1}
+rudder,dorsal fin rib 15,{'weight': 1}
+rudder,dorsal fin rib 16,{'weight': 1}
+rudder,dorsal fin rib 17,{'weight': 1}
+rudder,dorsal fin rib 18,{'weight': 1}
+rudder,dorsal fin rib 19,{'weight': 1}
+rudder,dorsal fin rib 20,{'weight': 1}
+dorsal fin rib 1,dorsal fin spar 1,{'weight': 1}
+dorsal fin rib 1,dorsal fin spar 2,{'weight': 1}
+dorsal fin rib 1,dorsal fin stringer 1,{'weight': 1}
+dorsal fin rib 1,dorsal fin stringer 2,{'weight': 1}
+dorsal fin rib 1,dorsal fin stringer 3,{'weight': 1}
+dorsal fin rib 1,dorsal fin stringer 4,{'weight': 1}
+dorsal fin rib 1,dorsal fin stringer 5,{'weight': 1}
+dorsal fin rib 1,dorsal fin stringer 6,{'weight': 1}
+dorsal fin rib 1,dorsal fin stringer 7,{'weight': 1}
+dorsal fin rib 1,dorsal fin stringer 8,{'weight': 1}
+dorsal fin rib 1,dorsal fin stringer 9,{'weight': 1}
+dorsal fin rib 1,dorsal fin stringer 10,{'weight': 1}
+dorsal fin rib 1,dorsal fin stringer 11,{'weight': 1}
+dorsal fin rib 1,dorsal fin stringer 12,{'weight': 1}
+dorsal fin rib 1,dorsal fin stringer 13,{'weight': 1}
+dorsal fin rib 1,dorsal fin stringer 14,{'weight': 1}
+dorsal fin rib 1,dorsal fin stringer 15,{'weight': 1}
+dorsal fin rib 1,dorsal fin stringer 16,{'weight': 1}
+dorsal fin rib 1,fuselage station 49,{'weight': 1}
+dorsal fin rib 1,fuselage station 50,{'weight': 1}
+dorsal fin rib 2,dorsal fin spar 1,{'weight': 1}
+dorsal fin rib 2,dorsal fin spar 2,{'weight': 1}
+dorsal fin rib 2,dorsal fin stringer 1,{'weight': 1}
+dorsal fin rib 2,dorsal fin stringer 2,{'weight': 1}
+dorsal fin rib 2,dorsal fin stringer 3,{'weight': 1}
+dorsal fin rib 2,dorsal fin stringer 4,{'weight': 1}
+dorsal fin rib 2,dorsal fin stringer 5,{'weight': 1}
+dorsal fin rib 2,dorsal fin stringer 6,{'weight': 1}
+dorsal fin rib 2,dorsal fin stringer 7,{'weight': 1}
+dorsal fin rib 2,dorsal fin stringer 8,{'weight': 1}
+dorsal fin rib 2,dorsal fin stringer 9,{'weight': 1}
+dorsal fin rib 2,dorsal fin stringer 10,{'weight': 1}
+dorsal fin rib 2,dorsal fin stringer 11,{'weight': 1}
+dorsal fin rib 2,dorsal fin stringer 12,{'weight': 1}
+dorsal fin rib 2,dorsal fin stringer 13,{'weight': 1}
+dorsal fin rib 2,dorsal fin stringer 14,{'weight': 1}
+dorsal fin rib 2,dorsal fin stringer 15,{'weight': 1}
+dorsal fin rib 2,dorsal fin stringer 16,{'weight': 1}
+dorsal fin rib 3,dorsal fin spar 1,{'weight': 1}
+dorsal fin rib 3,dorsal fin spar 2,{'weight': 1}
+dorsal fin rib 3,dorsal fin stringer 1,{'weight': 1}
+dorsal fin rib 3,dorsal fin stringer 2,{'weight': 1}
+dorsal fin rib 3,dorsal fin stringer 3,{'weight': 1}
+dorsal fin rib 3,dorsal fin stringer 4,{'weight': 1}
+dorsal fin rib 3,dorsal fin stringer 5,{'weight': 1}
+dorsal fin rib 3,dorsal fin stringer 6,{'weight': 1}
+dorsal fin rib 3,dorsal fin stringer 7,{'weight': 1}
+dorsal fin rib 3,dorsal fin stringer 8,{'weight': 1}
+dorsal fin rib 3,dorsal fin stringer 9,{'weight': 1}
+dorsal fin rib 3,dorsal fin stringer 10,{'weight': 1}
+dorsal fin rib 3,dorsal fin stringer 11,{'weight': 1}
+dorsal fin rib 3,dorsal fin stringer 12,{'weight': 1}
+dorsal fin rib 3,dorsal fin stringer 13,{'weight': 1}
+dorsal fin rib 3,dorsal fin stringer 14,{'weight': 1}
+dorsal fin rib 3,dorsal fin stringer 15,{'weight': 1}
+dorsal fin rib 3,dorsal fin stringer 16,{'weight': 1}
+dorsal fin rib 4,dorsal fin spar 1,{'weight': 1}
+dorsal fin rib 4,dorsal fin spar 2,{'weight': 1}
+dorsal fin rib 4,dorsal fin stringer 1,{'weight': 1}
+dorsal fin rib 4,dorsal fin stringer 2,{'weight': 1}
+dorsal fin rib 4,dorsal fin stringer 3,{'weight': 1}
+dorsal fin rib 4,dorsal fin stringer 4,{'weight': 1}
+dorsal fin rib 4,dorsal fin stringer 5,{'weight': 1}
+dorsal fin rib 4,dorsal fin stringer 6,{'weight': 1}
+dorsal fin rib 4,dorsal fin stringer 7,{'weight': 1}
+dorsal fin rib 4,dorsal fin stringer 8,{'weight': 1}
+dorsal fin rib 4,dorsal fin stringer 9,{'weight': 1}
+dorsal fin rib 4,dorsal fin stringer 10,{'weight': 1}
+dorsal fin rib 4,dorsal fin stringer 11,{'weight': 1}
+dorsal fin rib 4,dorsal fin stringer 12,{'weight': 1}
+dorsal fin rib 4,dorsal fin stringer 13,{'weight': 1}
+dorsal fin rib 4,dorsal fin stringer 14,{'weight': 1}
+dorsal fin rib 4,dorsal fin stringer 15,{'weight': 1}
+dorsal fin rib 4,dorsal fin stringer 16,{'weight': 1}
+dorsal fin rib 5,dorsal fin spar 1,{'weight': 1}
+dorsal fin rib 5,dorsal fin spar 2,{'weight': 1}
+dorsal fin rib 5,dorsal fin stringer 1,{'weight': 1}
+dorsal fin rib 5,dorsal fin stringer 2,{'weight': 1}
+dorsal fin rib 5,dorsal fin stringer 3,{'weight': 1}
+dorsal fin rib 5,dorsal fin stringer 4,{'weight': 1}
+dorsal fin rib 5,dorsal fin stringer 5,{'weight': 1}
+dorsal fin rib 5,dorsal fin stringer 6,{'weight': 1}
+dorsal fin rib 5,dorsal fin stringer 7,{'weight': 1}
+dorsal fin rib 5,dorsal fin stringer 8,{'weight': 1}
+dorsal fin rib 5,dorsal fin stringer 9,{'weight': 1}
+dorsal fin rib 5,dorsal fin stringer 10,{'weight': 1}
+dorsal fin rib 5,dorsal fin stringer 11,{'weight': 1}
+dorsal fin rib 5,dorsal fin stringer 12,{'weight': 1}
+dorsal fin rib 5,dorsal fin stringer 13,{'weight': 1}
+dorsal fin rib 5,dorsal fin stringer 14,{'weight': 1}
+dorsal fin rib 5,dorsal fin stringer 15,{'weight': 1}
+dorsal fin rib 5,dorsal fin stringer 16,{'weight': 1}
+dorsal fin rib 6,dorsal fin spar 1,{'weight': 1}
+dorsal fin rib 6,dorsal fin spar 2,{'weight': 1}
+dorsal fin rib 6,dorsal fin stringer 1,{'weight': 1}
+dorsal fin rib 6,dorsal fin stringer 2,{'weight': 1}
+dorsal fin rib 6,dorsal fin stringer 3,{'weight': 1}
+dorsal fin rib 6,dorsal fin stringer 4,{'weight': 1}
+dorsal fin rib 6,dorsal fin stringer 5,{'weight': 1}
+dorsal fin rib 6,dorsal fin stringer 6,{'weight': 1}
+dorsal fin rib 6,dorsal fin stringer 7,{'weight': 1}
+dorsal fin rib 6,dorsal fin stringer 8,{'weight': 1}
+dorsal fin rib 6,dorsal fin stringer 9,{'weight': 1}
+dorsal fin rib 6,dorsal fin stringer 10,{'weight': 1}
+dorsal fin rib 6,dorsal fin stringer 11,{'weight': 1}
+dorsal fin rib 6,dorsal fin stringer 12,{'weight': 1}
+dorsal fin rib 6,dorsal fin stringer 13,{'weight': 1}
+dorsal fin rib 6,dorsal fin stringer 14,{'weight': 1}
+dorsal fin rib 6,dorsal fin stringer 15,{'weight': 1}
+dorsal fin rib 6,dorsal fin stringer 16,{'weight': 1}
+dorsal fin rib 7,dorsal fin spar 1,{'weight': 1}
+dorsal fin rib 7,dorsal fin spar 2,{'weight': 1}
+dorsal fin rib 7,dorsal fin stringer 1,{'weight': 1}
+dorsal fin rib 7,dorsal fin stringer 2,{'weight': 1}
+dorsal fin rib 7,dorsal fin stringer 3,{'weight': 1}
+dorsal fin rib 7,dorsal fin stringer 4,{'weight': 1}
+dorsal fin rib 7,dorsal fin stringer 5,{'weight': 1}
+dorsal fin rib 7,dorsal fin stringer 6,{'weight': 1}
+dorsal fin rib 7,dorsal fin stringer 7,{'weight': 1}
+dorsal fin rib 7,dorsal fin stringer 8,{'weight': 1}
+dorsal fin rib 7,dorsal fin stringer 9,{'weight': 1}
+dorsal fin rib 7,dorsal fin stringer 10,{'weight': 1}
+dorsal fin rib 7,dorsal fin stringer 11,{'weight': 1}
+dorsal fin rib 7,dorsal fin stringer 12,{'weight': 1}
+dorsal fin rib 7,dorsal fin stringer 13,{'weight': 1}
+dorsal fin rib 7,dorsal fin stringer 14,{'weight': 1}
+dorsal fin rib 7,dorsal fin stringer 15,{'weight': 1}
+dorsal fin rib 7,dorsal fin stringer 16,{'weight': 1}
+dorsal fin rib 8,dorsal fin spar 1,{'weight': 1}
+dorsal fin rib 8,dorsal fin spar 2,{'weight': 1}
+dorsal fin rib 8,dorsal fin stringer 1,{'weight': 1}
+dorsal fin rib 8,dorsal fin stringer 2,{'weight': 1}
+dorsal fin rib 8,dorsal fin stringer 3,{'weight': 1}
+dorsal fin rib 8,dorsal fin stringer 4,{'weight': 1}
+dorsal fin rib 8,dorsal fin stringer 5,{'weight': 1}
+dorsal fin rib 8,dorsal fin stringer 6,{'weight': 1}
+dorsal fin rib 8,dorsal fin stringer 7,{'weight': 1}
+dorsal fin rib 8,dorsal fin stringer 8,{'weight': 1}
+dorsal fin rib 8,dorsal fin stringer 9,{'weight': 1}
+dorsal fin rib 8,dorsal fin stringer 10,{'weight': 1}
+dorsal fin rib 8,dorsal fin stringer 11,{'weight': 1}
+dorsal fin rib 8,dorsal fin stringer 12,{'weight': 1}
+dorsal fin rib 8,dorsal fin stringer 13,{'weight': 1}
+dorsal fin rib 8,dorsal fin stringer 14,{'weight': 1}
+dorsal fin rib 8,dorsal fin stringer 15,{'weight': 1}
+dorsal fin rib 8,dorsal fin stringer 16,{'weight': 1}
+dorsal fin rib 9,dorsal fin spar 1,{'weight': 1}
+dorsal fin rib 9,dorsal fin spar 2,{'weight': 1}
+dorsal fin rib 9,dorsal fin stringer 1,{'weight': 1}
+dorsal fin rib 9,dorsal fin stringer 2,{'weight': 1}
+dorsal fin rib 9,dorsal fin stringer 3,{'weight': 1}
+dorsal fin rib 9,dorsal fin stringer 4,{'weight': 1}
+dorsal fin rib 9,dorsal fin stringer 5,{'weight': 1}
+dorsal fin rib 9,dorsal fin stringer 6,{'weight': 1}
+dorsal fin rib 9,dorsal fin stringer 7,{'weight': 1}
+dorsal fin rib 9,dorsal fin stringer 8,{'weight': 1}
+dorsal fin rib 9,dorsal fin stringer 9,{'weight': 1}
+dorsal fin rib 9,dorsal fin stringer 10,{'weight': 1}
+dorsal fin rib 9,dorsal fin stringer 11,{'weight': 1}
+dorsal fin rib 9,dorsal fin stringer 12,{'weight': 1}
+dorsal fin rib 9,dorsal fin stringer 13,{'weight': 1}
+dorsal fin rib 9,dorsal fin stringer 14,{'weight': 1}
+dorsal fin rib 9,dorsal fin stringer 15,{'weight': 1}
+dorsal fin rib 9,dorsal fin stringer 16,{'weight': 1}
+dorsal fin rib 10,dorsal fin spar 1,{'weight': 1}
+dorsal fin rib 10,dorsal fin spar 2,{'weight': 1}
+dorsal fin rib 10,dorsal fin stringer 1,{'weight': 1}
+dorsal fin rib 10,dorsal fin stringer 2,{'weight': 1}
+dorsal fin rib 10,dorsal fin stringer 3,{'weight': 1}
+dorsal fin rib 10,dorsal fin stringer 4,{'weight': 1}
+dorsal fin rib 10,dorsal fin stringer 5,{'weight': 1}
+dorsal fin rib 10,dorsal fin stringer 6,{'weight': 1}
+dorsal fin rib 10,dorsal fin stringer 7,{'weight': 1}
+dorsal fin rib 10,dorsal fin stringer 8,{'weight': 1}
+dorsal fin rib 10,dorsal fin stringer 9,{'weight': 1}
+dorsal fin rib 10,dorsal fin stringer 10,{'weight': 1}
+dorsal fin rib 10,dorsal fin stringer 11,{'weight': 1}
+dorsal fin rib 10,dorsal fin stringer 12,{'weight': 1}
+dorsal fin rib 10,dorsal fin stringer 13,{'weight': 1}
+dorsal fin rib 10,dorsal fin stringer 14,{'weight': 1}
+dorsal fin rib 10,dorsal fin stringer 15,{'weight': 1}
+dorsal fin rib 10,dorsal fin stringer 16,{'weight': 1}
+dorsal fin rib 11,dorsal fin spar 1,{'weight': 1}
+dorsal fin rib 11,dorsal fin spar 2,{'weight': 1}
+dorsal fin rib 11,dorsal fin stringer 1,{'weight': 1}
+dorsal fin rib 11,dorsal fin stringer 2,{'weight': 1}
+dorsal fin rib 11,dorsal fin stringer 3,{'weight': 1}
+dorsal fin rib 11,dorsal fin stringer 4,{'weight': 1}
+dorsal fin rib 11,dorsal fin stringer 5,{'weight': 1}
+dorsal fin rib 11,dorsal fin stringer 6,{'weight': 1}
+dorsal fin rib 11,dorsal fin stringer 7,{'weight': 1}
+dorsal fin rib 11,dorsal fin stringer 8,{'weight': 1}
+dorsal fin rib 11,dorsal fin stringer 9,{'weight': 1}
+dorsal fin rib 11,dorsal fin stringer 10,{'weight': 1}
+dorsal fin rib 11,dorsal fin stringer 11,{'weight': 1}
+dorsal fin rib 11,dorsal fin stringer 12,{'weight': 1}
+dorsal fin rib 11,dorsal fin stringer 13,{'weight': 1}
+dorsal fin rib 11,dorsal fin stringer 14,{'weight': 1}
+dorsal fin rib 11,dorsal fin stringer 15,{'weight': 1}
+dorsal fin rib 11,dorsal fin stringer 16,{'weight': 1}
+dorsal fin rib 12,dorsal fin spar 1,{'weight': 1}
+dorsal fin rib 12,dorsal fin spar 2,{'weight': 1}
+dorsal fin rib 12,dorsal fin stringer 1,{'weight': 1}
+dorsal fin rib 12,dorsal fin stringer 2,{'weight': 1}
+dorsal fin rib 12,dorsal fin stringer 3,{'weight': 1}
+dorsal fin rib 12,dorsal fin stringer 4,{'weight': 1}
+dorsal fin rib 12,dorsal fin stringer 5,{'weight': 1}
+dorsal fin rib 12,dorsal fin stringer 6,{'weight': 1}
+dorsal fin rib 12,dorsal fin stringer 7,{'weight': 1}
+dorsal fin rib 12,dorsal fin stringer 8,{'weight': 1}
+dorsal fin rib 12,dorsal fin stringer 9,{'weight': 1}
+dorsal fin rib 12,dorsal fin stringer 10,{'weight': 1}
+dorsal fin rib 12,dorsal fin stringer 11,{'weight': 1}
+dorsal fin rib 12,dorsal fin stringer 12,{'weight': 1}
+dorsal fin rib 12,dorsal fin stringer 13,{'weight': 1}
+dorsal fin rib 12,dorsal fin stringer 14,{'weight': 1}
+dorsal fin rib 12,dorsal fin stringer 15,{'weight': 1}
+dorsal fin rib 12,dorsal fin stringer 16,{'weight': 1}
+dorsal fin rib 13,dorsal fin spar 1,{'weight': 1}
+dorsal fin rib 13,dorsal fin spar 2,{'weight': 1}
+dorsal fin rib 13,dorsal fin stringer 1,{'weight': 1}
+dorsal fin rib 13,dorsal fin stringer 2,{'weight': 1}
+dorsal fin rib 13,dorsal fin stringer 3,{'weight': 1}
+dorsal fin rib 13,dorsal fin stringer 4,{'weight': 1}
+dorsal fin rib 13,dorsal fin stringer 5,{'weight': 1}
+dorsal fin rib 13,dorsal fin stringer 6,{'weight': 1}
+dorsal fin rib 13,dorsal fin stringer 7,{'weight': 1}
+dorsal fin rib 13,dorsal fin stringer 8,{'weight': 1}
+dorsal fin rib 13,dorsal fin stringer 9,{'weight': 1}
+dorsal fin rib 13,dorsal fin stringer 10,{'weight': 1}
+dorsal fin rib 13,dorsal fin stringer 11,{'weight': 1}
+dorsal fin rib 13,dorsal fin stringer 12,{'weight': 1}
+dorsal fin rib 13,dorsal fin stringer 13,{'weight': 1}
+dorsal fin rib 13,dorsal fin stringer 14,{'weight': 1}
+dorsal fin rib 13,dorsal fin stringer 15,{'weight': 1}
+dorsal fin rib 13,dorsal fin stringer 16,{'weight': 1}
+dorsal fin rib 14,dorsal fin spar 1,{'weight': 1}
+dorsal fin rib 14,dorsal fin spar 2,{'weight': 1}
+dorsal fin rib 14,dorsal fin stringer 1,{'weight': 1}
+dorsal fin rib 14,dorsal fin stringer 2,{'weight': 1}
+dorsal fin rib 14,dorsal fin stringer 3,{'weight': 1}
+dorsal fin rib 14,dorsal fin stringer 4,{'weight': 1}
+dorsal fin rib 14,dorsal fin stringer 5,{'weight': 1}
+dorsal fin rib 14,dorsal fin stringer 6,{'weight': 1}
+dorsal fin rib 14,dorsal fin stringer 7,{'weight': 1}
+dorsal fin rib 14,dorsal fin stringer 8,{'weight': 1}
+dorsal fin rib 14,dorsal fin stringer 9,{'weight': 1}
+dorsal fin rib 14,dorsal fin stringer 10,{'weight': 1}
+dorsal fin rib 14,dorsal fin stringer 11,{'weight': 1}
+dorsal fin rib 14,dorsal fin stringer 12,{'weight': 1}
+dorsal fin rib 14,dorsal fin stringer 13,{'weight': 1}
+dorsal fin rib 14,dorsal fin stringer 14,{'weight': 1}
+dorsal fin rib 14,dorsal fin stringer 15,{'weight': 1}
+dorsal fin rib 14,dorsal fin stringer 16,{'weight': 1}
+dorsal fin rib 15,dorsal fin spar 1,{'weight': 1}
+dorsal fin rib 15,dorsal fin spar 2,{'weight': 1}
+dorsal fin rib 15,dorsal fin stringer 1,{'weight': 1}
+dorsal fin rib 15,dorsal fin stringer 2,{'weight': 1}
+dorsal fin rib 15,dorsal fin stringer 3,{'weight': 1}
+dorsal fin rib 15,dorsal fin stringer 4,{'weight': 1}
+dorsal fin rib 15,dorsal fin stringer 5,{'weight': 1}
+dorsal fin rib 15,dorsal fin stringer 6,{'weight': 1}
+dorsal fin rib 15,dorsal fin stringer 7,{'weight': 1}
+dorsal fin rib 15,dorsal fin stringer 8,{'weight': 1}
+dorsal fin rib 15,dorsal fin stringer 9,{'weight': 1}
+dorsal fin rib 15,dorsal fin stringer 10,{'weight': 1}
+dorsal fin rib 15,dorsal fin stringer 11,{'weight': 1}
+dorsal fin rib 15,dorsal fin stringer 12,{'weight': 1}
+dorsal fin rib 15,dorsal fin stringer 13,{'weight': 1}
+dorsal fin rib 15,dorsal fin stringer 14,{'weight': 1}
+dorsal fin rib 15,dorsal fin stringer 15,{'weight': 1}
+dorsal fin rib 15,dorsal fin stringer 16,{'weight': 1}
+dorsal fin rib 16,dorsal fin spar 1,{'weight': 1}
+dorsal fin rib 16,dorsal fin spar 2,{'weight': 1}
+dorsal fin rib 16,dorsal fin stringer 1,{'weight': 1}
+dorsal fin rib 16,dorsal fin stringer 2,{'weight': 1}
+dorsal fin rib 16,dorsal fin stringer 3,{'weight': 1}
+dorsal fin rib 16,dorsal fin stringer 4,{'weight': 1}
+dorsal fin rib 16,dorsal fin stringer 5,{'weight': 1}
+dorsal fin rib 16,dorsal fin stringer 6,{'weight': 1}
+dorsal fin rib 16,dorsal fin stringer 7,{'weight': 1}
+dorsal fin rib 16,dorsal fin stringer 8,{'weight': 1}
+dorsal fin rib 16,dorsal fin stringer 9,{'weight': 1}
+dorsal fin rib 16,dorsal fin stringer 10,{'weight': 1}
+dorsal fin rib 16,dorsal fin stringer 11,{'weight': 1}
+dorsal fin rib 16,dorsal fin stringer 12,{'weight': 1}
+dorsal fin rib 16,dorsal fin stringer 13,{'weight': 1}
+dorsal fin rib 16,dorsal fin stringer 14,{'weight': 1}
+dorsal fin rib 16,dorsal fin stringer 15,{'weight': 1}
+dorsal fin rib 16,dorsal fin stringer 16,{'weight': 1}
+dorsal fin rib 17,dorsal fin spar 1,{'weight': 1}
+dorsal fin rib 17,dorsal fin spar 2,{'weight': 1}
+dorsal fin rib 17,dorsal fin stringer 1,{'weight': 1}
+dorsal fin rib 17,dorsal fin stringer 2,{'weight': 1}
+dorsal fin rib 17,dorsal fin stringer 3,{'weight': 1}
+dorsal fin rib 17,dorsal fin stringer 4,{'weight': 1}
+dorsal fin rib 17,dorsal fin stringer 5,{'weight': 1}
+dorsal fin rib 17,dorsal fin stringer 6,{'weight': 1}
+dorsal fin rib 17,dorsal fin stringer 7,{'weight': 1}
+dorsal fin rib 17,dorsal fin stringer 8,{'weight': 1}
+dorsal fin rib 17,dorsal fin stringer 9,{'weight': 1}
+dorsal fin rib 17,dorsal fin stringer 10,{'weight': 1}
+dorsal fin rib 17,dorsal fin stringer 11,{'weight': 1}
+dorsal fin rib 17,dorsal fin stringer 12,{'weight': 1}
+dorsal fin rib 17,dorsal fin stringer 13,{'weight': 1}
+dorsal fin rib 17,dorsal fin stringer 14,{'weight': 1}
+dorsal fin rib 17,dorsal fin stringer 15,{'weight': 1}
+dorsal fin rib 17,dorsal fin stringer 16,{'weight': 1}
+dorsal fin rib 18,dorsal fin spar 1,{'weight': 1}
+dorsal fin rib 18,dorsal fin spar 2,{'weight': 1}
+dorsal fin rib 18,dorsal fin stringer 1,{'weight': 1}
+dorsal fin rib 18,dorsal fin stringer 2,{'weight': 1}
+dorsal fin rib 18,dorsal fin stringer 3,{'weight': 1}
+dorsal fin rib 18,dorsal fin stringer 4,{'weight': 1}
+dorsal fin rib 18,dorsal fin stringer 5,{'weight': 1}
+dorsal fin rib 18,dorsal fin stringer 6,{'weight': 1}
+dorsal fin rib 18,dorsal fin stringer 7,{'weight': 1}
+dorsal fin rib 18,dorsal fin stringer 8,{'weight': 1}
+dorsal fin rib 18,dorsal fin stringer 9,{'weight': 1}
+dorsal fin rib 18,dorsal fin stringer 10,{'weight': 1}
+dorsal fin rib 18,dorsal fin stringer 11,{'weight': 1}
+dorsal fin rib 18,dorsal fin stringer 12,{'weight': 1}
+dorsal fin rib 18,dorsal fin stringer 13,{'weight': 1}
+dorsal fin rib 18,dorsal fin stringer 14,{'weight': 1}
+dorsal fin rib 18,dorsal fin stringer 15,{'weight': 1}
+dorsal fin rib 18,dorsal fin stringer 16,{'weight': 1}
+dorsal fin rib 19,dorsal fin spar 1,{'weight': 1}
+dorsal fin rib 19,dorsal fin spar 2,{'weight': 1}
+dorsal fin rib 19,dorsal fin stringer 1,{'weight': 1}
+dorsal fin rib 19,dorsal fin stringer 2,{'weight': 1}
+dorsal fin rib 19,dorsal fin stringer 3,{'weight': 1}
+dorsal fin rib 19,dorsal fin stringer 4,{'weight': 1}
+dorsal fin rib 19,dorsal fin stringer 5,{'weight': 1}
+dorsal fin rib 19,dorsal fin stringer 6,{'weight': 1}
+dorsal fin rib 19,dorsal fin stringer 7,{'weight': 1}
+dorsal fin rib 19,dorsal fin stringer 8,{'weight': 1}
+dorsal fin rib 19,dorsal fin stringer 9,{'weight': 1}
+dorsal fin rib 19,dorsal fin stringer 10,{'weight': 1}
+dorsal fin rib 19,dorsal fin stringer 11,{'weight': 1}
+dorsal fin rib 19,dorsal fin stringer 12,{'weight': 1}
+dorsal fin rib 19,dorsal fin stringer 13,{'weight': 1}
+dorsal fin rib 19,dorsal fin stringer 14,{'weight': 1}
+dorsal fin rib 19,dorsal fin stringer 15,{'weight': 1}
+dorsal fin rib 19,dorsal fin stringer 16,{'weight': 1}
+dorsal fin rib 20,dorsal fin spar 1,{'weight': 1}
+dorsal fin rib 20,dorsal fin spar 2,{'weight': 1}
+dorsal fin rib 20,dorsal fin stringer 1,{'weight': 1}
+dorsal fin rib 20,dorsal fin stringer 2,{'weight': 1}
+dorsal fin rib 20,dorsal fin stringer 3,{'weight': 1}
+dorsal fin rib 20,dorsal fin stringer 4,{'weight': 1}
+dorsal fin rib 20,dorsal fin stringer 5,{'weight': 1}
+dorsal fin rib 20,dorsal fin stringer 6,{'weight': 1}
+dorsal fin rib 20,dorsal fin stringer 7,{'weight': 1}
+dorsal fin rib 20,dorsal fin stringer 8,{'weight': 1}
+dorsal fin rib 20,dorsal fin stringer 9,{'weight': 1}
+dorsal fin rib 20,dorsal fin stringer 10,{'weight': 1}
+dorsal fin rib 20,dorsal fin stringer 11,{'weight': 1}
+dorsal fin rib 20,dorsal fin stringer 12,{'weight': 1}
+dorsal fin rib 20,dorsal fin stringer 13,{'weight': 1}
+dorsal fin rib 20,dorsal fin stringer 14,{'weight': 1}
+dorsal fin rib 20,dorsal fin stringer 15,{'weight': 1}
+dorsal fin rib 20,dorsal fin stringer 16,{'weight': 1}
+dorsal fin stringer 1,dorsal fin right skin,{'weight': 1}
+dorsal fin stringer 2,dorsal fin right skin,{'weight': 1}
+dorsal fin stringer 3,dorsal fin right skin,{'weight': 1}
+dorsal fin stringer 4,dorsal fin right skin,{'weight': 1}
+dorsal fin stringer 5,dorsal fin right skin,{'weight': 1}
+dorsal fin stringer 6,dorsal fin right skin,{'weight': 1}
+dorsal fin stringer 7,dorsal fin right skin,{'weight': 1}
+dorsal fin stringer 8,dorsal fin right skin,{'weight': 1}
+dorsal fin stringer 9,dorsal fin left skin,{'weight': 1}
+dorsal fin stringer 10,dorsal fin left skin,{'weight': 1}
+dorsal fin stringer 11,dorsal fin left skin,{'weight': 1}
+dorsal fin stringer 12,dorsal fin left skin,{'weight': 1}
+dorsal fin stringer 13,dorsal fin left skin,{'weight': 1}
+dorsal fin stringer 14,dorsal fin left skin,{'weight': 1}
+dorsal fin stringer 15,dorsal fin left skin,{'weight': 1}
+dorsal fin stringer 16,dorsal fin left skin,{'weight': 1}
+dorsal fin left skin,horizontal stabilizer left top skin,{'weight': 1}
+dorsal fin left skin,fuselage skin,{'weight': 1}
+dorsal fin right skin,horizontal stabilizer right top skin,{'weight': 1}
+dorsal fin right skin,fuselage skin,{'weight': 1}
+left elevator,horizontal stabilizer left rib 1,{'weight': 1}
+left elevator,horizontal stabilizer left rib 2,{'weight': 1}
+left elevator,horizontal stabilizer left rib 3,{'weight': 1}
+left elevator,horizontal stabilizer left rib 4,{'weight': 1}
+left elevator,horizontal stabilizer left rib 5,{'weight': 1}
+left elevator,horizontal stabilizer left rib 6,{'weight': 1}
+left elevator,horizontal stabilizer left rib 7,{'weight': 1}
+left elevator,horizontal stabilizer left rib 8,{'weight': 1}
+left elevator,horizontal stabilizer left rib 9,{'weight': 1}
+left elevator,horizontal stabilizer left rib 10,{'weight': 1}
+right elevator,horizontal stabilizer right rib 1,{'weight': 1}
+right elevator,horizontal stabilizer right rib 2,{'weight': 1}
+right elevator,horizontal stabilizer right rib 3,{'weight': 1}
+right elevator,horizontal stabilizer right rib 4,{'weight': 1}
+right elevator,horizontal stabilizer right rib 5,{'weight': 1}
+right elevator,horizontal stabilizer right rib 6,{'weight': 1}
+right elevator,horizontal stabilizer right rib 7,{'weight': 1}
+right elevator,horizontal stabilizer right rib 8,{'weight': 1}
+right elevator,horizontal stabilizer right rib 9,{'weight': 1}
+right elevator,horizontal stabilizer right rib 10,{'weight': 1}
+horizontal stabilizer left rib 1,horizontal stabilizer left spar 1,{'weight': 1}
+horizontal stabilizer left rib 1,horizontal stabilizer left spar 2,{'weight': 1}
+horizontal stabilizer left rib 1,horizontal stabilizer left stringer 1,{'weight': 1}
+horizontal stabilizer left rib 1,horizontal stabilizer left stringer 2,{'weight': 1}
+horizontal stabilizer left rib 1,horizontal stabilizer left stringer 3,{'weight': 1}
+horizontal stabilizer left rib 1,horizontal stabilizer left stringer 4,{'weight': 1}
+horizontal stabilizer left rib 1,horizontal stabilizer left stringer 5,{'weight': 1}
+horizontal stabilizer left rib 1,horizontal stabilizer left stringer 6,{'weight': 1}
+horizontal stabilizer left rib 1,horizontal stabilizer left stringer 7,{'weight': 1}
+horizontal stabilizer left rib 1,horizontal stabilizer left stringer 8,{'weight': 1}
+horizontal stabilizer left rib 1,horizontal stabilizer left stringer 9,{'weight': 1}
+horizontal stabilizer left rib 1,horizontal stabilizer left stringer 10,{'weight': 1}
+horizontal stabilizer left rib 1,horizontal stabilizer left stringer 11,{'weight': 1}
+horizontal stabilizer left rib 1,horizontal stabilizer left stringer 12,{'weight': 1}
+horizontal stabilizer left rib 1,fuselage station 49,{'weight': 1}
+horizontal stabilizer left rib 1,fuselage station 50,{'weight': 1}
+horizontal stabilizer left rib 2,horizontal stabilizer left spar 1,{'weight': 1}
+horizontal stabilizer left rib 2,horizontal stabilizer left spar 2,{'weight': 1}
+horizontal stabilizer left rib 2,horizontal stabilizer left stringer 1,{'weight': 1}
+horizontal stabilizer left rib 2,horizontal stabilizer left stringer 2,{'weight': 1}
+horizontal stabilizer left rib 2,horizontal stabilizer left stringer 3,{'weight': 1}
+horizontal stabilizer left rib 2,horizontal stabilizer left stringer 4,{'weight': 1}
+horizontal stabilizer left rib 2,horizontal stabilizer left stringer 5,{'weight': 1}
+horizontal stabilizer left rib 2,horizontal stabilizer left stringer 6,{'weight': 1}
+horizontal stabilizer left rib 2,horizontal stabilizer left stringer 7,{'weight': 1}
+horizontal stabilizer left rib 2,horizontal stabilizer left stringer 8,{'weight': 1}
+horizontal stabilizer left rib 2,horizontal stabilizer left stringer 9,{'weight': 1}
+horizontal stabilizer left rib 2,horizontal stabilizer left stringer 10,{'weight': 1}
+horizontal stabilizer left rib 2,horizontal stabilizer left stringer 11,{'weight': 1}
+horizontal stabilizer left rib 2,horizontal stabilizer left stringer 12,{'weight': 1}
+horizontal stabilizer left rib 3,horizontal stabilizer left spar 1,{'weight': 1}
+horizontal stabilizer left rib 3,horizontal stabilizer left spar 2,{'weight': 1}
+horizontal stabilizer left rib 3,horizontal stabilizer left stringer 1,{'weight': 1}
+horizontal stabilizer left rib 3,horizontal stabilizer left stringer 2,{'weight': 1}
+horizontal stabilizer left rib 3,horizontal stabilizer left stringer 3,{'weight': 1}
+horizontal stabilizer left rib 3,horizontal stabilizer left stringer 4,{'weight': 1}
+horizontal stabilizer left rib 3,horizontal stabilizer left stringer 5,{'weight': 1}
+horizontal stabilizer left rib 3,horizontal stabilizer left stringer 6,{'weight': 1}
+horizontal stabilizer left rib 3,horizontal stabilizer left stringer 7,{'weight': 1}
+horizontal stabilizer left rib 3,horizontal stabilizer left stringer 8,{'weight': 1}
+horizontal stabilizer left rib 3,horizontal stabilizer left stringer 9,{'weight': 1}
+horizontal stabilizer left rib 3,horizontal stabilizer left stringer 10,{'weight': 1}
+horizontal stabilizer left rib 3,horizontal stabilizer left stringer 11,{'weight': 1}
+horizontal stabilizer left rib 3,horizontal stabilizer left stringer 12,{'weight': 1}
+horizontal stabilizer left rib 4,horizontal stabilizer left spar 1,{'weight': 1}
+horizontal stabilizer left rib 4,horizontal stabilizer left spar 2,{'weight': 1}
+horizontal stabilizer left rib 4,horizontal stabilizer left stringer 1,{'weight': 1}
+horizontal stabilizer left rib 4,horizontal stabilizer left stringer 2,{'weight': 1}
+horizontal stabilizer left rib 4,horizontal stabilizer left stringer 3,{'weight': 1}
+horizontal stabilizer left rib 4,horizontal stabilizer left stringer 4,{'weight': 1}
+horizontal stabilizer left rib 4,horizontal stabilizer left stringer 5,{'weight': 1}
+horizontal stabilizer left rib 4,horizontal stabilizer left stringer 6,{'weight': 1}
+horizontal stabilizer left rib 4,horizontal stabilizer left stringer 7,{'weight': 1}
+horizontal stabilizer left rib 4,horizontal stabilizer left stringer 8,{'weight': 1}
+horizontal stabilizer left rib 4,horizontal stabilizer left stringer 9,{'weight': 1}
+horizontal stabilizer left rib 4,horizontal stabilizer left stringer 10,{'weight': 1}
+horizontal stabilizer left rib 4,horizontal stabilizer left stringer 11,{'weight': 1}
+horizontal stabilizer left rib 4,horizontal stabilizer left stringer 12,{'weight': 1}
+horizontal stabilizer left rib 5,horizontal stabilizer left spar 1,{'weight': 1}
+horizontal stabilizer left rib 5,horizontal stabilizer left spar 2,{'weight': 1}
+horizontal stabilizer left rib 5,horizontal stabilizer left stringer 1,{'weight': 1}
+horizontal stabilizer left rib 5,horizontal stabilizer left stringer 2,{'weight': 1}
+horizontal stabilizer left rib 5,horizontal stabilizer left stringer 3,{'weight': 1}
+horizontal stabilizer left rib 5,horizontal stabilizer left stringer 4,{'weight': 1}
+horizontal stabilizer left rib 5,horizontal stabilizer left stringer 5,{'weight': 1}
+horizontal stabilizer left rib 5,horizontal stabilizer left stringer 6,{'weight': 1}
+horizontal stabilizer left rib 5,horizontal stabilizer left stringer 7,{'weight': 1}
+horizontal stabilizer left rib 5,horizontal stabilizer left stringer 8,{'weight': 1}
+horizontal stabilizer left rib 5,horizontal stabilizer left stringer 9,{'weight': 1}
+horizontal stabilizer left rib 5,horizontal stabilizer left stringer 10,{'weight': 1}
+horizontal stabilizer left rib 5,horizontal stabilizer left stringer 11,{'weight': 1}
+horizontal stabilizer left rib 5,horizontal stabilizer left stringer 12,{'weight': 1}
+horizontal stabilizer left rib 6,horizontal stabilizer left spar 1,{'weight': 1}
+horizontal stabilizer left rib 6,horizontal stabilizer left spar 2,{'weight': 1}
+horizontal stabilizer left rib 6,horizontal stabilizer left stringer 1,{'weight': 1}
+horizontal stabilizer left rib 6,horizontal stabilizer left stringer 2,{'weight': 1}
+horizontal stabilizer left rib 6,horizontal stabilizer left stringer 3,{'weight': 1}
+horizontal stabilizer left rib 6,horizontal stabilizer left stringer 4,{'weight': 1}
+horizontal stabilizer left rib 6,horizontal stabilizer left stringer 5,{'weight': 1}
+horizontal stabilizer left rib 6,horizontal stabilizer left stringer 6,{'weight': 1}
+horizontal stabilizer left rib 6,horizontal stabilizer left stringer 7,{'weight': 1}
+horizontal stabilizer left rib 6,horizontal stabilizer left stringer 8,{'weight': 1}
+horizontal stabilizer left rib 6,horizontal stabilizer left stringer 9,{'weight': 1}
+horizontal stabilizer left rib 6,horizontal stabilizer left stringer 10,{'weight': 1}
+horizontal stabilizer left rib 6,horizontal stabilizer left stringer 11,{'weight': 1}
+horizontal stabilizer left rib 6,horizontal stabilizer left stringer 12,{'weight': 1}
+horizontal stabilizer left rib 7,horizontal stabilizer left spar 1,{'weight': 1}
+horizontal stabilizer left rib 7,horizontal stabilizer left spar 2,{'weight': 1}
+horizontal stabilizer left rib 7,horizontal stabilizer left stringer 1,{'weight': 1}
+horizontal stabilizer left rib 7,horizontal stabilizer left stringer 2,{'weight': 1}
+horizontal stabilizer left rib 7,horizontal stabilizer left stringer 3,{'weight': 1}
+horizontal stabilizer left rib 7,horizontal stabilizer left stringer 4,{'weight': 1}
+horizontal stabilizer left rib 7,horizontal stabilizer left stringer 5,{'weight': 1}
+horizontal stabilizer left rib 7,horizontal stabilizer left stringer 6,{'weight': 1}
+horizontal stabilizer left rib 7,horizontal stabilizer left stringer 7,{'weight': 1}
+horizontal stabilizer left rib 7,horizontal stabilizer left stringer 8,{'weight': 1}
+horizontal stabilizer left rib 7,horizontal stabilizer left stringer 9,{'weight': 1}
+horizontal stabilizer left rib 7,horizontal stabilizer left stringer 10,{'weight': 1}
+horizontal stabilizer left rib 7,horizontal stabilizer left stringer 11,{'weight': 1}
+horizontal stabilizer left rib 7,horizontal stabilizer left stringer 12,{'weight': 1}
+horizontal stabilizer left rib 8,horizontal stabilizer left spar 1,{'weight': 1}
+horizontal stabilizer left rib 8,horizontal stabilizer left spar 2,{'weight': 1}
+horizontal stabilizer left rib 8,horizontal stabilizer left stringer 1,{'weight': 1}
+horizontal stabilizer left rib 8,horizontal stabilizer left stringer 2,{'weight': 1}
+horizontal stabilizer left rib 8,horizontal stabilizer left stringer 3,{'weight': 1}
+horizontal stabilizer left rib 8,horizontal stabilizer left stringer 4,{'weight': 1}
+horizontal stabilizer left rib 8,horizontal stabilizer left stringer 5,{'weight': 1}
+horizontal stabilizer left rib 8,horizontal stabilizer left stringer 6,{'weight': 1}
+horizontal stabilizer left rib 8,horizontal stabilizer left stringer 7,{'weight': 1}
+horizontal stabilizer left rib 8,horizontal stabilizer left stringer 8,{'weight': 1}
+horizontal stabilizer left rib 8,horizontal stabilizer left stringer 9,{'weight': 1}
+horizontal stabilizer left rib 8,horizontal stabilizer left stringer 10,{'weight': 1}
+horizontal stabilizer left rib 8,horizontal stabilizer left stringer 11,{'weight': 1}
+horizontal stabilizer left rib 8,horizontal stabilizer left stringer 12,{'weight': 1}
+horizontal stabilizer left rib 9,horizontal stabilizer left spar 1,{'weight': 1}
+horizontal stabilizer left rib 9,horizontal stabilizer left spar 2,{'weight': 1}
+horizontal stabilizer left rib 9,horizontal stabilizer left stringer 1,{'weight': 1}
+horizontal stabilizer left rib 9,horizontal stabilizer left stringer 2,{'weight': 1}
+horizontal stabilizer left rib 9,horizontal stabilizer left stringer 3,{'weight': 1}
+horizontal stabilizer left rib 9,horizontal stabilizer left stringer 4,{'weight': 1}
+horizontal stabilizer left rib 9,horizontal stabilizer left stringer 5,{'weight': 1}
+horizontal stabilizer left rib 9,horizontal stabilizer left stringer 6,{'weight': 1}
+horizontal stabilizer left rib 9,horizontal stabilizer left stringer 7,{'weight': 1}
+horizontal stabilizer left rib 9,horizontal stabilizer left stringer 8,{'weight': 1}
+horizontal stabilizer left rib 9,horizontal stabilizer left stringer 9,{'weight': 1}
+horizontal stabilizer left rib 9,horizontal stabilizer left stringer 10,{'weight': 1}
+horizontal stabilizer left rib 9,horizontal stabilizer left stringer 11,{'weight': 1}
+horizontal stabilizer left rib 9,horizontal stabilizer left stringer 12,{'weight': 1}
+horizontal stabilizer left rib 10,horizontal stabilizer left spar 1,{'weight': 1}
+horizontal stabilizer left rib 10,horizontal stabilizer left spar 2,{'weight': 1}
+horizontal stabilizer left rib 10,horizontal stabilizer left stringer 1,{'weight': 1}
+horizontal stabilizer left rib 10,horizontal stabilizer left stringer 2,{'weight': 1}
+horizontal stabilizer left rib 10,horizontal stabilizer left stringer 3,{'weight': 1}
+horizontal stabilizer left rib 10,horizontal stabilizer left stringer 4,{'weight': 1}
+horizontal stabilizer left rib 10,horizontal stabilizer left stringer 5,{'weight': 1}
+horizontal stabilizer left rib 10,horizontal stabilizer left stringer 6,{'weight': 1}
+horizontal stabilizer left rib 10,horizontal stabilizer left stringer 7,{'weight': 1}
+horizontal stabilizer left rib 10,horizontal stabilizer left stringer 8,{'weight': 1}
+horizontal stabilizer left rib 10,horizontal stabilizer left stringer 9,{'weight': 1}
+horizontal stabilizer left rib 10,horizontal stabilizer left stringer 10,{'weight': 1}
+horizontal stabilizer left rib 10,horizontal stabilizer left stringer 11,{'weight': 1}
+horizontal stabilizer left rib 10,horizontal stabilizer left stringer 12,{'weight': 1}
+horizontal stabilizer right rib 1,horizontal stabilizer right spar 1,{'weight': 1}
+horizontal stabilizer right rib 1,horizontal stabilizer right spar 2,{'weight': 1}
+horizontal stabilizer right rib 1,horizontal stabilizer right stringer 1,{'weight': 1}
+horizontal stabilizer right rib 1,horizontal stabilizer right stringer 2,{'weight': 1}
+horizontal stabilizer right rib 1,horizontal stabilizer right stringer 3,{'weight': 1}
+horizontal stabilizer right rib 1,horizontal stabilizer right stringer 4,{'weight': 1}
+horizontal stabilizer right rib 1,horizontal stabilizer right stringer 5,{'weight': 1}
+horizontal stabilizer right rib 1,horizontal stabilizer right stringer 6,{'weight': 1}
+horizontal stabilizer right rib 1,horizontal stabilizer right stringer 7,{'weight': 1}
+horizontal stabilizer right rib 1,horizontal stabilizer right stringer 8,{'weight': 1}
+horizontal stabilizer right rib 1,horizontal stabilizer right stringer 9,{'weight': 1}
+horizontal stabilizer right rib 1,horizontal stabilizer right stringer 10,{'weight': 1}
+horizontal stabilizer right rib 1,horizontal stabilizer right stringer 11,{'weight': 1}
+horizontal stabilizer right rib 1,horizontal stabilizer right stringer 12,{'weight': 1}
+horizontal stabilizer right rib 1,fuselage station 49,{'weight': 1}
+horizontal stabilizer right rib 1,fuselage station 50,{'weight': 1}
+horizontal stabilizer right rib 2,horizontal stabilizer right spar 1,{'weight': 1}
+horizontal stabilizer right rib 2,horizontal stabilizer right spar 2,{'weight': 1}
+horizontal stabilizer right rib 2,horizontal stabilizer right stringer 1,{'weight': 1}
+horizontal stabilizer right rib 2,horizontal stabilizer right stringer 2,{'weight': 1}
+horizontal stabilizer right rib 2,horizontal stabilizer right stringer 3,{'weight': 1}
+horizontal stabilizer right rib 2,horizontal stabilizer right stringer 4,{'weight': 1}
+horizontal stabilizer right rib 2,horizontal stabilizer right stringer 5,{'weight': 1}
+horizontal stabilizer right rib 2,horizontal stabilizer right stringer 6,{'weight': 1}
+horizontal stabilizer right rib 2,horizontal stabilizer right stringer 7,{'weight': 1}
+horizontal stabilizer right rib 2,horizontal stabilizer right stringer 8,{'weight': 1}
+horizontal stabilizer right rib 2,horizontal stabilizer right stringer 9,{'weight': 1}
+horizontal stabilizer right rib 2,horizontal stabilizer right stringer 10,{'weight': 1}
+horizontal stabilizer right rib 2,horizontal stabilizer right stringer 11,{'weight': 1}
+horizontal stabilizer right rib 2,horizontal stabilizer right stringer 12,{'weight': 1}
+horizontal stabilizer right rib 3,horizontal stabilizer right spar 1,{'weight': 1}
+horizontal stabilizer right rib 3,horizontal stabilizer right spar 2,{'weight': 1}
+horizontal stabilizer right rib 3,horizontal stabilizer right stringer 1,{'weight': 1}
+horizontal stabilizer right rib 3,horizontal stabilizer right stringer 2,{'weight': 1}
+horizontal stabilizer right rib 3,horizontal stabilizer right stringer 3,{'weight': 1}
+horizontal stabilizer right rib 3,horizontal stabilizer right stringer 4,{'weight': 1}
+horizontal stabilizer right rib 3,horizontal stabilizer right stringer 5,{'weight': 1}
+horizontal stabilizer right rib 3,horizontal stabilizer right stringer 6,{'weight': 1}
+horizontal stabilizer right rib 3,horizontal stabilizer right stringer 7,{'weight': 1}
+horizontal stabilizer right rib 3,horizontal stabilizer right stringer 8,{'weight': 1}
+horizontal stabilizer right rib 3,horizontal stabilizer right stringer 9,{'weight': 1}
+horizontal stabilizer right rib 3,horizontal stabilizer right stringer 10,{'weight': 1}
+horizontal stabilizer right rib 3,horizontal stabilizer right stringer 11,{'weight': 1}
+horizontal stabilizer right rib 3,horizontal stabilizer right stringer 12,{'weight': 1}
+horizontal stabilizer right rib 4,horizontal stabilizer right spar 1,{'weight': 1}
+horizontal stabilizer right rib 4,horizontal stabilizer right spar 2,{'weight': 1}
+horizontal stabilizer right rib 4,horizontal stabilizer right stringer 1,{'weight': 1}
+horizontal stabilizer right rib 4,horizontal stabilizer right stringer 2,{'weight': 1}
+horizontal stabilizer right rib 4,horizontal stabilizer right stringer 3,{'weight': 1}
+horizontal stabilizer right rib 4,horizontal stabilizer right stringer 4,{'weight': 1}
+horizontal stabilizer right rib 4,horizontal stabilizer right stringer 5,{'weight': 1}
+horizontal stabilizer right rib 4,horizontal stabilizer right stringer 6,{'weight': 1}
+horizontal stabilizer right rib 4,horizontal stabilizer right stringer 7,{'weight': 1}
+horizontal stabilizer right rib 4,horizontal stabilizer right stringer 8,{'weight': 1}
+horizontal stabilizer right rib 4,horizontal stabilizer right stringer 9,{'weight': 1}
+horizontal stabilizer right rib 4,horizontal stabilizer right stringer 10,{'weight': 1}
+horizontal stabilizer right rib 4,horizontal stabilizer right stringer 11,{'weight': 1}
+horizontal stabilizer right rib 4,horizontal stabilizer right stringer 12,{'weight': 1}
+horizontal stabilizer right rib 5,horizontal stabilizer right spar 1,{'weight': 1}
+horizontal stabilizer right rib 5,horizontal stabilizer right spar 2,{'weight': 1}
+horizontal stabilizer right rib 5,horizontal stabilizer right stringer 1,{'weight': 1}
+horizontal stabilizer right rib 5,horizontal stabilizer right stringer 2,{'weight': 1}
+horizontal stabilizer right rib 5,horizontal stabilizer right stringer 3,{'weight': 1}
+horizontal stabilizer right rib 5,horizontal stabilizer right stringer 4,{'weight': 1}
+horizontal stabilizer right rib 5,horizontal stabilizer right stringer 5,{'weight': 1}
+horizontal stabilizer right rib 5,horizontal stabilizer right stringer 6,{'weight': 1}
+horizontal stabilizer right rib 5,horizontal stabilizer right stringer 7,{'weight': 1}
+horizontal stabilizer right rib 5,horizontal stabilizer right stringer 8,{'weight': 1}
+horizontal stabilizer right rib 5,horizontal stabilizer right stringer 9,{'weight': 1}
+horizontal stabilizer right rib 5,horizontal stabilizer right stringer 10,{'weight': 1}
+horizontal stabilizer right rib 5,horizontal stabilizer right stringer 11,{'weight': 1}
+horizontal stabilizer right rib 5,horizontal stabilizer right stringer 12,{'weight': 1}
+horizontal stabilizer right rib 6,horizontal stabilizer right spar 1,{'weight': 1}
+horizontal stabilizer right rib 6,horizontal stabilizer right spar 2,{'weight': 1}
+horizontal stabilizer right rib 6,horizontal stabilizer right stringer 1,{'weight': 1}
+horizontal stabilizer right rib 6,horizontal stabilizer right stringer 2,{'weight': 1}
+horizontal stabilizer right rib 6,horizontal stabilizer right stringer 3,{'weight': 1}
+horizontal stabilizer right rib 6,horizontal stabilizer right stringer 4,{'weight': 1}
+horizontal stabilizer right rib 6,horizontal stabilizer right stringer 5,{'weight': 1}
+horizontal stabilizer right rib 6,horizontal stabilizer right stringer 6,{'weight': 1}
+horizontal stabilizer right rib 6,horizontal stabilizer right stringer 7,{'weight': 1}
+horizontal stabilizer right rib 6,horizontal stabilizer right stringer 8,{'weight': 1}
+horizontal stabilizer right rib 6,horizontal stabilizer right stringer 9,{'weight': 1}
+horizontal stabilizer right rib 6,horizontal stabilizer right stringer 10,{'weight': 1}
+horizontal stabilizer right rib 6,horizontal stabilizer right stringer 11,{'weight': 1}
+horizontal stabilizer right rib 6,horizontal stabilizer right stringer 12,{'weight': 1}
+horizontal stabilizer right rib 7,horizontal stabilizer right spar 1,{'weight': 1}
+horizontal stabilizer right rib 7,horizontal stabilizer right spar 2,{'weight': 1}
+horizontal stabilizer right rib 7,horizontal stabilizer right stringer 1,{'weight': 1}
+horizontal stabilizer right rib 7,horizontal stabilizer right stringer 2,{'weight': 1}
+horizontal stabilizer right rib 7,horizontal stabilizer right stringer 3,{'weight': 1}
+horizontal stabilizer right rib 7,horizontal stabilizer right stringer 4,{'weight': 1}
+horizontal stabilizer right rib 7,horizontal stabilizer right stringer 5,{'weight': 1}
+horizontal stabilizer right rib 7,horizontal stabilizer right stringer 6,{'weight': 1}
+horizontal stabilizer right rib 7,horizontal stabilizer right stringer 7,{'weight': 1}
+horizontal stabilizer right rib 7,horizontal stabilizer right stringer 8,{'weight': 1}
+horizontal stabilizer right rib 7,horizontal stabilizer right stringer 9,{'weight': 1}
+horizontal stabilizer right rib 7,horizontal stabilizer right stringer 10,{'weight': 1}
+horizontal stabilizer right rib 7,horizontal stabilizer right stringer 11,{'weight': 1}
+horizontal stabilizer right rib 7,horizontal stabilizer right stringer 12,{'weight': 1}
+horizontal stabilizer right rib 8,horizontal stabilizer right spar 1,{'weight': 1}
+horizontal stabilizer right rib 8,horizontal stabilizer right spar 2,{'weight': 1}
+horizontal stabilizer right rib 8,horizontal stabilizer right stringer 1,{'weight': 1}
+horizontal stabilizer right rib 8,horizontal stabilizer right stringer 2,{'weight': 1}
+horizontal stabilizer right rib 8,horizontal stabilizer right stringer 3,{'weight': 1}
+horizontal stabilizer right rib 8,horizontal stabilizer right stringer 4,{'weight': 1}
+horizontal stabilizer right rib 8,horizontal stabilizer right stringer 5,{'weight': 1}
+horizontal stabilizer right rib 8,horizontal stabilizer right stringer 6,{'weight': 1}
+horizontal stabilizer right rib 8,horizontal stabilizer right stringer 7,{'weight': 1}
+horizontal stabilizer right rib 8,horizontal stabilizer right stringer 8,{'weight': 1}
+horizontal stabilizer right rib 8,horizontal stabilizer right stringer 9,{'weight': 1}
+horizontal stabilizer right rib 8,horizontal stabilizer right stringer 10,{'weight': 1}
+horizontal stabilizer right rib 8,horizontal stabilizer right stringer 11,{'weight': 1}
+horizontal stabilizer right rib 8,horizontal stabilizer right stringer 12,{'weight': 1}
+horizontal stabilizer right rib 9,horizontal stabilizer right spar 1,{'weight': 1}
+horizontal stabilizer right rib 9,horizontal stabilizer right spar 2,{'weight': 1}
+horizontal stabilizer right rib 9,horizontal stabilizer right stringer 1,{'weight': 1}
+horizontal stabilizer right rib 9,horizontal stabilizer right stringer 2,{'weight': 1}
+horizontal stabilizer right rib 9,horizontal stabilizer right stringer 3,{'weight': 1}
+horizontal stabilizer right rib 9,horizontal stabilizer right stringer 4,{'weight': 1}
+horizontal stabilizer right rib 9,horizontal stabilizer right stringer 5,{'weight': 1}
+horizontal stabilizer right rib 9,horizontal stabilizer right stringer 6,{'weight': 1}
+horizontal stabilizer right rib 9,horizontal stabilizer right stringer 7,{'weight': 1}
+horizontal stabilizer right rib 9,horizontal stabilizer right stringer 8,{'weight': 1}
+horizontal stabilizer right rib 9,horizontal stabilizer right stringer 9,{'weight': 1}
+horizontal stabilizer right rib 9,horizontal stabilizer right stringer 10,{'weight': 1}
+horizontal stabilizer right rib 9,horizontal stabilizer right stringer 11,{'weight': 1}
+horizontal stabilizer right rib 9,horizontal stabilizer right stringer 12,{'weight': 1}
+horizontal stabilizer right rib 10,horizontal stabilizer right spar 1,{'weight': 1}
+horizontal stabilizer right rib 10,horizontal stabilizer right spar 2,{'weight': 1}
+horizontal stabilizer right rib 10,horizontal stabilizer right stringer 1,{'weight': 1}
+horizontal stabilizer right rib 10,horizontal stabilizer right stringer 2,{'weight': 1}
+horizontal stabilizer right rib 10,horizontal stabilizer right stringer 3,{'weight': 1}
+horizontal stabilizer right rib 10,horizontal stabilizer right stringer 4,{'weight': 1}
+horizontal stabilizer right rib 10,horizontal stabilizer right stringer 5,{'weight': 1}
+horizontal stabilizer right rib 10,horizontal stabilizer right stringer 6,{'weight': 1}
+horizontal stabilizer right rib 10,horizontal stabilizer right stringer 7,{'weight': 1}
+horizontal stabilizer right rib 10,horizontal stabilizer right stringer 8,{'weight': 1}
+horizontal stabilizer right rib 10,horizontal stabilizer right stringer 9,{'weight': 1}
+horizontal stabilizer right rib 10,horizontal stabilizer right stringer 10,{'weight': 1}
+horizontal stabilizer right rib 10,horizontal stabilizer right stringer 11,{'weight': 1}
+horizontal stabilizer right rib 10,horizontal stabilizer right stringer 12,{'weight': 1}
+horizontal stabilizer left stringer 1,horizontal stabilizer left bottom skin,{'weight': 1}
+horizontal stabilizer left stringer 2,horizontal stabilizer left bottom skin,{'weight': 1}
+horizontal stabilizer left stringer 3,horizontal stabilizer left bottom skin,{'weight': 1}
+horizontal stabilizer left stringer 4,horizontal stabilizer left bottom skin,{'weight': 1}
+horizontal stabilizer left stringer 5,horizontal stabilizer left bottom skin,{'weight': 1}
+horizontal stabilizer left stringer 6,horizontal stabilizer left bottom skin,{'weight': 1}
+horizontal stabilizer left stringer 7,horizontal stabilizer left top skin,{'weight': 1}
+horizontal stabilizer left stringer 8,horizontal stabilizer left top skin,{'weight': 1}
+horizontal stabilizer left stringer 9,horizontal stabilizer left top skin,{'weight': 1}
+horizontal stabilizer left stringer 10,horizontal stabilizer left top skin,{'weight': 1}
+horizontal stabilizer left stringer 11,horizontal stabilizer left top skin,{'weight': 1}
+horizontal stabilizer left stringer 12,horizontal stabilizer left top skin,{'weight': 1}
+horizontal stabilizer right stringer 1,horizontal stabilizer right bottom skin,{'weight': 1}
+horizontal stabilizer right stringer 2,horizontal stabilizer right bottom skin,{'weight': 1}
+horizontal stabilizer right stringer 3,horizontal stabilizer right bottom skin,{'weight': 1}
+horizontal stabilizer right stringer 4,horizontal stabilizer right bottom skin,{'weight': 1}
+horizontal stabilizer right stringer 5,horizontal stabilizer right bottom skin,{'weight': 1}
+horizontal stabilizer right stringer 6,horizontal stabilizer right bottom skin,{'weight': 1}
+horizontal stabilizer right stringer 7,horizontal stabilizer right top skin,{'weight': 1}
+horizontal stabilizer right stringer 8,horizontal stabilizer right top skin,{'weight': 1}
+horizontal stabilizer right stringer 9,horizontal stabilizer right top skin,{'weight': 1}
+horizontal stabilizer right stringer 10,horizontal stabilizer right top skin,{'weight': 1}
+horizontal stabilizer right stringer 11,horizontal stabilizer right top skin,{'weight': 1}
+horizontal stabilizer right stringer 12,horizontal stabilizer right top skin,{'weight': 1}
+horizontal stabilizer left top skin,fuselage skin,{'weight': 1}
+horizontal stabilizer left bottom skin,fuselage skin,{'weight': 1}
+horizontal stabilizer right top skin,fuselage skin,{'weight': 1}
+horizontal stabilizer right bottom skin,fuselage skin,{'weight': 1}
+left main gear beam hanger,left main gear main actuator,{'weight': 1}
+left main gear beam hanger,left main gear walking beam,{'weight': 1}
+left main gear main actuator,left main gear walking beam,{'weight': 1}
+left main gear main actuator,left main gear trunnion link,{'weight': 1}
+left main gear walking beam,left main gear trunnion link,{'weight': 1}
+left main gear downlock spring bungee,left main gear downlock,{'weight': 1}
+left main gear downlock spring bungee,left main gear trunnion link,{'weight': 1}
+left main gear downlock actuator,left main gear downlock,{'weight': 1}
+left main gear downlock actuator,left main gear trunnion link,{'weight': 1}
+left main gear reaction link,left main gear uplock actuator,{'weight': 1}
+left main gear reaction link,left main gear uplock spring bungee,{'weight': 1}
+left main gear reaction link,left main gear trunnion link,{'weight': 1}
+left main gear uplock actuator,left main gear uplock spring bungee,{'weight': 1}
+left main gear uplock spring bungee,left main gear side strut,{'weight': 1}
+left main gear downlock,left main gear side strut,{'weight': 1}
+left main gear side strut,left main gear uplock roller,{'weight': 1}
+left main gear shock strut,left main gear uplock roller,{'weight': 1}
+left main gear shock strut,left main gear gravel deflector,{'weight': 1}
+left main gear shock strut,left main gear axle,{'weight': 1}
+left main gear shock strut,left main gear torsion links,{'weight': 1}
+left main gear shock strut,left main gear trunnion link,{'weight': 1}
+left main gear gravel deflector,left main gear axle,{'weight': 1}
+left main gear axle,left main gear wheel,{'weight': 1}
+left main gear torsion links,left main gear main damper,{'weight': 1}
+left main gear torsion links,left main gear drag strut,{'weight': 1}
+left main gear drag strut,left main gear trunnion link,{'weight': 1}
+left main gear drag strut,left main gear housing,{'weight': 1}
+right main gear beam hanger,right main gear main actuator,{'weight': 1}
+right main gear beam hanger,right main gear walking beam,{'weight': 1}
+right main gear main actuator,right main gear walking beam,{'weight': 1}
+right main gear main actuator,right main gear trunnion link,{'weight': 1}
+right main gear walking beam,right main gear trunnion link,{'weight': 1}
+right main gear downlock spring bungee,right main gear downlock,{'weight': 1}
+right main gear downlock spring bungee,right main gear trunnion link,{'weight': 1}
+right main gear downlock actuator,right main gear downlock,{'weight': 1}
+right main gear downlock actuator,right main gear trunnion link,{'weight': 1}
+right main gear reaction link,right main gear uplock actuator,{'weight': 1}
+right main gear reaction link,right main gear uplock spring bungee,{'weight': 1}
+right main gear reaction link,right main gear trunnion link,{'weight': 1}
+right main gear uplock actuator,right main gear uplock spring bungee,{'weight': 1}
+right main gear uplock spring bungee,right main gear side strut,{'weight': 1}
+right main gear downlock,right main gear side strut,{'weight': 1}
+right main gear side strut,right main gear uplock roller,{'weight': 1}
+right main gear shock strut,right main gear uplock roller,{'weight': 1}
+right main gear shock strut,right main gear gravel deflector,{'weight': 1}
+right main gear shock strut,right main gear axle,{'weight': 1}
+right main gear shock strut,right main gear torsion links,{'weight': 1}
+right main gear shock strut,right main gear trunnion link,{'weight': 1}
+right main gear gravel deflector,right main gear axle,{'weight': 1}
+right main gear axle,right main gear wheel,{'weight': 1}
+right main gear torsion links,right main gear main damper,{'weight': 1}
+right main gear torsion links,right main gear drag strut,{'weight': 1}
+right main gear drag strut,right main gear trunnion link,{'weight': 1}
+right main gear drag strut,right main gear housing,{'weight': 1}
+nose gear beam hanger,nose gear main actuator,{'weight': 1}
+nose gear beam hanger,nose gear walking beam,{'weight': 1}
+nose gear beam hanger,fuselage station 10,{'weight': 1}
+nose gear beam hanger,fuselage station 11,{'weight': 1}
+nose gear main actuator,nose gear walking beam,{'weight': 1}
+nose gear main actuator,nose gear trunnion link,{'weight': 1}
+nose gear walking beam,nose gear trunnion link,{'weight': 1}
+nose gear downlock spring bungee,nose gear downlock,{'weight': 1}
+nose gear downlock spring bungee,nose gear trunnion link,{'weight': 1}
+nose gear downlock actuator,nose gear downlock,{'weight': 1}
+nose gear downlock actuator,nose gear trunnion link,{'weight': 1}
+nose gear reaction link,nose gear uplock actuator,{'weight': 1}
+nose gear reaction link,nose gear uplock spring bungee,{'weight': 1}
+nose gear reaction link,nose gear trunnion link,{'weight': 1}
+nose gear uplock actuator,nose gear uplock spring bungee,{'weight': 1}
+nose gear uplock spring bungee,nose gear side strut,{'weight': 1}
+nose gear downlock,nose gear side strut,{'weight': 1}
+nose gear side strut,nose gear uplock roller,{'weight': 1}
+nose gear shock strut,nose gear uplock roller,{'weight': 1}
+nose gear shock strut,nose gear gravel deflector,{'weight': 1}
+nose gear shock strut,nose gear axle,{'weight': 1}
+nose gear shock strut,nose gear torsion links,{'weight': 1}
+nose gear shock strut,nose gear trunnion link,{'weight': 1}
+nose gear gravel deflector,nose gear axle,{'weight': 1}
+nose gear axle,nose gear wheel 1,{'weight': 1}
+nose gear axle,nose gear wheel 2,{'weight': 1}
+nose gear torsion links,nose gear main damper,{'weight': 1}
+nose gear torsion links,nose gear drag strut,{'weight': 1}
+nose gear drag strut,nose gear trunnion link,{'weight': 1}
+nose gear drag strut,nose gear housing,{'weight': 1}
+left inlet,left nacelle,{'weight': 1}
+left nacelle,left shaft,{'weight': 1}
+left nacelle,left combustion chamber casing,{'weight': 1}
+left nacelle,left combustion chamber ignitor,{'weight': 1}
+left nacelle,left combustion chamber fuel spray,{'weight': 1}
+left nacelle,left exhaust,{'weight': 1}
+left nacelle,left engine fuel pump,{'weight': 1}
+left nacelle,left fuel line,{'weight': 1}
+left shaft,left compressor rotor 1,{'weight': 1}
+left shaft,left compressor stator 1,{'weight': 1}
+left shaft,left compressor rotor 2,{'weight': 1}
+left shaft,left compressor stator 2,{'weight': 1}
+left shaft,left compressor rotor 3,{'weight': 1}
+left shaft,left compressor stator 3,{'weight': 1}
+left shaft,left compressor rotor 4,{'weight': 1}
+left shaft,left compressor stator 4,{'weight': 1}
+left shaft,left compressor rotor 5,{'weight': 1}
+left shaft,left compressor stator 5,{'weight': 1}
+left shaft,left turbine stator 1,{'weight': 1}
+left shaft,left turbine rotor 1,{'weight': 1}
+left shaft,left turbine stator 2,{'weight': 1}
+left shaft,left turbine rotor 2,{'weight': 1}
+left shaft,left turbine stator 3,{'weight': 1}
+left shaft,left turbine rotor 3,{'weight': 1}
+left shaft,left turbine stator 4,{'weight': 1}
+left shaft,left turbine rotor 4,{'weight': 1}
+left shaft,left turbine stator 5,{'weight': 1}
+left shaft,left turbine rotor 5,{'weight': 1}
+left engine fuel pump,left fuel line,{'weight': 1}
+right inlet,right nacelle,{'weight': 1}
+right nacelle,right shaft,{'weight': 1}
+right nacelle,right combustion chamber casing,{'weight': 1}
+right nacelle,right combustion chamber ignitor,{'weight': 1}
+right nacelle,right combustion chamber fuel spray,{'weight': 1}
+right nacelle,right exhaust,{'weight': 1}
+right nacelle,right engine fuel pump,{'weight': 1}
+right nacelle,right fuel line,{'weight': 1}
+right shaft,right compressor rotor 1,{'weight': 1}
+right shaft,right compressor stator 1,{'weight': 1}
+right shaft,right compressor rotor 2,{'weight': 1}
+right shaft,right compressor stator 2,{'weight': 1}
+right shaft,right compressor rotor 3,{'weight': 1}
+right shaft,right compressor stator 3,{'weight': 1}
+right shaft,right compressor rotor 4,{'weight': 1}
+right shaft,right compressor stator 4,{'weight': 1}
+right shaft,right compressor rotor 5,{'weight': 1}
+right shaft,right compressor stator 5,{'weight': 1}
+right shaft,right turbine stator 1,{'weight': 1}
+right shaft,right turbine rotor 1,{'weight': 1}
+right shaft,right turbine stator 2,{'weight': 1}
+right shaft,right turbine rotor 2,{'weight': 1}
+right shaft,right turbine stator 3,{'weight': 1}
+right shaft,right turbine rotor 3,{'weight': 1}
+right shaft,right turbine stator 4,{'weight': 1}
+right shaft,right turbine rotor 4,{'weight': 1}
+right shaft,right turbine stator 5,{'weight': 1}
+right shaft,right turbine rotor 5,{'weight': 1}
+right engine fuel pump,right fuel line,{'weight': 1}
+fuselage station 1,fuselage skin,{'weight': 1}
+fuselage station 2,fuselage skin,{'weight': 1}
+fuselage station 3,fuselage skin,{'weight': 1}
+fuselage station 4,fuselage skin,{'weight': 1}
+fuselage station 5,fuselage skin,{'weight': 1}
+fuselage station 6,fuselage skin,{'weight': 1}
+fuselage station 7,fuselage skin,{'weight': 1}
+fuselage station 8,fuselage skin,{'weight': 1}
+fuselage station 9,fuselage skin,{'weight': 1}
+fuselage station 10,fuselage skin,{'weight': 1}
+fuselage station 11,fuselage skin,{'weight': 1}
+fuselage station 12,fuselage skin,{'weight': 1}
+fuselage station 13,fuselage skin,{'weight': 1}
+fuselage station 14,fuselage skin,{'weight': 1}
+fuselage station 15,fuselage skin,{'weight': 1}
+fuselage station 16,fuselage skin,{'weight': 1}
+fuselage station 17,fuselage skin,{'weight': 1}
+fuselage station 18,fuselage skin,{'weight': 1}
+fuselage station 19,fuselage skin,{'weight': 1}
+fuselage station 20,fuselage skin,{'weight': 1}
+fuselage station 21,fuselage skin,{'weight': 1}
+fuselage station 22,fuselage skin,{'weight': 1}
+fuselage station 23,fuselage skin,{'weight': 1}
+fuselage station 24,fuselage skin,{'weight': 1}
+fuselage station 25,fuselage skin,{'weight': 1}
+fuselage station 26,fuselage skin,{'weight': 1}
+fuselage station 27,fuselage skin,{'weight': 1}
+fuselage station 28,fuselage skin,{'weight': 1}
+fuselage station 29,fuselage skin,{'weight': 1}
+fuselage station 30,fuselage skin,{'weight': 1}
+fuselage station 31,fuselage skin,{'weight': 1}
+fuselage station 32,fuselage skin,{'weight': 1}
+fuselage station 33,fuselage skin,{'weight': 1}
+fuselage station 34,fuselage skin,{'weight': 1}
+fuselage station 35,fuselage skin,{'weight': 1}
+fuselage station 36,fuselage skin,{'weight': 1}
+fuselage station 37,fuselage skin,{'weight': 1}
+fuselage station 38,fuselage skin,{'weight': 1}
+fuselage station 39,fuselage skin,{'weight': 1}
+fuselage station 40,fuselage skin,{'weight': 1}
+fuselage station 41,fuselage skin,{'weight': 1}
+fuselage station 42,fuselage skin,{'weight': 1}
+fuselage station 43,fuselage skin,{'weight': 1}
+fuselage station 44,fuselage skin,{'weight': 1}
+fuselage station 45,fuselage skin,{'weight': 1}
+fuselage station 46,fuselage skin,{'weight': 1}
+fuselage station 47,fuselage skin,{'weight': 1}
+fuselage station 48,fuselage skin,{'weight': 1}
+fuselage station 49,fuselage skin,{'weight': 1}
+fuselage station 50,fuselage skin,{'weight': 1}

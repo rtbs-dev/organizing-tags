@@ -1,0 +1,30 @@
+digraph g {
+    mindist = 2.0
+    overlap=false;
+    splines=true;
+    bgcolor="transparent";
+    graph [compound=true, nodesep=1.5];
+    node [shape=circle, label=""];
+    subgraph cluster_0 {
+        a0 -> a1 -> a2;
+        label = "censored";
+    }
+    subgraph cluster_1 {
+        node [color=red];
+        b2;
+
+        subgraph cluster_2 {
+            node [color=green];
+            edge [dir=none];
+            b0 -> b1;
+            label = "transient";
+        }
+
+
+        b1 -> b2 [ltail=cluster_2,lhead=b2];
+        label = "absorbing";
+    }
+
+    a1 -> b1 [ltail=cluster_0, lhead=cluster_1, constraint=false];
+
+}

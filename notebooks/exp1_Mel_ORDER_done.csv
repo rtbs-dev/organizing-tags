@@ -1,0 +1,101 @@
+,m,cls
+0,"('oil', 'engine', 'drive', 'low')",0
+1,"('bucket', 'grease', 'hose', 'repair', 'replace')",1
+2,"('engine', 'fan', 'left', 'motor', 'replace')",1
+3,"('boom', 'cracked', 'stick', 'replace', 'leak')",0
+4,"('bucket', 'grease', 'line', 'pin', 'replace')",1
+5,"('filter', 'leak', 'oil', 'motor')",1
+6,"('cab', 'bolts', 'pin', 'track')",0
+7,"('hose', 'hyd', 'oil', 'text', 'valve')",0
+8,"('bucket', 'clamp', 'hose', 'ring', 'replace')",1
+9,"('boom', 'hose', 'hyd', 'blown', 'stick')",0
+10,"('motor', 'oil', 'ring', 'slew', 'leak')",1
+11,"('track', 'roller', 'pin', 'missing')",1
+12,"('light', 'stick', 'hose', 'right')",0
+13,"('bolts', 'cylinder', 'broken', 'stick', 'replace')",0
+14,"('boom', 'cylinder', 'ring', 'valve', 'replace')",1
+15,"('grease', 'line', 'pump', 'pto', 'lube')",0
+16,"('lube', 'pto', 'leak', 'control')",0
+17,"('access', 'blown', 'replace', 'stick', 'leak')",0
+18,"('bucket', 'cylinder', 'line', 'lube', 'replace')",0
+19,"('drive', 'slew', 'changeout', 'right')",1
+20,"('fuel', 'tank', 'leak', 'stick', 'replace')",0
+21,"('filter', 'air', 'hose', 'clamp')",1
+22,"('bucket', 'tooth', 'missing', 'track', 'stick')",0
+23,"('shd', 'grease', 'line', 'hyd')",0
+24,"('drive', 'final')",0
+25,"('shd', 'tooth', 'missing', 'track', 'stick')",0
+26,"('bucket', 'replace', 'fan', 'pump')",0
+27,"('shd', 'damage', 'oil', 'filter')",0
+28,"('boom', 'oil', 'leak', 'changeout')",1
+29,"('lube', 'pump', 'leak', 'track')",0
+30,"('tooth', 'missing', 'track', 'leak', 'stick')",0
+31,"('access', 'replace', 'lost', 'tooth')",1
+32,"('motor', 'seal', 'slew', 'leak', 'stick')",0
+33,"('access', 'step', 'repair', 'fault', 'leak')",0
+34,"('brake', 'right', 'hand', 'shroud')",1
+35,"('hose', 'hyd', 'shd', 'blown', 'repair')",1
+36,"('hyd', 'lube', 'pump', 'travel', 'leak')",0
+37,"('engine', 'oil', 'pressure', 'switch', 'replace')",1
+38,"('line', 'grease', 'pump', 'pto', 'leak')",0
+39,"('cracked', 'stick', 'replace', 'leak', 'valve')",0
+40,"('air', 'motor', 'travel', 'brake')",0
+41,"('pump', 'seal', 'pto', 'replace')",0
+42,"('bolts', 'broken', 'bucket', 'hyd')",1
+43,"('drive', 'oil', 'pressure', 'pump', 'switch')",1
+44,"('boom', 'line', 'lube', 'blown', 'replace')",1
+45,"('fan', 'motor', 'seal', 'right', 'slew')",0
+46,"('line', 'motor', 'oil', 'travel', 'damage')",0
+47,"('bolts', 'boom', 'hose', 'broken', 'replace')",1
+48,"('grease', 'line', 'broken', 'stick', 'replace')",0
+49,"('clamp', 'oil', 'valve', 'leak', 'reseal')",1
+50,"('bucket', 'drive', 'oil', 'tooth', 'leak')",1
+51,"('coolant', 'engine', 'hose', 'hyd', 'oil')",1
+52,"('hand', 'lip', 'right', 'shroud', 'replace')",1
+53,"('fan', 'motor', 'seal', 'slew', 'leak')",0
+54,"('bucket', 'pin', 'shd', 'tooth', 'replace')",0
+55,"('hose', 'pin', 'missing', 'tooth')",0
+56,"('cab', 'light', 'fault', 'repair', 'leak')",0
+57,"('engine', 'oil', 'pressure', 'fault', 'low')",1
+58,"('pressure', 'switch', 'replace', 'stick', 'leak')",0
+59,"('boom', 'cylinder', 'stick', 'hyd')",1
+60,"('pin', 'track', 'missing', 'tooth', 'roller')",0
+61,"('hyd', 'leak', 'engine', 'block')",1
+62,"('lube', 'oil', 'pto', 'pump', 'leak')",0
+63,"('cylinder', 'seal', 'shd', 'warranty', 'leak')",0
+64,"('bolts', 'cylinder', 'pin', 'text', 'stick')",0
+65,"('bolts', 'engine', 'fan', 'left', 'pump')",0
+66,"('drive', 'final', 'oil', 'leak', 'stick')",0
+67,"('coolant', 'leak', 'seal', 'stick')",0
+68,"('lube', 'pump', 'shd', 'missing', 'replace')",0
+69,"('jump', 'missing', 'tooth', 'track', 'stick')",0
+70,"('filter', 'oil', 'engine', 'shd')",0
+71,"('bucket', 'grease', 'line', 'lube', 'shd')",0
+72,"('control', 'hose', 'ring', 'valve', 'blown')",0
+73,"('box', 'lube', 'pressure', 'pump', 'low')",1
+74,"('filter', 'hose', 'hyd', 'blown', 'ring')",1
+75,"('engine', 'oil', 'fan', 'motor')",1
+76,"('light', 'brake', 'leak', 'cylinder')",0
+77,"('bucket', 'lube', 'tank', 'block')",0
+78,"('exhaust', 'turbo', 'cracked', 'pipe')",1
+79,"('hand', 'right', 'slew', 'leak', 'stick')",0
+80,"('hose', 'hyd', 'pipe', 'oil', 'slew')",0
+81,"('boom', 'hose', 'hyd', 'ring', 'blown')",1
+82,"('hose', 'hyd', 'oil', 'slew', 'leak')",0
+83,"('hose', 'hyd', 'oil', 'leak', 'stick')",0
+84,"('hyd', 'shd', 'switch', 'alarm', 'replace')",0
+85,"('engine', 'light', 'shd', 'switch', 'repair')",0
+86,"('bolts', 'main', 'pump', 'leak')",0
+87,"('boom', 'grease', 'hose', 'stick', 'replace')",0
+88,"('grease', 'oil', 'pump', 'leak', 'replace')",1
+89,"('oil', 'pump', 'servo', 'slew', 'leak')",1
+90,"('grease', 'line', 'broken', 'replace', 'stick')",0
+91,"('boom', 'bucket', 'cracked', 'stick', 'repair')",0
+92,"('bucket', 'grease', 'hose', 'pin', 'broken')",1
+93,"('brake', 'right', 'shd', 'slew', 'replace')",0
+94,"('roller', 'track', 'missing', 'tooth', 'leak')",0
+95,"('step', 'missing', 'tooth', 'cylinder')",0
+96,"('drive', 'pressure', 'pump', 'fault', 'low')",1
+97,"('fuel', 'tank', 'replace', 'stick', 'leak')",0
+98,"('repair', 'access', 'engine', 'text')",0
+99,"('boom', 'cylinder', 'hand', 'right', 'changeout')",1

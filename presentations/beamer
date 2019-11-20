@@ -1,0 +1,28 @@
+#!/bin/bash
+
+read -r -p 'File to compile: ' fname  # prompt user for markdown file
+
+# make sure all graphviz files are up-to-date
+# for f in aux/*.dot; do
+#   xargs dot2tex --prog=neato -tmath -ftikz $f > ${f%.*}.tex \
+#   && pdflatex -jobname=${f%.*} \
+#   < ${f%.*}.tex \
+#   && pdfcrop ${f%.*}.pdf ${f%.*}.pdf
+# done
+
+# find aux/ -type f -name "*.dot" \
+#   | xargs dot2tex --prog=neato -tmath -ftikz state.dot
+#     > test.tex
+#     && pdflatex -jobname=state < test.tex
+#
+#   | xargs neato -Tpdf -O
+
+pandoc \
+  --filter pandoc-citeproc \
+  --filter pandoc-beamer-block \
+  -H header.tex default.yaml \
+  -t beamer \
+  --resource-path=.:aux:../latex/jmd19/img \
+  --pdf-engine=xelatex \
+  $fname.md \
+  -o $fname.pdf

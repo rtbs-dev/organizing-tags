@@ -1,0 +1,21 @@
+cylinder 1,crankshaft,{'weight': 1}
+cylinder 2,crankshaft,{'weight': 1}
+cylinder 3,crankshaft,{'weight': 1}
+cylinder 4,crankshaft,{'weight': 1}
+crankshaft,flywheel,{'weight': 1}
+crankshaft,clutch plate 1,{'weight': 1}
+clutch plate 1,clutch plate 2,{'weight': 1}
+clutch plate 1,clutch disc,{'weight': 1}
+clutch plate 2,clutch disc,{'weight': 1}
+clutch plate 2,driveshaft,{'weight': 1}
+driveshaft,bearing inner race,{'weight': 1}
+driveshaft,gear 1,{'weight': 1}
+driveshaft,gear 2,{'weight': 1}
+driveshaft,gear 3,{'weight': 1}
+driveshaft,gear 4,{'weight': 1}
+bearing outer race,bearing retainer,{'weight': 1}
+bearing retainer,bearing balls,{'weight': 1}
+bearing balls,bearing inner race,{'weight': 1}
+bearing inner race,bearing shield,{'weight': 1}
+gear 1,gear 2,{'weight': 1}
+gear 3,gear 4,{'weight': 1}

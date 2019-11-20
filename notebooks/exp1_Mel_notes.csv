@@ -1,0 +1,101 @@
+,m,Order independent,Order dependent,1=plausible; 0=unlikely
+0,"('oil', 'engine', 'drive', 'low')",1,0,
+1,"('bucket', 'grease', 'hose', 'repair', 'replace')",1,1,
+2,"('engine', 'fan', 'left', 'motor', 'replace')",1,1,
+3,"('boom', 'cracked', 'stick', 'replace', 'leak')",0,0,stick is bothering me
+4,"('bucket', 'grease', 'line', 'pin', 'replace')",1,1,
+5,"('filter', 'leak', 'oil', 'motor')",1,1,
+6,"('cab', 'bolts', 'pin', 'track')",0,0,
+7,"('hose', 'hyd', 'oil', 'text', 'valve')",0,0,text is not a recognised word in this context
+8,"('bucket', 'clamp', 'hose', 'ring', 'replace')",1,1,
+9,"('boom', 'hose', 'hyd', 'blown', 'stick')",0,0,stick is bothering me unless it is an abbreviation for sticking in which case I would recode some of the items  below
+10,"('motor', 'oil', 'ring', 'slew', 'leak')",1,1,
+11,"('track', 'roller', 'pin', 'missing')",1,1,
+12,"('light', 'stick', 'hose', 'right')",0,0,stick is bothering me
+13,"('bolts', 'cylinder', 'broken', 'stick', 'replace')",0,0,stick is bothering me
+14,"('boom', 'cylinder', 'ring', 'valve', 'replace')",1,1,
+15,"('grease', 'line', 'pump', 'pto', 'lube')",0,0,what is pto
+16,"('lube', 'pto', 'leak', 'control')",0,0,what is pto
+17,"('access', 'blown', 'replace', 'stick', 'leak')",0,0,stick is bothering me
+18,"('bucket', 'cylinder', 'line', 'lube', 'replace')",1,0,line in the wrong place
+19,"('drive', 'slew', 'changeout', 'right')",1,1,
+20,"('fuel', 'tank', 'leak', 'stick', 'replace')",0,0,stick is bothering me
+21,"('filter', 'air', 'hose', 'clamp')",1,1,
+22,"('bucket', 'tooth', 'missing', 'track', 'stick')",0,0,stick is bothering me
+23,"('shd', 'grease', 'line', 'hyd')",0,0,what is shd here? It's not a class
+24,"('drive', 'final')",1,0,should be other way around
+25,"('shd', 'tooth', 'missing', 'track', 'stick')",0,0,what is shd here?
+26,"('bucket', 'replace', 'fan', 'pump')",0,0,there are not fans and pumps on a bucket
+27,"('shd', 'damage', 'oil', 'filter')",0,0,what is shd here?
+28,"('boom', 'oil', 'leak', 'changeout')",1,1,
+29,"('lube', 'pump', 'leak', 'track')",0,0,lube pump leaking onto track maybe but unlikely
+30,"('tooth', 'missing', 'track', 'leak', 'stick')",0,0,
+31,"('access', 'replace', 'lost', 'tooth')",1,1,
+32,"('motor', 'seal', 'slew', 'leak', 'stick')",0,0,stick is bothering me
+33,"('access', 'step', 'repair', 'fault', 'leak')",0,0,leak doesn't belong
+34,"('brake', 'right', 'hand', 'shroud')",1,1,
+35,"('hose', 'hyd', 'shd', 'blown', 'repair')",1,1,
+36,"('hyd', 'lube', 'pump', 'travel', 'leak')",0,0,travel doesn't belong
+37,"('engine', 'oil', 'pressure', 'switch', 'replace')",1,1,
+38,"('line', 'grease', 'pump', 'pto', 'leak')",0,0,what is pto
+39,"('cracked', 'stick', 'replace', 'leak', 'valve')",0,0,stick is bothering me
+40,"('air', 'motor', 'travel', 'brake')",0,0,travel doesn't belong
+41,"('pump', 'seal', 'pto', 'replace')",0,0,what is pto
+42,"('bolts', 'broken', 'bucket', 'hyd')",1,1,
+43,"('drive', 'oil', 'pressure', 'pump', 'switch')",1,1,
+44,"('boom', 'line', 'lube', 'blown', 'replace')",1,1,
+45,"('fan', 'motor', 'seal', 'right', 'slew')",0,0,slew doesn't belong
+46,"('line', 'motor', 'oil', 'travel', 'damage')",0,0,travel and line don't belong
+47,"('bolts', 'boom', 'hose', 'broken', 'replace')",1,1,
+48,"('grease', 'line', 'broken', 'stick', 'replace')",0,0,stick is bothering me
+49,"('clamp', 'oil', 'valve', 'leak', 'reseal')",1,1,
+50,"('bucket', 'drive', 'oil', 'tooth', 'leak')",1,1,
+51,"('coolant', 'engine', 'hose', 'hyd', 'oil')",1,1,
+52,"('hand', 'lip', 'right', 'shroud', 'replace')",1,1,
+53,"('fan', 'motor', 'seal', 'slew', 'leak')",0,0,fan and slew and leak don't fit
+54,"('bucket', 'pin', 'shd', 'tooth', 'replace')",0,0,what is shd
+55,"('hose', 'pin', 'missing', 'tooth')",0,0,hose doesn't fit
+56,"('cab', 'light', 'fault', 'repair', 'leak')",0,0,leak doesn't belong
+57,"('engine', 'oil', 'pressure', 'fault', 'low')",1,1,
+58,"('pressure', 'switch', 'replace', 'stick', 'leak')",0,0,stick is bothering me
+59,"('boom', 'cylinder', 'stick', 'hyd')",1,1,assume stick here means sticking
+60,"('pin', 'track', 'missing', 'tooth', 'roller')",1,0,
+61,"('hyd', 'leak', 'engine', 'block')",1,1,
+62,"('lube', 'oil', 'pto', 'pump', 'leak')",0,0,what is pto
+63,"('cylinder', 'seal', 'shd', 'warranty', 'leak')",0,0,what is shd
+64,"('bolts', 'cylinder', 'pin', 'text', 'stick')",0,0,text is not a recognised word in this context
+65,"('bolts', 'engine', 'fan', 'left', 'pump')",1,0,
+66,"('drive', 'final', 'oil', 'leak', 'stick')",0,0,stick is bothering me
+67,"('coolant', 'leak', 'seal', 'stick')",0,0,stick is bothering me
+68,"('lube', 'pump', 'shd', 'missing', 'replace')",0,0,what is shd
+69,"('jump', 'missing', 'tooth', 'track', 'stick')",0,0,stick is bothering me
+70,"('filter', 'oil', 'engine', 'shd')",0,0,stick is bothering me
+71,"('bucket', 'grease', 'line', 'lube', 'shd')",0,0,stick is bothering me
+72,"('control', 'hose', 'ring', 'valve', 'blown')",0,0,control not a good fit
+73,"('box', 'lube', 'pressure', 'pump', 'low')",1,1,not sure what box is though
+74,"('filter', 'hose', 'hyd', 'blown', 'ring')",1,1,
+75,"('engine', 'oil', 'fan', 'motor')",1,1,
+76,"('light', 'brake', 'leak', 'cylinder')",1,0,
+77,"('bucket', 'lube', 'tank', 'block')",0,0,
+78,"('exhaust', 'turbo', 'cracked', 'pipe')",1,1,
+79,"('hand', 'right', 'slew', 'leak', 'stick')",0,0,stick is bothering me
+80,"('hose', 'hyd', 'pipe', 'oil', 'slew')",1,0,
+81,"('boom', 'hose', 'hyd', 'ring', 'blown')",1,1,
+82,"('hose', 'hyd', 'oil', 'slew', 'leak')",1,0,
+83,"('hose', 'hyd', 'oil', 'leak', 'stick')",0,0,stick is bothering me
+84,"('hyd', 'shd', 'switch', 'alarm', 'replace')",0,0,what is shd
+85,"('engine', 'light', 'shd', 'switch', 'repair')",0,0,what is shd
+86,"('bolts', 'main', 'pump', 'leak')",0,0,what is main
+87,"('boom', 'grease', 'hose', 'stick', 'replace')",0,0,stick is bothering me
+88,"('grease', 'oil', 'pump', 'leak', 'replace')",1,1,
+89,"('oil', 'pump', 'servo', 'slew', 'leak')",1,1,
+90,"('grease', 'line', 'broken', 'replace', 'stick')",0,0,stick is bothering me
+91,"('boom', 'bucket', 'cracked', 'stick', 'repair')",0,0,stick is bothering me
+92,"('bucket', 'grease', 'hose', 'pin', 'broken')",1,1,
+93,"('brake', 'right', 'shd', 'slew', 'replace')",0,0,what is shd
+94,"('roller', 'track', 'missing', 'tooth', 'leak')",0,0,leak doesn't belong
+95,"('step', 'missing', 'tooth', 'cylinder')",0,0,
+96,"('drive', 'pressure', 'pump', 'fault', 'low')",1,1,
+97,"('fuel', 'tank', 'replace', 'stick', 'leak')",0,0,stick is bothering me
+98,"('repair', 'access', 'engine', 'text')",0,0,
+99,"('boom', 'cylinder', 'hand', 'right', 'changeout')",1,1,
